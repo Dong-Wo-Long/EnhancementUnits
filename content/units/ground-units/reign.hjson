@@ -182,21 +182,5 @@ weapons: [
         trailWidth: 2.5
     }
 }
-
-{
-    name: plasma-mount-weapon
-    mirror: false
-    rotate: true
-    x: -10.5
-    y: -3
-
-    repairSpeed: 1.8
-    beamWidth: 1.2
-    shootY: 6
-
-    bullet: {
-        maxRange: 320
-    }
-}
     ]
 }

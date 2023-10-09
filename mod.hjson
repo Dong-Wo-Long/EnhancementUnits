@@ -4,9 +4,9 @@
 	name: echan-units
     displayName: Echancement Units
     author: D&X
-    Important: This mod does not bring anything radically new to the game, but only expands the combat functionality of existing combat units.    description: 
-    version: v0.1
-    subtitle: "Improves and changes the characteristics of units | Ver. 1.0.0 (beta)"
+    description: Important: This mod does not bring anything radically new to the game, but only expands the combat functionality of existing combat units.
+    version: v1.0.0
+    subtitle: "Improving and changing units | Ver. 1.0.0 (beta)"
 	
     minGameVersion: 146
 

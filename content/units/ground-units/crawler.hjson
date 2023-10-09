@@ -1,0 +1,35 @@
+{
+range: 25
+weapons: [
+    {
+    shootCone: 160
+    mirror: false
+    shootY: 0
+    x: 0
+
+    shootOnDeath: true
+    reload: 60
+
+    ejectEffect: none
+
+    shootSound: explosion
+
+    bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    killShooter: true
+    collidesAir: true
+    hittable: false
+    collides: false
+
+    splashDamageRadius: 55
+    rangeOverride: 30
+    splashDamage: 120
+    speed: 0
+
+    hitEffect: pulverize
+    hitSound: explosion
+                }
+    }
+    ]
+}

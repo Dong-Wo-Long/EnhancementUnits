@@ -1,0 +1,90 @@
+{
+forceMultiTarget: true
+description: Absolutely does not look like iron.
+targetAir: true
+
+itemCapacity: 150
+health: 1050
+armor: 11
+
+flying: false
+
+weapons: [
+    {
+    name: artillery
+    shootCone: 30
+    top: false
+    recoil: 4
+    x: 9.5
+    y: 1
+
+    reload: 60
+    shake: 2
+
+    shootEffect: shootSmall
+    shootSound: artillery
+    ejectEffect: casing2
+
+    bullet: {
+        type: ArtilleryBulletType
+        collidesTiles: true
+        collidesAir: false
+        shrinkX: 0.3
+        shrinkY: 0.5
+        height: 14
+	    width: 14
+
+        splashDamageRadius: 35
+        splashDamage: 80
+        knockback: 0.8
+        lifetime: 148
+        speed: 1.45
+        damage: 60
+
+        hitEffect: blastExplosion
+
+        trailEffect: artilleryTrail
+        trailColor: fce5a4
+        trailInterval: 7
+        trailLength: 3
+        trailWidth: 1
+        }
+    }
+
+    {
+    name: mount-weapon
+    aiControllable: true
+    controllable: false
+    rotationLimit: 75
+    autoTarget: true
+    mirror: false
+    shootCone: 25
+    rotate: true
+    x: 6
+    y: -4
+
+    inaccuracy: 5
+    reload: 7.5
+    
+    ejectEffect: casing1
+    shootSound: shoot
+
+    bullet: {
+        type: BasicBulletType
+        collidesAir: true
+        height: 8
+	    width: 4
+
+        buildingDamageMultiplier: 0.80
+
+        lifetime: 55
+        damage: 7
+        speed: 3
+
+        trailColor: ffd37fff
+        trailLength: 3.2
+        trailWidth: 1.5
+        }
+    }
+    ]
+}

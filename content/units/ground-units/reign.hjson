@@ -1,0 +1,202 @@
+{
+forceMultiTarget: true
+fogRadius: 32
+
+itemCapacity: 2150
+
+weapons: [
+    {
+    name: reign-weapon
+    shootCone: 45
+    top: false
+    recoil: 5
+    x: 21.5
+    y: 1
+
+    shootY: 11
+    reload: 9
+    shake: 2
+
+    ejectEffect: casing4
+    shootSound: bang
+
+    bullet: {
+        type: BasicBulletType
+        pierce: true
+        height: 33
+        width: 14
+
+        splashDamageRadius: 13
+        fragRandomSpread: 30
+        fragVelocityMin: 0.4
+        splashDamage: 18
+        fragBullets: 3
+        fragLifeMin: 0
+        pierceCap: 10
+        lifetime: 15
+        damage: 80
+        speed: 19
+
+        hitEffect: blastExplosion
+        shootEffect: shootBig
+
+        fragBullet: {
+            type: BasicBulletType
+            pierceBuilding: true
+            pierce: true
+            height: 10
+            width: 10
+
+            splashDamageRadius: 10
+            splashDamage: 15
+            pierceCap: 3
+            lifetime: 20
+            damage: 17
+            speed: 5
+
+            hitEffect: flakExplosion
+        }
+    }
+}
+
+{
+    name: zenith-missiles
+    rotationLimit: 24
+    baseRotation: 225
+    rotateSpeed: 0.75
+    targetAir: false
+    shootCone: 360
+    rotate: true
+    x: -6.5
+    y: -12
+
+    velocityRnd: 0.2
+    inaccuracy: 5
+    reload: 120
+    recoil: 1.5
+    shake: 1
+
+    shoot: { 
+        shotDelay: 6
+        shots: 2
+    }
+
+    shootSound: missile
+
+    bullet: {
+        type: MissileBulletType
+        keepVelocity: false
+        collidesAir: false
+        drag: -0.003
+        shrinkY: 0
+        height: 9
+        width: 9
+
+        splashDamageRadius: 19
+        fragRandomSpread: 30
+        splashDamage: 98
+        homingRange: 60
+        fragBullets: 3
+        fragLifeMin: 0
+        lifetime: 100
+        weaveScale: 6
+        weaveMag: 2
+        speed: 2.25
+        damage: 32
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        trailColor: faa76c
+        trailInterval: 8
+
+        fragBullet: {
+            type: BasicBulletType
+            pierceBuilding: true
+            collidesAir: false
+            pierce: true
+            height: 3
+            width: 3
+
+            splashDamageRadius: 13
+            splashDamage: 21
+            pierceCap: 2
+            lifetime: 96
+            speed: 1.45
+            damage: 25
+
+            hitEffect: flakExplosion
+
+            trailInterval: 6.5
+            trailColor: faa76c
+        }
+    }
+}
+
+{
+    name: air-def-reign
+    aiControllable: true
+    controllable: false
+    rotationLimit: 120
+    rotateSpeed: 0.8
+    autoTarget: true
+    shootCone: 90
+    mirror: false
+    rotate: true
+    x: 11.5
+    y: -2
+
+    inaccuracy: 2.5
+    reload: 280
+
+    shoot: { 
+        shotDelay: 18
+        shots: 5
+    }
+
+    ejectEffect: casing1
+    shootSound: laser
+
+    bullet: {
+        type: BasicBulletType
+        collidesGround: false
+        collidesAir: true
+        height: 10
+	    width: 7
+
+        splashDamageRadius: 21
+        homingPower: 0.35
+        splashDamage: 45
+        homingRange: 60
+        weaveScale: 7
+        weaveMag: 4.5
+        lifetime: 35
+        damage: 90
+        speed: 7
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        trailColor: ff7538
+        trailLength: 6.75
+        trailWidth: 2.5
+    }
+}
+
+{
+    name: plasma-mount-weapon
+    mirror: false
+    rotate: true
+    x: -10.5
+    y: -3
+
+    repairSpeed: 1.8
+    beamWidth: 1.2
+    shootY: 6
+
+    bullet: {
+        maxRange: 320
+    }
+}
+    ]
+}

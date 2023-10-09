@@ -10,5 +10,5 @@
 	
     minGameVersion: 146
 
-    hidden: true
+    hidden: false
 }

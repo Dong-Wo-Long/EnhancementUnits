@@ -28,6 +28,6 @@ weapons: [
 
     hitEffect: pulverize
     hitSound: explosion
-                }
+        }
     }
 ]

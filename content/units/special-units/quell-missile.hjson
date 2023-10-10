@@ -1,4 +1,3 @@
-{
 template: MissileUnitType
 
 type: missile
@@ -52,5 +51,4 @@ weapons: [
         shootEffect: massiveExplosion
         }
     }
-    ]
-}
+]

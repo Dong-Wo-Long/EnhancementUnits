@@ -2,7 +2,155 @@ forceMultiTarget: true
 rotateSpeed: 1.25
 fogRadius: 36
 
-trailLength: 14.5
+engineColor: c67fff
+engineLayer: 91
+
+engines: [
+    {
+    engineColor: c67fff
+    engineLayer: 91
+    rotation: -135
+    radius: 3.9
+    x: -15.5
+    y: -15
+    }
+
+    {
+    engineColor: c67fff
+    engineLayer: 91
+    rotation: 315
+    radius: 3.9
+    x: 15.5
+    y: -15
+    }
+
+    {
+    engineColor: c67fff
+    engineLayer: 91
+    rotation: -135
+    radius: 3.9
+    x: -18
+    y: -7.25
+    }
+
+    {
+    engineColor: c67fff
+    engineLayer: 91
+    rotation: 315
+    radius: 3.9
+    x: 18
+    y: -7.25
+    }
+]
+
+abilities: [
+    {
+    type: SuppressionFieldAbility
+    orbRadius: 5.3
+    x: 0
+    y: 1
+    }
+
+    {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 0.8
+    x: 0
+    y: -15.25
+
+    effect: {
+      lightOpacity: 0
+      length: 5
+      particles: 1
+      layer: 90
+      lifetime: 15
+      sizeFrom: 4.8
+      sizeTo: 0
+      colorFrom: c67fff
+      colorTo: c67fff
+        }
+    }
+
+    {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2.9
+    x: -15.5
+    y: -15
+
+    effect: {
+      lightOpacity: 0
+      length: 3
+      particles: 1
+      layer: 90
+      lifetime: 12
+      sizeFrom: 3.9
+      sizeTo: 0
+      colorFrom: c67fff
+      colorTo: c67fff
+        }
+    }
+
+    {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2.9
+    x: 15.5
+    y: -15
+
+    effect: {
+      lightOpacity: 0
+      length: 3
+      particles: 1
+      layer: 90
+      lifetime: 12
+      sizeFrom: 3.9
+      sizeTo: 0
+      colorFrom: c67fff
+      colorTo: c67fff
+        }
+    }
+
+    {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 3.2
+    x: -18
+    y: -7.25
+
+    effect: {
+      lightOpacity: 0
+      length: 2
+      particles: 1
+      layer: 90
+      lifetime: 11
+      sizeFrom: 3
+      sizeTo: 0
+      colorFrom: c67fff
+      colorTo: c67fff
+        }
+    }
+
+    {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 3.2
+    x: 18
+    y: -7.25
+
+    effect: {
+      lightOpacity: 0
+      length: 2
+      particles: 1
+      layer: 90
+      lifetime: 11
+      sizeFrom: 3
+      sizeTo: 0
+      colorFrom: c67fff
+      colorTo: c67fff
+        }
+    }
+]
 
 weapons: [
     {
@@ -76,6 +224,6 @@ weapons: [
         trailColor: c67fff
         trailLength: 3.2
         trailWidth: 1.5
-            }
+        }
     }
 ]

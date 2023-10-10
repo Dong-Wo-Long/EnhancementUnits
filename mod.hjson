@@ -1,7 +1,7 @@
-    repo: "Dong-Wo-Long/EchancementUnits"
+    repo: "Dong-Wo-Long/EnhancementUnits"
 
-    name: "echan-units"
-    displayName: "Echancement Units"
+    name: "enhan-units"
+    displayName: "Enhancement Units"
     author: "D&X"
     description: "Important: This mod does not bring anything radically new to the game, but only expands the combat functionality of existing combat units."
     version: v1.0.0

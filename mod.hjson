@@ -1,7 +1,6 @@
-{
     repo: "Dong-Wo-Long/EchancementUnits"
 
-	name: echan-units
+    name: echan-units
     displayName: Echancement Units
     author: D&X
     description: Important: This mod does not bring anything radically new to the game, but only expands the combat functionality of existing combat units.
@@ -13,4 +12,3 @@
     hideBrowser: false
 
     hidden: false
-}

@@ -1,2 +1,3 @@
 circleTarget: true
 trailLength: 7.5
+targetAir: false

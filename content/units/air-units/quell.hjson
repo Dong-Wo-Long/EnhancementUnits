@@ -1,4 +1,3 @@
-{
 forceMultiTarget: true
 rotateSpeed: 1.25
 fogRadius: 36
@@ -79,5 +78,4 @@ weapons: [
         trailWidth: 1.5
             }
     }
-    ]
-}
+]

@@ -4,7 +4,7 @@ fogRadius: 32
 itemCapacity: 2150
 
 weapons: [
-    {
+1234{
     name: reign-weapon
     shootCone: 45
     top: false
@@ -54,11 +54,11 @@ weapons: [
             speed: 5
 
             hitEffect: flakExplosion
+        	}
         }
     }
-}
 
-{
+    {
     name: zenith-missiles
     rotationLimit: 24
     baseRotation: 225
@@ -128,11 +128,11 @@ weapons: [
 
             trailInterval: 6.5
             trailColor: faa76c
+            }
         }
     }
-}
 
-{
+    {
     name: air-def-reign
     aiControllable: true
     controllable: false
@@ -179,7 +179,28 @@ weapons: [
         trailColor: ff7538
         trailLength: 6.75
         trailWidth: 2.5
-    	}
+        }
+    }
+
+    {
+    name: repair-weapon-Reign
+    type: RepairBeamWeapon
+    rotationLimit: 160
+    baseRotation: 25
+    rotateSpeed: 1.5
+    mirror: false
+    rotate: true
+    x: -10.5
+    y: -3
+
+    repairSpeed: 0.8
+    beamWidth: 0.6
+    shootY: 4.5
+
+    laserColor: ffa665
+
+    bullet: {
+        maxRange: 115
+        }
     }
 ]
-

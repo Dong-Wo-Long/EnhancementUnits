@@ -2,7 +2,7 @@
 ### Introduction
 This mod does not add new content, but uses a ready-made one, and only with rare exceptions its own content provided by this mod is used. Don't expect some kind of balance for this mod, because the mod is positioned as entertainment content, and not as a serious addition to the existing game. And last: this mod will continue to develop. Maybe slowly, maybe fast. In general, depending on my motivation to work on the project.
 ## FAQ
-### what does mod add?? Yes, in general, nothing special:
+### what does mod add? Yes, in general, nothing special:
 - A description of the units (a modified assignment and a meaningless comment).
 - Adding an additional arsenal of weapons or equipment (for example, an anti-personnel machine gun on a Fortress or a repair apparatus on the Reign).
 - Changes in the characteristics of units (for example, rate of fire in exchange for damage and vice versa).

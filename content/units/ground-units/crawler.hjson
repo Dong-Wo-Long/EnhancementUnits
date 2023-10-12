@@ -1,4 +1,5 @@
 range: 25
+
 weapons: [
     {
     shootCone: 160

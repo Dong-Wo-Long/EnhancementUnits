@@ -1,12 +1,9 @@
 forceMultiTarget: true
-description: Absolutely does not look like iron.
 targetAir: true
 
 itemCapacity: 150
 health: 1050
 armor: 11
-
-flying: false
 
 weapons: [
     {

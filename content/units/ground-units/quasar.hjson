@@ -17,7 +17,7 @@ abilities: [
 weapons: [
 {
     name: beam-weapon
-    shootCone: 30
+    shootCone: 160
     shake: 3.5
     top: false
     recoil: 4
@@ -48,7 +48,6 @@ weapons: [
     layerOffset: -0.001
     baseRotation: 180
     autoTarget: true
-    targetAir: true
     shootCone: 360
     rotate: false
     mirror: false

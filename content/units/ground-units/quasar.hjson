@@ -1,0 +1,104 @@
+forceMultiTarget: true
+
+itemCapacity: 165
+health: 780
+
+abilities: [
+    {
+    type: ForceFieldAbility 
+    cooldown: 480
+    radius: 70
+    regen: 0.3
+    sides: 4
+    max: 490
+}
+]
+
+weapons: [
+{
+    name: beam-weapon
+    shake: 3.5
+    top: false
+    recoil: 4
+    shootY: 4
+    x: 6.5
+
+    reload: 55
+
+    shootSound: laser
+
+    bullet: {
+        type: LaserBulletType
+        collidesTeam: true
+        length: 135
+        recoil: 1
+        width: 25
+
+        healPercent: 25
+        damage: 90
+
+        colors: [ 84f491, 84f491, ffffff ]
+    }
+}
+
+{
+    name: missiles-mount-quasar
+    controllable: false
+    layerOffset: -0.001
+    baseRotation: 180
+    autoTarget: true
+    targetAir: true
+    shootCone: 360
+    rotate: false
+    mirror: false
+    shootY: 6
+    x: 0
+    y: -3.85
+
+    velocityRnd: 0.2
+    inaccuracy: 25
+    recoil: -4.65
+    reload: 275
+    shake: 1
+
+    shoot: { 
+    type: ShootAlternate
+    shotDelay: 15
+    spread: 1.5
+    barrels: 3
+    shots: 3
+    }
+
+    shootSound: missile
+
+    bullet: {
+        type: MissileBulletType
+        keepVelocity: false
+        shrinkX: 0.2
+        shrinkY: 0.4
+        drag: -0.003
+        height: 7
+        width: 7
+
+        splashDamageRadius: 15
+        collidesTeam: true
+        homingPower: 0.65
+        splashDamage: 52
+        homingRange: 45
+        healPercent: 7
+        weaveScale: 4
+        lifetime: 80
+        weaveMag: 2
+        damage: 29
+        speed: 2
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        frontColor: ffffff
+        trailColor: 62ae7f
+        trailInterval: 12
+        backColor: 62ae7f
+    }
+}
+]

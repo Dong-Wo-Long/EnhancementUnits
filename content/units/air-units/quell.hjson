@@ -222,7 +222,7 @@ weapons: [
 
 	trailColor: bf92f9
         frontColor: ffffff
-        backColor: 62ae7f
+        backColor: bf92f9
         trailLength: 3.2
         trailWidth: 1.5
         }

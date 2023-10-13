@@ -63,7 +63,6 @@ weapons: [
     rotationLimit: 24
     baseRotation: 225
     rotateSpeed: 0.75
-    targetAir: false
     shootCone: 360
     rotate: true
     x: -6.5

@@ -17,6 +17,7 @@ abilities: [
 weapons: [
 {
     name: beam-weapon
+    shootCone: 30
     shake: 3.5
     top: false
     recoil: 4

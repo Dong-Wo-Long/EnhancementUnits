@@ -28,7 +28,7 @@ weapons: [
         shrinkX: 0.3
         shrinkY: 0.5
         height: 14
-	    width: 14
+	width: 14
 
         splashDamageRadius: 35
         splashDamage: 80

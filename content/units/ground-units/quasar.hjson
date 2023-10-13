@@ -17,6 +17,7 @@ abilities: [
 weapons: [
 {
     name: beam-weapon
+    predictTarget: true
     shootCone: 160
     shake: 3.5
     top: false

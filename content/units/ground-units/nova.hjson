@@ -29,7 +29,7 @@ weapons: [
         lifetime: 45
         damage: 26
 
-        backColor: bef574
+        backColor: 84f491
         frontColor: ffffff
         }
     }

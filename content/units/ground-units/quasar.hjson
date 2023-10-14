@@ -55,7 +55,7 @@ weapons: [
     mirror: false
     shootY: 6
     x: 0
-    y: -5.25
+    y: -3.45
 
     velocityRnd: 0.2
     inaccuracy: 25

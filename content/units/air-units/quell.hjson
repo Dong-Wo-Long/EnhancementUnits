@@ -2,12 +2,12 @@ forceMultiTarget: true
 rotateSpeed: 1.25
 fogRadius: 36
 
-engineColor: 2d2f39
+engineColor: bf92f9
 engineLayer: 91
 
 engines: [
     {
-    engineColor: 2d2f39
+    engineColor: bf92f9
     engineLayer: 91
     rotation: -135
     radius: 3.9
@@ -16,7 +16,7 @@ engines: [
     }
 
     {
-    engineColor: 2d2f39
+    engineColor: bf92f9
     engineLayer: 91
     rotation: 315
     radius: 3.9
@@ -25,7 +25,7 @@ engines: [
     }
 
     {
-    engineColor: 2d2f39
+    engineColor: bf92f9
     engineLayer: 91
     rotation: -135
     radius: 3.9
@@ -34,7 +34,7 @@ engines: [
     }
 
     {
-    engineColor: 2d2f39
+    engineColor: bf92f9
     engineLayer: 91
     rotation: 315
     radius: 3.9
@@ -66,8 +66,8 @@ abilities: [
       lifetime: 15
       sizeFrom: 4.8
       sizeTo: 0
-      colorFrom: 2d2f39
-      colorTo: 2d2f39
+      colorFrom: bf92f9
+      colorTo: bf92f9
         }
     }
 
@@ -86,8 +86,8 @@ abilities: [
       lifetime: 12
       sizeFrom: 3.9
       sizeTo: 0
-      colorFrom: 2d2f39
-      colorTo: 2d2f39
+      colorFrom: bf92f9
+      colorTo: bf92f9
         }
     }
 
@@ -106,8 +106,8 @@ abilities: [
       lifetime: 12
       sizeFrom: 3.9
       sizeTo: 0
-      colorFrom: 2d2f39
-      colorTo: 2d2f39
+      colorFrom: bf92f9
+      colorTo: bf92f9
         }
     }
 
@@ -126,8 +126,8 @@ abilities: [
       lifetime: 11
       sizeFrom: 3
       sizeTo: 0
-      colorFrom: 2d2f39
-      colorTo: 2d2f39
+      colorFrom: bf92f9
+      colorTo: bf92f9
         }
     }
 
@@ -146,8 +146,8 @@ abilities: [
       lifetime: 11
       sizeFrom: 3
       sizeTo: 0
-      colorFrom: 2d2f39
-      colorTo: 2d2f39
+      colorFrom: bf92f9
+      colorTo: bf92f9
         }
     }
 ]

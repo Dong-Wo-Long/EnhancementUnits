@@ -105,7 +105,7 @@ weapons: [
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
 
-        trailColor: faa76c
+        trailColor: ffa665
         trailInterval: 8
 
         fragBullet: {
@@ -126,7 +126,7 @@ weapons: [
             hitEffect: flakExplosion
 
             trailInterval: 6.5
-            trailColor: faa76c
+            trailColor: ffa665
             }
         }
     }
@@ -160,7 +160,7 @@ weapons: [
         collidesGround: false
         collidesAir: true
         height: 10
-	    width: 7
+	width: 7
 
         splashDamageRadius: 21
         homingPower: 0.35

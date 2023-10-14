@@ -1,6 +1,6 @@
 forceMultiTarget: true
 rotateSpeed: 1.25
-fogRadius: 36
+fogRadius: 48
 
 engineColor: bf92f9
 engineLayer: 91

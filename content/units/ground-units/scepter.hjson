@@ -1,3 +1,5 @@
+fogRadius: 23
+
 itemCapacity: 900
 health: 11000
 armor: 16

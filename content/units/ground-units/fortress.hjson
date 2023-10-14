@@ -1,5 +1,6 @@
 forceMultiTarget: true
 targetAir: true
+fogRadius: 25
 
 itemCapacity: 150
 health: 1050

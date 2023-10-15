@@ -9,7 +9,6 @@ weapons: [
     {
     name: heal-weapon
     alternate: false
-    top: false
     shootY: 2
     recoil: 2
     x: 4.5

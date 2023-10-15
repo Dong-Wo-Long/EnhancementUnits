@@ -1,4 +1,8 @@
 forceMultiTarget: true
+trailLength: 9.5
+engineOffset: 7
+engineLayer: 10
+engineSize: 2.5
 fogRadius: 26
 
 itemCapacity: 165

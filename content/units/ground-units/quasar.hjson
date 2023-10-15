@@ -11,7 +11,7 @@ abilities: [
     radius: 70
     regen: 0.3
     sides: 4
-    max: 490
+    max: 470
     }
 ]
 
@@ -55,7 +55,7 @@ weapons: [
     mirror: false
     shootY: 6
     x: 0
-    y: -3
+    y: -2.75
 
     velocityRnd: 0.2
     inaccuracy: 25

@@ -7,7 +7,6 @@ weapons: [
     {
     name: reign-weapon
     shootCone: 45
-    top: false
     recoil: 5
     x: 21.5
     y: 1

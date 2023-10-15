@@ -1,0 +1,62 @@
+trailLength: 7
+health: 420
+speed: 0.75
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility 
+    reload: 180
+    amount: 20
+    range: 60
+    max: 120
+    }
+]
+
+weapons: [
+{
+    name: heal-shotgun-weapon
+    recoil: 2.5
+    shootY: 2.5
+    shake: 2.2
+    x: 5
+    y: 0.5
+
+    inaccuracy: 35
+    reload: 36
+
+    shoot: {
+        shots: 3
+        shotDelay: 0.5
+    }
+
+    ejectEffect: none
+
+    shootSound: spark
+
+    bullet: {
+        type: LightningBulletType
+        lightningLengthRand: 8.5
+        lightningColor: 98ffa9
+        lightningLength: 8.5
+        hitColor: 98ffa9
+
+        healPercent: 4.5
+        damage: 36
+
+        shootEffect: shootHeal
+
+        lightningType: {
+            collidesTeam: true
+            hittable: false
+
+            statusDuration: 10
+            healPercent: 2.1
+            status: shocked
+            lifetime: 1
+
+            hitEffect: hitLancer
+            despawnEffect: none
+            }
+        }
+    }
+]

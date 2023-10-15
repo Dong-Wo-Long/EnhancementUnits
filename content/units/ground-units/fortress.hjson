@@ -10,7 +10,6 @@ weapons: [
     {
     name: artillery
     shootCone: 30
-    top: false
     recoil: 4
     x: 9.5
     y: 1

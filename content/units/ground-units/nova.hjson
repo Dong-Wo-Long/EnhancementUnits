@@ -1,4 +1,5 @@
 boostMultiplier: 2
+trailLength: 8
 fogRadius: 25
 
 health: 190

@@ -25,7 +25,6 @@ weapons: [
     predictTarget: true
     shootCone: 160
     shake: 3.5
-    top: false
     recoil: 4
     shootY: 4
     x: 6.5

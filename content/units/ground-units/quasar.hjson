@@ -1,7 +1,7 @@
 forceMultiTarget: true
-trailLength: 9.5
+trailLength: 12.5
 engineOffset: 7
-engineLayer: 10
+engineLayer: 50
 engineSize: 2.5
 fogRadius: 26
 

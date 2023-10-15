@@ -1,3 +1,6 @@
 circleTarget: true
 trailLength: 7.5
 physics: false
+
+health: 75
+speed: 3

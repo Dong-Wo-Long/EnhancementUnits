@@ -1,3 +1,5 @@
+fogRadius: 10
+
 trailLength: 9
 health: 420
 speed: 0.75

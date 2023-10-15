@@ -6,7 +6,6 @@ armor: 2
 weapons: [
     {
     name: large-weapon
-    top: false
     x: 4
     y: 2
 

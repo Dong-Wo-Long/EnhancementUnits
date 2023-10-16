@@ -4,3 +4,32 @@ physics: false
 
 health: 75
 speed: 3
+
+weapons: [
+{
+    x: 2
+    y: 0
+
+    reload: 9
+
+    shootSound: pew
+    
+    ejectEffect: casing1
+        
+    bullet: {
+        type: BasicBulletType
+        ammoMultiplier: 2
+        height: 9
+        width: 7
+
+        lifetime: 45
+        damage: 5.5
+        speed: 3
+        
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        
+        shootSound: pew
+        }
+    }
+]

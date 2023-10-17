@@ -48,7 +48,7 @@ weapons: [
 }
 
 {
-    name: missiles-mount-quasar
+    name: missiles-plasma-mount
     controllable: false
     layerOffset: -0.001
     baseRotation: 180
@@ -69,9 +69,9 @@ weapons: [
     shoot: { 
     type: ShootAlternate
     shotDelay: 15
-    spread: 1.5
-    barrels: 3
-    shots: 3
+    spread: 2.5
+    barrels: 2
+    shots: 4
     }
 
     shootSound: missile

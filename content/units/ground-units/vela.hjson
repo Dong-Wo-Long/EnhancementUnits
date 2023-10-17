@@ -1,0 +1,154 @@
+rotateSpeed: 1.1
+
+health: 8900
+
+immunities: [ burning ]
+
+weapons: [
+{
+    name: vela-weapon
+    continuous: true
+    mirror: false
+    shootY: 14
+    top: false
+    recoil: 0
+    shake: 4
+    x: 0
+    y: 0
+
+    effects: [
+    {
+        type: ParticleEffect
+        region: vela-weapon-heat
+        sizeFrom: 50
+        length: 0
+
+        lifetime: 30
+        particles: 1
+
+        colorFrom: ffb380
+        colorTo: ffb380
+        }
+    ]
+
+    cooldownTime: 200
+    reload: 155
+
+    shootStatusDuration: 180
+    shootStatus: slow
+    shoot: {
+    firstShotDelay: 60
+
+    lifetime: 1
+        }
+
+    chargeSound: lasercharge2
+    shootSound: beam
+
+    parentizeEffects: true
+
+    bullet: {
+        type: ContinuousLaserBulletType
+        collidesTeam: true
+        drawSize: 420
+        length: 180
+        shake: 1
+
+        lifetime: 160
+        damage: 45
+
+        incendChance: 0.1
+        incendSpread: 5
+        incendAmount: 1
+
+        healPercent: 5
+
+        chargeEffect: greenLaserChargeSmall
+        despawnEffect: smokeCloud
+        hitEffect: hitMeltHeal
+        smokeEffect: none
+
+        colors: [ 98ffa9, ffffff ]
+        }
+    }
+
+{
+    name: repair-beam-weapon-center-large
+    type: RepairBeamWeapon
+    shootY: 6
+    x: 11
+    y: -7.5
+
+    repairSpeed: 1.4
+    beamWidth: 0.8
+
+    bullet: {
+        maxRange: 120
+        }
+    }
+
+{
+    name: laser-mount
+    aiControllable: true
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 25
+    baseRotation: -135
+    rotateSpeed: 0.8
+    autoTarget: true
+    alternate: false
+    shootCone: 360
+    mirror: true
+    rotate: true
+    recoil: 2
+    x: 14.5
+    y: -1.5
+
+    inaccuracy: 1.75
+    reload: 180
+
+    shoot: {
+        firstShotDelay: 45
+        shotDelay: 15
+        shots: 3
+    }
+
+    ejectEffect: casing1
+    shootSound: laser
+
+    parentizeEffects: true
+
+    bullet: {
+        type: LaserBoltType
+        height: 9
+	    width: 5
+
+        splashDamageRadius: 20
+        homingPower: 0.6
+        splashDamage: 48
+        homingRange: 50
+        weaveScale: 5
+        weaveMag: 3
+        lifetime: 40
+        damage: 96
+        speed: 4
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+        chargeEffect: {
+            type: WaveEffect
+            sizeFrom: 7.5
+            sizeTo: 0
+            lifetime: 45
+            colorFrom: 84f491
+            colorTo: ffffff
+            }
+
+        trailColor: 84f491
+        frontColor: 84f491
+        trailLength: 5.25
+        backColor: ffffff
+        trailWidth: 1.75
+        }
+    }
+]

@@ -213,10 +213,10 @@ weapons: [
             lifetime: 20
 
             strokeFrom: 4
-            sizeFrom: 45
+            sizeFrom: 75
             strokeTo: 4
             strokeTo: 0
-            sizeTo: 45
+            sizeTo: 75
 
             colorFrom: 84f491
             colorTo: 84f491

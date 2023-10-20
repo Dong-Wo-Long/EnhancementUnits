@@ -4,6 +4,8 @@ health: 8900
 
 immunities: [ burning ]
 
+trailLength: 15
+
 weapons: [
 {
     name: vela-weapon
@@ -75,9 +77,10 @@ weapons: [
 {
     name: repair-beam-weapon-center-large
     type: RepairBeamWeapon
+    rotationLimit: 90
     shootY: 6
-    x: 11
-    y: -7.5
+    x: 5
+    y: -2.5
 
     repairSpeed: 1.4
     beamWidth: 0.8
@@ -89,11 +92,10 @@ weapons: [
 
 {
     name: laser-mount
-    aiControllable: true
     controllable: false
     layerOffset: -0.001
-    rotationLimit: 25
     baseRotation: -135
+    rotationLimit: 25
     rotateSpeed: 0.8
     autoTarget: true
     alternate: false
@@ -116,8 +118,6 @@ weapons: [
     ejectEffect: casing1
     shootSound: laser
 
-    parentizeEffects: true
-
     bullet: {
         type: LaserBoltType
         height: 9
@@ -135,20 +135,92 @@ weapons: [
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
+        parentizeEffects: true
         chargeEffect: {
             type: WaveEffect
+            rotWithParent: true
+            followParent: true
             sizeFrom: 7.5
             sizeTo: 0
+
             lifetime: 45
+
             colorFrom: 84f491
             colorTo: ffffff
-            }
+        }
 
         trailColor: 84f491
         frontColor: 84f491
         trailLength: 5.25
         backColor: ffffff
         trailWidth: 1.75
+        }
+    }
+
+    {
+    name: plasma-missile-mount
+    rotationLimit: 75
+    rotateSpeed: 1.5
+    shootCone: 60
+    rotate: true
+    recoil: 3
+    x: 11
+    y: -8
+
+    inaccuracy: 2.5
+    reload: 480
+    shake: 2
+
+    shootEffect: shootSmall
+    shootSound: artillery
+    ejectEffect: casing2
+
+    bullet: {
+        type: EmpBulletType
+        sprite: enhancement-units-circle-bullet
+        collidesTiles: true
+        collidesAir: false
+        shrinkX: 0.5
+        shrinkY: 0.25
+        height: 18
+	width: 18
+
+        splashDamageRadius: 27
+        statusDuration: 300
+        status: electrified
+        splashDamage: 120
+        healPercent: 21
+        knockback: 0.8
+        lifetime: 180
+        speed: 1.25
+        damage: 140
+
+        smokeEffect: shootBigSmoke2
+        hitEffect: hitEmpSpark
+
+        hitSound: plasmaboom
+
+        trailEffect: artilleryTrail
+        trailColor: 84f491
+        frontColor: ffffff
+        backColor: 84f491
+        trailLength: 11
+        trailWidth: 4.5
+
+        despawnEffect: {
+            type: WaveEffect
+            startDelay: 0
+            lifetime: 20
+
+            strokeFrom: 4
+            sizeFrom: 45
+            strokeTo: 4
+            strokeTo: 0
+            sizeTo: 45
+
+            colorFrom: 84f491
+            colorTo: 84f491
+            }
         }
     }
 ]

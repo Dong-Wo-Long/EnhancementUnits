@@ -43,9 +43,10 @@ weapons: [
         trailColor: f9c27a
         frontColor: fff8e8
         backColor: f9c27a
-        trailInterval: 7
+        trailInterval: 9.5
         trailLength: 3
         trailWidth: 1
+	trailSize: 4
         }
     }
 
@@ -82,7 +83,6 @@ weapons: [
         trailColor: f9c27a
         trailLength: 3.2
         trailWidth: 1.5
-	triilSize: 3.5
         }
     }
 ]

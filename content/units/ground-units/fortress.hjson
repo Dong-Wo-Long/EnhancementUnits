@@ -71,7 +71,7 @@ weapons: [
         type: BasicBulletType
         collidesAir: true
         height: 8
-	    width: 4
+	width: 4
 
         buildingDamageMultiplier: 0.80
 
@@ -82,6 +82,7 @@ weapons: [
         trailColor: f9c27a
         trailLength: 3.2
         trailWidth: 1.5
+	triilSize: 3.5
         }
     }
 ]

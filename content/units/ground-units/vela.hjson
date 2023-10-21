@@ -204,7 +204,7 @@ weapons: [
         trailColor: 84f491
         frontColor: ffffff
         backColor: 84f491
-        trailLength: 11
+        trailLength: 21
         trailWidth: 4.5
 
         despawnEffect: {

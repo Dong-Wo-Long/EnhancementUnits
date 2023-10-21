@@ -58,75 +58,52 @@ weapons: [
     }
 
     {
-    name: zenith-missiles
-    rotationLimit: 24
-    baseRotation: 225
-    rotateSpeed: 0.75
+    name: large-artillery
+    aiControllable: true
+    controllable: false
+    autoTarget: true
     shootCone: 360
-    rotate: true
-    x: -6.5
-    y: -12
+    mirror: false
+    shootY: 2
+    x: 11.5
+    y: -1.5
 
-    velocityRnd: 0.2
-    inaccuracy: 5
-    reload: 120
-    recoil: 1.5
-    shake: 1
+    inaccuracy: 2.5
+    reload: 280
 
     shoot: { 
-        shotDelay: 6
-        shots: 2
+        shotDelay: 18
+        shots: 5
     }
 
-    shootSound: missile
+    ejectEffect: casing1
+    shootSound: laser
 
     bullet: {
-        type: MissileBulletType
-        keepVelocity: false
-        collidesAir: false
-        drag: -0.003
-        shrinkY: 0
-        height: 9
-        width: 9
+        type: BasicBulletType
+        collidesGround: false
+        collidesAir: true
+        height: 10
+	    width: 7
 
-        splashDamageRadius: 19
-        fragRandomSpread: 30
-        splashDamage: 98
+        splashDamageRadius: 21
+        homingPower: 0.55
+        splashDamage: 45
         homingRange: 60
-        fragBullets: 3
-        fragLifeMin: 0
-        lifetime: 100
-        weaveScale: 6
-        weaveMag: 2
-        speed: 2.25
-        damage: 32
+        weaveScale: 7
+        weaveMag: 4.5
+        lifetime: 35
+        damage: 90
+        speed: 7
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
 
-        trailColor: ffa665
-        trailInterval: 8
-
-        fragBullet: {
-            type: BasicBulletType
-            pierceBuilding: true
-            collidesAir: false
-            pierce: true
-            height: 3
-            width: 3
-
-            splashDamageRadius: 13
-            splashDamage: 21
-            pierceCap: 2
-            lifetime: 96
-            speed: 1.45
-            damage: 25
-
-            hitEffect: flakExplosion
-
-            trailInterval: 6.5
-            trailColor: ffa665
-            }
+        trailColor: ff7538
+        frontColor: ff7538
+        trailLength: 6.75
+        backColor: ff7538
+        trailWidth: 2.5
         }
     }
 

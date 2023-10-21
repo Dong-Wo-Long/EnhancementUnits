@@ -1,9 +1,9 @@
 forceMultiTarget: true
 fogRadius: 34.5
-rotateSpeed: 1
-speed: 0.3
 
 itemCapacity: 2150
+rotateSpeed: 1
+speed: 0.3
 
 weapons: [
     {
@@ -207,14 +207,14 @@ weapons: [
     name: repair-beam-weapon-center-large-orange
     type: RepairBeamWeapon
     rotationLimit: 160
-    baseRotation: 45
+    baseRotation: 0
     rotateSpeed: 1.5
     mirror: false
     rotate: true
     x: -11.5
     y: 3.5
 
-    repairSpeed: 0.45
+    repairSpeed: 0.4
     beamWidth: 0.6
     shootY: 4.5
 
@@ -229,14 +229,14 @@ weapons: [
     name: repair-beam-weapon-center-large-orange
     type: RepairBeamWeapon
     rotationLimit: 160
-    baseRotation: 135
+    baseRotation: 180
     rotateSpeed: 1.5
     mirror: false
     rotate: true
     x: -11.5
     y: -5
 
-    repairSpeed: 0.45
+    repairSpeed: 0.4
     beamWidth: 0.6
     shootY: 4.5
 

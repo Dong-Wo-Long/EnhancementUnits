@@ -228,8 +228,8 @@ weapons: [
     mirror: true
     rotate: true
     recoil: 2
-    x: 21
-    y: 3
+    x: 20
+    y: 3.5
 
     reload: 120
 

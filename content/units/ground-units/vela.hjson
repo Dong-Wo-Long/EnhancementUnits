@@ -208,7 +208,7 @@ weapons: [
         trailLength: 21
         trailWidth: 4.5
 
-        despawnEffect: {
+        hitEffect: {
             type: WaveEffect
             startDelay: 0
             lifetime: 20

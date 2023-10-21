@@ -207,7 +207,7 @@ weapons: [
     name: repair-beam-weapon-center-large-orange
     type: RepairBeamWeapon
     rotationLimit: 160
-    baseRotation: 0
+    baseRotation: 45
     rotateSpeed: 1.5
     mirror: false
     rotate: true
@@ -229,7 +229,7 @@ weapons: [
     name: repair-beam-weapon-center-large-orange
     type: RepairBeamWeapon
     rotationLimit: 160
-    baseRotation: 180
+    baseRotation: 135
     rotateSpeed: 1.5
     mirror: false
     rotate: true

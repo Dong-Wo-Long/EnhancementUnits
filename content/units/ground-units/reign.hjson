@@ -1,5 +1,7 @@
 forceMultiTarget: true
 fogRadius: 34.5
+rotateSpeed: 1
+speed: 0.3
 
 itemCapacity: 2150
 
@@ -25,14 +27,14 @@ weapons: [
         width: 14
 
         splashDamageRadius: 13
-        fragRandomSpread: 30
+        fragRandomSpread: 45
         fragVelocityMin: 0.4
-        splashDamage: 18
+        splashDamage: 80
         fragBullets: 3
         fragLifeMin: 0
         pierceCap: 10
         lifetime: 15
-        damage: 80
+        damage: 140
         speed: 19
 
         hitEffect: blastExplosion
@@ -58,6 +60,79 @@ weapons: [
     }
 
     {
+    name: zenith-missiles
+    rotationLimit: 24
+    baseRotation: 225
+    rotateSpeed: 0.75
+    shootCone: 360
+    rotate: true
+    x: -6.5
+    y: -12
+
+    velocityRnd: 0.2
+    inaccuracy: 45
+    reload: 120
+    recoil: 1.5
+    shake: 1
+
+    shoot: { 
+        shotDelay: 8
+        shots: 6
+    }
+
+    shootSound: missile
+
+    bullet: {
+        type: MissileBulletType
+        keepVelocity: false
+        collidesAir: false
+        drag: -0.003
+        shrinkY: 0
+        height: 9
+        width: 9
+
+        splashDamageRadius: 19
+        fragRandomSpread: 360
+        splashDamage: 98
+        homingRange: 60
+        fragBullets: 3
+        fragLifeMin: 0
+        lifetime: 100
+        weaveScale: 6
+        weaveMag: 2
+        speed: 2.25
+        damage: 32
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        trailColor: ffa665
+        trailInterval: 8
+
+        fragBullet: {
+            type: BasicBulletType
+            pierceBuilding: true
+            collidesAir: false
+            pierce: true
+            height: 3
+            width: 3
+
+            splashDamageRadius: 13
+            splashDamage: 21
+            pierceCap: 2
+            lifetime: 60
+            speed: 1.45
+            damage: 25
+
+            hitEffect: flakExplosion
+
+            trailInterval: 6.5
+            trailColor: ffa665
+            }
+        }
+    }
+
+    {
     name: large-artillery
     aiControllable: true
     controllable: false
@@ -65,15 +140,15 @@ weapons: [
     shootCone: 360
     mirror: false
     shootY: 2
-    x: 11.5
-    y: -1.5
+    x: 13
+    y: -3
 
     inaccuracy: 2.5
     reload: 280
 
     shoot: { 
-        shotDelay: 18
-        shots: 5
+        shotDelay: 16
+        shots: 3
     }
 
     ejectEffect: casing1
@@ -81,94 +156,87 @@ weapons: [
 
     bullet: {
         type: BasicBulletType
+        sprite: enhancement-units-mine-bullet
         collidesGround: false
         collidesAir: true
-        height: 10
-	    width: 7
+        shrinkX: 0.5
+        shrinkY: 0.5
+        height: 9
+	    width: 9
 
         splashDamageRadius: 21
-        homingPower: 0.55
-        splashDamage: 45
+        statusDuration: 180
+        splashDamage: 90
+        homingPower: 0.9
         homingRange: 60
-        weaveScale: 7
-        weaveMag: 4.5
-        lifetime: 35
-        damage: 90
-        speed: 7
+        status: burning
+        weaveScale: 3
+        lifetime: 180
+        weaveMag: 1.5
+        damage: 180
+        speed: 1.6
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
+        shootEffect: {
+            line: true
+            length: 60
+            cone: 25
+            lifetime: 30
+            particles: 9
+            interp: pow3Out
+            sizeInterp: linear
+            lenFrom: 4
+            lenTo: 0
+            strokeFrom: 3
+            strokeTo: 1
+            cap: false
+            colorFrom: ffdd55
+            colorTo: db401c
+        }
 
         trailColor: ff7538
-        frontColor: ff7538
+        frontColor: ffffff
         trailLength: 6.75
         backColor: ff7538
-        trailWidth: 2.5
+        trailWidth: 1.5
         }
     }
 
     {
-    name: air-def-reign
-    aiControllable: true
-    controllable: false
-    rotationLimit: 120
-    rotateSpeed: 0.8
-    autoTarget: true
-    shootCone: 90
-    mirror: false
-    rotate: true
-    x: 11.5
-    y: -2
-
-    inaccuracy: 2.5
-    reload: 280
-
-    shoot: { 
-        shotDelay: 18
-        shots: 5
-    }
-
-    ejectEffect: casing1
-    shootSound: laser
-
-    bullet: {
-        type: BasicBulletType
-        collidesGround: false
-        collidesAir: true
-        height: 10
-	width: 7
-
-        splashDamageRadius: 21
-        homingPower: 0.35
-        splashDamage: 45
-        homingRange: 60
-        weaveScale: 7
-        weaveMag: 4.5
-        lifetime: 35
-        damage: 90
-        speed: 7
-
-        despawnEffect: blastExplosion
-        hitEffect: blastExplosion
-
-        trailColor: ff7538
-        trailLength: 6.75
-        trailWidth: 2.5
-        }
-    }
-
-    {
-    name: repair-weapon-Reign
+    name: repair-beam-weapon-center-large-orange
     type: RepairBeamWeapon
     rotationLimit: 160
-    baseRotation: 25
+    baseRotation: 0
     rotateSpeed: 1.5
     mirror: false
     rotate: true
-    x: -10.5
-    y: -3
+    x: -11.5
+    y: 3.5
 
-    repairSpeed: 0.8
+    repairSpeed: 0.45
+    beamWidth: 0.6
+    shootY: 4.5
+
+    laserColor: ffa665
+
+    bullet: {
+        maxRange: 115
+        }
+    }
+
+    {
+    name: repair-beam-weapon-center-large-orange
+    type: RepairBeamWeapon
+    rotationLimit: 160
+    baseRotation: 180
+    rotateSpeed: 1.5
+    mirror: false
+    rotate: true
+    x: -11.5
+    y: -5
+
+    repairSpeed: 0.45
     beamWidth: 0.6
     shootY: 4.5
 

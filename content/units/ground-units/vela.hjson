@@ -1,6 +1,7 @@
-rotateSpeed: 1.1
+rotateSpeed: 0.9
+speed: 0.32
 
-health: 8900
+health: 9300
 
 immunities: [ burning ]
 

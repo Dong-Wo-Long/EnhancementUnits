@@ -512,7 +512,7 @@ weapons: [
         shake: 1
 
         incendChance: 0.03
-        healPercent: 0.4
+        healPercent: 0.5
         incendSpread: 5
         incendAmount: 1
 

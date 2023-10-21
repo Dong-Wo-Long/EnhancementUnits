@@ -1,6 +1,8 @@
 rotateSpeed: 0.9
+fogRadius: 29
 speed: 0.32
 
+itemCapacity: 350
 health: 9300
 
 immunities: [ burning ]

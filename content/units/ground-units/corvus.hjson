@@ -262,7 +262,7 @@ weapons: [
         height: 30
 	    width: 5
 
-        splashDamageRadius: 20
+        splashDamageRadius: 10
         splashDamage: 45
         lifetime: 90
         damage: 70
@@ -353,7 +353,7 @@ weapons: [
         height: 30
 	    width: 5
 
-        splashDamageRadius: 20
+        splashDamageRadius: 10
         splashDamage: 32
         lifetime: 75
         damage: 70

@@ -26,31 +26,13 @@ abilities: [
 weapons: [
 {
     name: corvus-weapon
-    shootSound: laserblast
-    chargeSound: lasercharge
     shootCone: 15
-    soundPitchMin: 1
+	mirror: false
     top: false
-    mirror: false
+	shootY: 5
     shake: 14
-    shootY: 5
     x: 0
     y: 0
-
-    effects: [
-    {
-        type: ParticleEffect
-        region: corvus-weapon-heat
-        sizeFrom: 50
-        length: 0
-
-        lifetime: 45
-        particles: 1
-
-        colorFrom: ffb380
-        colorTo: ffb380
-        }
-    ]
 
     reload: 1200
     recoil: 0
@@ -65,24 +47,49 @@ weapons: [
     }
 
     parentizeEffects: true
+	effects: [
+    {
+        type: ParticleEffect
+        region: corvus-weapon-heat
+        sizeFrom: 50
+        length: 0
+
+        lifetime: 45
+        particles: 1
+
+        colorFrom: ffb380
+        colorTo: ffb380
+        }
+    ]
+
+	chargeSound: lasercharge
+	shootSound: laserblast
+	soundPitchMin: 1
 
     bullet: {
         type: LaserBulletType
+		collidesTeam: true
+		largeHit: true
+		sideLength: 0
+		sideAngle: 15
+		sideWidth: 0
         length: 485
-        damage: 1350
         width: 90
 
+		healPercent: 50
         lifetime: 65
+		damage: 1350
 
+		lightningLengthRand: 25
+		lightningAngleRand: 50
         lightningSpacing: 35
+		lightningDamage: 230
+		lightningDelay: 1.1
         lightningLength: 5
-        lightningDelay: 1.1
-        lightningLengthRand: 25
-        lightningDamage: 230
-        lightningAngleRand: 50
-        largeHit: true
-        lightColor: 98ffa9
-        lightningColor: 98ffa9
+
+		colors: [ 98ffa9, ffffff ]
+		lightningColor: 98ffa9
+		lightColor: 98ffa9
 
         parentizeEffects: true
         chargeEffect: {
@@ -218,17 +225,9 @@ weapons: [
                 strokeTo: 0.4 
                 followParent: true
                 rotWithParent: true
-                }
-            ]
-        }
-
-        healPercent: 50
-        collidesTeam: true
-
-        sideAngle: 15
-        sideWidth: 0
-        sideLength: 0
-        colors: [ 98ffa9, ffffff ]
+                	}
+            	]
+        	}
         }
     }
 
@@ -236,8 +235,8 @@ weapons: [
     name: laser-mount
     controllable: false
     layerOffset: -0.001
+	rotationLimit: 75
     baseRotation: -55
-    rotationLimit: 75
     rotateSpeed: 1.2
     autoTarget: true
     alternate: false

@@ -417,7 +417,7 @@ weapons: [
     }
 
 {
-    name: plasma-launcher
+    name: hidden-plasma-launcher
     layerOffset: -0.001
     baseRotation: 180
     shootCone: 360

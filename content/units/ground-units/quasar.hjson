@@ -55,14 +55,14 @@ weapons: [
     alternate: false
     shootCone: 360
     rotate: false
-    shootY: 6
+    shootY: 5.25
     x: 7.5
     y: -1.5
 
     velocityRnd: 0.2
     inaccuracy: 30
-    recoil: -3
     reload: 275
+    recoil: -3
     shake: 1
 
     shoot: { 

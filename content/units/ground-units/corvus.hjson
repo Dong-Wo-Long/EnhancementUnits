@@ -14,8 +14,8 @@ abilities: [
     radius: 25
     angle: 120
     region: enhancement-units-corvus-shield
-    regen: 1.2
-    max: 1500
+    regen: 1.8
+    max: 2300
     cooldown: 600
     width: 8
     y: -9

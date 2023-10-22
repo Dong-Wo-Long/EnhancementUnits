@@ -292,7 +292,7 @@ weapons: [
                 rotWithParent: false
                 followParent: false
                 sizeFrom: 0
-                sizeTo: 5
+                sizeTo: 12
 
                 lifetime: 15
 
@@ -303,7 +303,7 @@ weapons: [
             {
                 type: ParticleEffect
                 line: true
-                length: 7.5
+                length: 13.5
                 cone: 360
                 particles: 7
                 lifetime: 15
@@ -383,7 +383,7 @@ weapons: [
                 rotWithParent: false
                 followParent: false
                 sizeFrom: 0
-                sizeTo: 5
+                sizeTo: 12
 
                 lifetime: 15
 
@@ -394,7 +394,7 @@ weapons: [
             {
                 type: ParticleEffect
                 line: true
-                length: 7.5
+                length: 13.5
                 cone: 360
                 particles: 7
                 lifetime: 15

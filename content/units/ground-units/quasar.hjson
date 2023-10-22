@@ -48,7 +48,7 @@ weapons: [
 }
 
 {
-    name: missiles-plasma-mount
+    name: hidden-plasma-missile-mount
     controllable: false
     layerOffset: -0.001
     baseRotation: 180
@@ -56,22 +56,19 @@ weapons: [
     shootCone: 360
     rotate: false
     mirror: false
-    shootY: 6
+    shootY: 7.5
     x: 0
     y: -2.75
 
     velocityRnd: 0.2
-    inaccuracy: 25
+    inaccuracy: 30
     recoil: -4.65
     reload: 275
     shake: 1
 
     shoot: { 
-    type: ShootAlternate
-    shotDelay: 15
-    spread: 2.5
-    barrels: 2
-    shots: 4
+    shotDelay: 9
+    shots: 3
     }
 
     shootSound: missile
@@ -79,11 +76,11 @@ weapons: [
     bullet: {
         type: MissileBulletType
         keepVelocity: false
-        shrinkX: 0.2
-        shrinkY: 0.4
+        shrinkX: 0.25
+        shrinkY: 0.5
         drag: -0.003
-        height: 7
-        width: 7
+        height: 9
+        width: 9
 
         splashDamageRadius: 15
         collidesTeam: true

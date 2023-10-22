@@ -171,7 +171,7 @@ weapons: [
     y: -8
 
     inaccuracy: 2.5
-    reload: 480
+    reload: 420
     shake: 2
 
     shootEffect: shootSmall

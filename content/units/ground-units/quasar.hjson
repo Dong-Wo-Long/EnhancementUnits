@@ -48,27 +48,27 @@ weapons: [
 }
 
 {
-    name: hidden-plasma-missile-mount
+    name: hidden-pm-mount
     controllable: false
     layerOffset: -0.001
-    baseRotation: 180
+    baseRotation: -115
     autoTarget: true
+    alternate: false
     shootCone: 360
     rotate: false
-    mirror: false
-    shootY: 8
-    x: 0
-    y: -2.75
+    shootY: 6
+    x: 7.5
+    y: -1.5
 
     velocityRnd: 0.2
     inaccuracy: 30
-    recoil: -4.65
+    recoil: -3
     reload: 275
     shake: 1
 
     shoot: { 
-    shotDelay: 9
-    shots: 3
+    shotDelay: 6
+    shots: 2
     }
 
     shootSound: missile

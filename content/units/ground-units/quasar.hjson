@@ -56,7 +56,7 @@ weapons: [
     shootCone: 360
     rotate: false
     mirror: false
-    shootY: 7.5
+    shootY: 8
     x: 0
     y: -2.75
 

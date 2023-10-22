@@ -2,7 +2,7 @@ forceMultiTarget: true
 trailLength: 12.5
 engineOffset: 7
 engineLayer: 50
-engineSize: 2.5
+engineSize: 3.5
 fogRadius: 26
 
 itemCapacity: 165

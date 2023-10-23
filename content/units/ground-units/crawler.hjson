@@ -9,7 +9,7 @@ weapons: [
     x: 0
 
     shootOnDeath: true
-    reload: 60
+    reload: 80
 
     ejectEffect: none
 
@@ -23,8 +23,10 @@ weapons: [
         hittable: false
         collides: false
 
+        buildingDamageMultiplier: 1.45
+
         splashDamageRadius: 55
-        rangeOverride: 30
+        rangeOverride: 15
         splashDamage: 120
         speed: 0
 

@@ -76,7 +76,7 @@ weapons: [
         length: 485
         width: 90
 
-		buildingDamageMultiplier: 1.15
+		buildingDamageMultiplier: 1.07
 
 		healPercent: 50
         lifetime: 65

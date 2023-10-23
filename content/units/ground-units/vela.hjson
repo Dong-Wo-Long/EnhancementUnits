@@ -188,6 +188,8 @@ weapons: [
         height: 18
 	width: 18
 
+	buildingDamageMultiplier: 1.21
+
         splashDamageRadius: 27
         statusDuration: 300
         status: electrified

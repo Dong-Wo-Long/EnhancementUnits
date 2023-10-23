@@ -34,8 +34,6 @@ weapons: [
     x: 0
     y: 0
 
-	buildingDamageMultiplier: 1.15
-
     reload: 1200
     recoil: 0
 
@@ -77,6 +75,8 @@ weapons: [
 		sideWidth: 0
         length: 485
         width: 90
+
+		buildingDamageMultiplier: 1.15
 
 		healPercent: 50
         lifetime: 65

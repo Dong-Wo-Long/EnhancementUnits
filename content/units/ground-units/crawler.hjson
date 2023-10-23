@@ -16,20 +16,20 @@ weapons: [
     shootSound: explosion
 
     bullet: {
-    instantDisappear: true
-    collidesTiles: false
-    killShooter: true
-    collidesAir: true
-    hittable: false
-    collides: false
+        instantDisappear: true
+        collidesTiles: false
+        killShooter: true
+        collidesAir: true
+        hittable: false
+        collides: false
 
-    splashDamageRadius: 55
-    rangeOverride: 30
-    splashDamage: 120
-    speed: 0
+        splashDamageRadius: 55
+        rangeOverride: 30
+        splashDamage: 120
+        speed: 0
 
-    hitEffect: pulverize
-    hitSound: explosion
+        hitEffect: pulverize
+        hitSound: explosion
         }
     }
 ]

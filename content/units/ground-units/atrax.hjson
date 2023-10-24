@@ -1,0 +1,82 @@
+health: 690
+
+weapons: [
+{
+    name: atrax-weapon
+    shootY: 3
+    reload: 9
+    recoil: 1
+    x: 7
+    y: 0
+
+    ejectEffect: none
+
+    shootSound: flame
+
+    bullet: { 
+        type: LiquidBulletType
+        collidesAir: false
+        liquid: slag
+
+        lifetime: 57
+        drag: 0.009
+        damage: 13
+        speed: 2.5
+
+        shootEffect: shootSmall
+        }
+    }
+
+{
+    name: violet-missiles
+    rotateLimit: 30
+    shootCone: 360
+    mirror: false
+    shootY: 1
+    x: 4.15
+    y: -5
+
+    velocityRnd: 0.45
+    inaccuracy: 15
+    reload: 300
+    recoil: 2
+    shake: 1
+    
+    shootSound: missile
+
+    shoot: {
+        shotDelay: 24
+        shots: 3
+    }
+
+    bullet: {
+        type: MissileBulletType
+        collidesGround: true
+        collidesTiles: false
+        keepVelocity: false
+        collidesAir: false
+        shrinkX: 0.25
+        shrinkY: 0.5
+        drag: -0.003
+        height: 11
+        width: 11
+
+        splashDamageRadius: 23
+        collidesTeam: true
+        homingPower: 0.35
+        splashDamage: 32
+        homingRange: 32
+        lifetime: 80
+        damage: 16
+        speed: 2.5
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        frontColor: ffffff
+        trailColor: bf92f9
+        trailInterval: 12
+        backColor: bf92f9
+        }
+    }
+]

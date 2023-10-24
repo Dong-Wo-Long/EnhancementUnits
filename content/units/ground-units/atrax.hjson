@@ -28,7 +28,7 @@ weapons: [
     }
 
 {
-    name: violet-missiles
+    name: purple-missiles
     mirror: false
     shootY: 1
     x: 4.15

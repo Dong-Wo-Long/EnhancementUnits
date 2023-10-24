@@ -70,7 +70,7 @@ weapons: [
     }
 
     {
-    name: violet-missiles-mount
+    name: purple-missiles-mount
     rotationLimit: 50
     shootCone: 360
     mirror: false

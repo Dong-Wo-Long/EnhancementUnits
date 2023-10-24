@@ -62,10 +62,13 @@ weapons: [
         width: 11
 
         splashDamageRadius: 23
+        lightningLength: 7
+        lightningDamage: 9
         collidesTeam: true
         homingPower: 0.35
         splashDamage: 32
         homingRange: 32
+        lightning: 3
         lifetime: 80
         damage: 16
         speed: 2.5

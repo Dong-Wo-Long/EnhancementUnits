@@ -30,7 +30,7 @@ weapons: [
         height: 20
 	width: 16
 
-	buildingDamageMultiplier: 1.12
+	buildingDamageMultiplier: 1.21
 
         splashDamageRadius: 35
         splashDamage: 80

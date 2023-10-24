@@ -62,7 +62,7 @@ weapons: [
         width: 11
 
         splashDamageRadius: 23
-        lightningLength: 7
+        lightningLength: 5
         lightningDamage: 9
         collidesTeam: true
         homingPower: 0.35
@@ -76,6 +76,7 @@ weapons: [
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
 
+        lightningColor: ffffff
         frontColor: ffffff
         trailColor: bf92f9
         trailInterval: 12

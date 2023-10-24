@@ -1,0 +1,126 @@
+itemCapacity: 90
+health: 1200
+
+weapons: [
+    {
+    name: spiroct-weapon
+    rotationLimit: 45
+    rotate: true
+    recoil: 2
+    shootY: 4
+    x: 8.5
+    y: -1.5
+
+    reload: 15
+
+    ejectEffect: none
+
+    shootSound: sap
+
+    bullet: {
+        type: SapBulletType
+        knockback: -1.24
+        length: 90
+        width: 0.55
+
+        buildingDamageMultiplier: 0.63
+
+        sapStrength: 1.7
+        lifetime: 35
+        damage: 29
+
+        shootEffect: shootSmall
+        despawnEffect: none
+        hitColor: bf92f9
+        color: bf92f9
+
+        hitColor: bf92f9
+        color: bf92f9
+        }
+    }
+
+{
+    name: mount-purple-weapon
+    rotationLimit: 45
+    rotate: true
+    x: 4
+    y: 3
+
+    reload: 11
+
+    shootSound: sap
+
+    bullet: {
+        type: SapBulletType
+        knockback: -0.65
+        length: 110
+        width: 0.35
+
+        buildingDamageMultiplier: 0.78
+
+        sapStrength: 1.1
+        lifetime: 25
+        damage: 18
+
+        shootEffect: shootSmall
+        despawnEffect: none
+        hitColor: bf92f9
+        color: bf92f9
+        }
+    }
+
+    {
+    name: violet-missiles-mount
+    rotationLimit: 50
+    shootCone: 360
+    mirror: false
+    rotate: true
+    shootY: 1
+    x: 0
+    y: -7
+
+    velocityRnd: 0.45
+    inaccuracy: 30
+    reload: 600
+    recoil: 2
+    shake: 1
+    
+    shootSound: missile
+
+    shootStatusDuration: 140
+    shootStatus: slow
+    shoot: {
+        shotDelay: 18
+        shots: 6
+    }
+
+    bullet: {
+        type: MissileBulletType
+        collidesGround: true
+        collidesTiles: false
+        keepVelocity: false
+        shrinkX: 0.25
+        shrinkY: 0.5
+        drag: -0.003
+        height: 11
+        width: 11
+
+        splashDamageRadius: 25
+        collidesTeam: true
+        homingPower: 0.35
+        splashDamage: 50
+        homingRange: 25
+        lifetime: 90
+        damage: 25
+        speed: 2.75
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        frontColor: ffffff
+        trailColor: bf92f9
+        trailInterval: 12
+        backColor: bf92f9
+        }
+    }
+]

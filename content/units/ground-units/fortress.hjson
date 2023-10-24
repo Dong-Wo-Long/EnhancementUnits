@@ -28,7 +28,7 @@ weapons: [
         shrinkX: 0.3
         shrinkY: 0.5
         height: 20
-	width: 16
+		width: 16
 
 	buildingDamageMultiplier: 1.21
 
@@ -48,18 +48,17 @@ weapons: [
         trailInterval: 9.5
         trailLength: 3
         trailWidth: 1
-	trailSize: 4
+		trailSize: 4
         }
     }
 
     {
     name: mount-weapon
-    aiControllable: true
     controllable: false
     rotationLimit: 75
     autoTarget: true
-    mirror: false
     shootCone: 25
+	mirror: false
     rotate: true
     x: 6
     y: -4
@@ -74,7 +73,7 @@ weapons: [
         type: BasicBulletType
         collidesAir: true
         height: 8
-	width: 4
+		width: 4
 
         buildingDamageMultiplier: 0.83
 

@@ -1,0 +1,118 @@
+weapons: [
+{
+    name: spiroct-weapon
+    reload: 9
+    x: 4
+    y: 8
+    rotate: true
+    shootSound: sap
+    bullet: {
+        type: SapBulletType
+        knockback: -1
+        length: 55
+        width: 0.55
+
+        sapStrength: 0.85
+        lifetime: 30
+        damage: 40
+
+        shootEffect: shootSmall
+        despawnEffect: none
+
+        hitColor: bf92f9
+        color: bf92f9
+        }
+    }
+{
+    name: spiroct-weapon
+    reload: 14
+    x: 9
+    y: 6
+    rotate: true
+    shootSound: sap
+    bullet: {
+        type: SapBulletType
+        knockback: -1
+        length: 55
+        width: 0.55
+
+        sapStrength: 0.85
+        lifetime: 30
+        damage: 40
+
+        shootEffect: shootSmall
+        despawnEffect: none
+
+        hitColor: bf92f9
+        color: bf92f9
+        }
+    }
+{
+    name: spiroct-weapon
+    reload: 22
+    x: 14
+    y: 0
+    rotate: true
+    shootSound: sap
+    bullet: {
+        type: SapBulletType
+        knockback: -1
+        length: 55
+        width: 0.55
+
+        sapStrength: 0.85
+        lifetime: 30
+        damage: 40
+
+        shootEffect: shootSmall
+        despawnEffect: none
+
+        hitColor: bf92f9
+        color: bf92f9
+        }
+    }
+
+{
+    name: large-purple-mount
+    rotateSpeed: 2
+    rotate: true
+    shadow: 8
+    shootY: 7
+    recoil: 3
+    shake: 3
+    y: -7
+    x: 9
+
+    reload: 90
+
+    ejectEffect: casing1
+    
+    shootSound: artillery
+
+    bullet: {
+        type: ArtilleryBulletType
+        hitEffect: sapExplosion
+        collidesTiles: true
+        knockback: 0.8
+        height: 19
+        width: 19
+        shake: 5
+
+        splashDamageRadius: 80
+        lightningDamage: 65
+        lightningLength: 12
+        statusDuration: 600
+        ammoMultiplier: 4
+        splashDamage: 120
+        status: sapped
+        lightning: 5
+        lifetime: 90
+
+        smokeEffect: shootBigSmoke2
+
+        lightningColor: bf92f9
+        frontColor: bf92f9
+        backColor: 6d56bf
+        }
+    }
+]

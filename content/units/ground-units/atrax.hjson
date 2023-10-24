@@ -29,8 +29,6 @@ weapons: [
 
 {
     name: violet-missiles
-    shootCone: 360
-    rotate: false
     mirror: false
     shootY: 1
     x: 4.15

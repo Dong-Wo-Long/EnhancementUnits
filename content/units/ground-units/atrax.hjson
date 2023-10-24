@@ -42,6 +42,8 @@ weapons: [
     
     shootSound: missile
 
+    shootStatusDuration: 120
+    shootStatus: slow
     shoot: {
         shotDelay: 24
         shots: 3

@@ -5,6 +5,8 @@ itemCapacity: 2150
 rotateSpeed: 1
 speed: 0.3
 
+immunities: [ burning, blasted ]
+
 weapons: [
     {
     name: reign-weapon

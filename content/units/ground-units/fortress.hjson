@@ -6,6 +6,8 @@ itemCapacity: 150
 health: 1050
 armor: 11
 
+immunities: [ blasted ]
+
 weapons: [
     {
     name: artillery

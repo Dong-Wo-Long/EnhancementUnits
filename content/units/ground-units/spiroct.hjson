@@ -1,6 +1,8 @@
 itemCapacity: 90
 health: 1200
 
+immunities: [ sapped ]
+
 weapons: [
     {
     name: spiroct-weapon

@@ -1,20 +1,42 @@
+health: 8800
+armor: 7
+
+immunities: [ sapped ]
+
+abilities: [
+    {
+    type: ForceFieldAbility 
+    cooldown: 1200
+    radius: 25
+    regen: 1.3
+    sides: 6
+    max: 1250
+    }
+]
+
 weapons: [
 {
     name: spiroct-weapon
-    reload: 9
+    rotationLimit: 45
+    rotate: true
     x: 4
     y: 8
-    rotate: true
+
+    reload: 9
+
     shootSound: sap
+
     bullet: {
         type: SapBulletType
         knockback: -1
-        length: 55
+        length: 120
         width: 0.55
 
-        sapStrength: 0.85
+        buildingDamageMultiplier: 0.88
+
+        sapStrength: 1
         lifetime: 30
-        damage: 40
+        damage: 50
 
         shootEffect: shootSmall
         despawnEffect: none
@@ -25,20 +47,26 @@ weapons: [
     }
 {
     name: spiroct-weapon
-    reload: 14
+    rotationLimit: 60
+    rotate: true
     x: 9
     y: 6
-    rotate: true
+
+    reload: 14
+
     shootSound: sap
+
     bullet: {
         type: SapBulletType
         knockback: -1
-        length: 55
+        length: 100
         width: 0.55
+
+        buildingDamageMultiplier: 0.71
 
         sapStrength: 0.85
         lifetime: 30
-        damage: 40
+        damage: 30
 
         shootEffect: shootSmall
         despawnEffect: none
@@ -49,20 +77,26 @@ weapons: [
     }
 {
     name: spiroct-weapon
-    reload: 22
+    rotationLimit: 80
+    rotate: true
     x: 14
     y: 0
-    rotate: true
+
+    reload: 22
+
     shootSound: sap
+
     bullet: {
         type: SapBulletType
         knockback: -1
-        length: 55
+        length: 80
         width: 0.55
 
-        sapStrength: 0.85
+        buildingDamageMultiplier: 0.39
+
+        sapStrength: 0.65
         lifetime: 30
-        damage: 40
+        damage: 15
 
         shootEffect: shootSmall
         despawnEffect: none
@@ -74,7 +108,9 @@ weapons: [
 
 {
     name: large-purple-mount
+    rotationLimit: 60
     rotateSpeed: 2
+    inaccuracy: 9
     rotate: true
     shadow: 8
     shootY: 7
@@ -83,36 +119,106 @@ weapons: [
     y: -7
     x: 9
 
-    reload: 90
+    reload: 300
 
     ejectEffect: casing1
     
     shootSound: artillery
 
+    shoot: {
+        shotDelay: 12
+        shots: 3
+    }
+
     bullet: {
         type: ArtilleryBulletType
         hitEffect: sapExplosion
         collidesTiles: true
+        collidesAir: false
         knockback: 0.8
         height: 19
         width: 19
         shake: 5
 
+        buildingDamageMultiplier: 1.30
+
         splashDamageRadius: 80
-        lightningDamage: 65
+        lightningDamage: 32
         lightningLength: 12
         statusDuration: 600
         ammoMultiplier: 4
-        splashDamage: 120
+        splashDamage: 150
         status: sapped
         lightning: 5
-        lifetime: 90
+        lifetime: 120
+        damage: 90
+        speed: 2
 
         smokeEffect: shootBigSmoke2
 
         lightningColor: bf92f9
         frontColor: bf92f9
         backColor: 6d56bf
+        }
+    }
+
+{
+    name: hidden-purple-flamethrower-mount
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 45
+    rotateSpeed: 0.9
+    autoTarget: true
+    rotate: true
+    recoil: 1.5
+    shootY: 3
+    x: 0
+    y: 7
+
+    reload: 5
+
+    shootSound: flame2
+
+    ejectEffect: none
+
+    bullet: {
+        pierceBuilding: true
+        keepVelocity: false
+        collidesAir: false
+        hittable: false
+        pierce: true
+        hitSize: 9
+
+        statusDuration: 420
+        ammoMultiplier: 3
+        pierceCap: 1.5
+        status: sapped
+        lifetime: 40
+        damage: 127
+        speed: 2.8
+
+        shootEffect: {
+            particles: 7
+            lightOpacity: 0
+            lifetime: 55
+            sizeFrom: 2
+            sizeTo: 0.25
+            length: 105
+            cone: 7
+
+            colorFrom: bf92f9
+            colorTo: 6d56bf
+
+            sizeInterp: pow3In
+            interp: pow5Out
+        }
+
+        despawnEffect: none
+        hitEffect: none
+
+        frontColor: bf92f9
+        backColor: 6d56bf
+        hitColor: bf92f9
         }
     }
 ]

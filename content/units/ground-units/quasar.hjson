@@ -48,10 +48,8 @@ weapons: [
 
 {
     name: hidden-pm-mount
-    controllable: false
     layerOffset: -0.001
     baseRotation: -115
-    autoTarget: true
     alternate: false
     shootCone: 360
     rotate: false

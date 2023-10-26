@@ -194,7 +194,7 @@ weapons: [
         pierceCap: 1.5
         status: sapped
         lifetime: 40
-        damage: 127
+        damage: 72
         speed: 2.8
 
         shootEffect: {

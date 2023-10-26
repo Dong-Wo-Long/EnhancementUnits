@@ -145,7 +145,7 @@ weapons: [
     rotateSpeed: 0.9
     rotate: true
     recoil: 1.5
-    shootY: 16.5
+    shootY: 18
     x: 0
     y: 0
 
@@ -175,7 +175,7 @@ weapons: [
         pierceCap: 3
         status: sapped
         lifetime: 80
-        damage: 96
+        damage: 72
         speed: 2.8
 
         shootEffect: {

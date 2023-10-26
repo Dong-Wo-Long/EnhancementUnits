@@ -2,6 +2,8 @@ rotateSpeed: 0.45
 
 health: 19500
 
+immunities: [ sapped ]
+
 weapons: [
 {
     name: large-purple-mount

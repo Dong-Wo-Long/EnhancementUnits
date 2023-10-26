@@ -1,0 +1,317 @@
+rotateSpeed: 0.45
+
+health: 19800
+
+weapons: [
+{
+    name: large-purple-mount
+    rotationLimit: 60
+    rotateSpeed: 2
+    rotate: true
+    shadow: 12
+    recoil: 3
+    shootY: 7
+    shake: 4
+    x: 11
+    y: -5
+
+    reload: 50
+
+    ejectEffect: casing1
+
+    shootSound: shootBig
+
+    shoot: {
+        type: ShootSpread
+        spread: 17
+        shots: 2
+    }
+
+    bullet: {
+        type: ShrapnelBulletType
+        length: 90
+        width: 25
+
+        serrationSpaceOffset: 60
+        serrationFadeOffset: 0
+        serrationLenScl: 7
+        serrationWidth: 6
+        serrations: 10
+        damage: 430
+
+        shootEffect: sparkShoot
+        smokeEffect: sparkShoot
+
+        fromColor: bf92f9
+        toColor: 6d56bf
+        }
+    }
+
+{
+    name: toxopid-cannon
+    rotationLimit: 25
+    rotateSpeed: 0.1
+    mirror: false
+    rotate: true
+    shadow: 30
+    shootY: 22
+    recoil: 10
+    shake: 10
+    y: -14
+    x: 0
+
+    reload: 1950
+
+    ejectEffect: casing3
+
+    shootSound: artillery
+
+    shootStatusDuration: 350
+    shootStatus: slow
+
+    bullet: {
+        type: ArtilleryBulletType
+        collidesTiles: true
+        collidesAir: false
+        knockback: 0.8
+        collides: true
+        height: 25
+        width: 25
+
+        splashDamageRadius: 80
+        lightningDamage: 270
+        lightningLength: 20
+        statusDuration: 720
+        splashDamage: 1100
+        ammoMultiplier: 4
+        lightOpacity: 0.6
+        fragLifeMin: 0.3
+        lightRadius: 40
+        fragBullets: 9
+        status: sapped
+        lifetime: 196
+        lightning: 9
+        hitShake: 10
+        damage: 900
+        speed: 2.1
+
+        smokeEffect: shootBigSmoke2
+        hitEffect: sapExplosion
+
+        lightningColor: bf92f9
+        lightColor: 665c9f
+        frontColor: bf92f9
+        backColor: 6d56bf
+
+        fragBullet: { 
+            type: ArtilleryBulletType
+            collidesTiles: false
+            collidesAir: false
+            knockback: 0.8
+            height: 20
+            width: 20
+
+            splashDamageRadius: 70
+            lightningDamage: 110
+            statusDuration: 540
+            lightningLength: 6
+            lightOpacity: 0.5
+            splashDamage: 320
+            lightRadius: 30
+            status: sapped
+            lifetime: 110
+            lightning: 2
+            hitShake: 5
+            damage: 190
+            speed: 1.7
+
+            smokeEffect: shootBigSmoke2
+            hitEffect: sapExplosion
+
+            lightningColor: bf92f9
+            lightColor: 665c9f
+            frontColor: bf92f9
+            backColor: 6d56bf
+            }
+        }
+    }
+
+{
+    name: large-purple-flamethrower
+    layerOffset: -0.001
+    rotationLimit: 35
+    rotateSpeed: 0.9
+    rotate: true
+    recoil: 1.5
+    shootY: 16.5
+    x: 0
+    y: 3
+
+    velocityRnd: 0.6
+    reload: 12
+
+    shootSound: flame
+
+    ejectEffect: none
+
+    shoot: {
+        type: ShootSpread
+        spread: 3
+        shots: 3
+    }
+
+    bullet: {
+        pierceBuilding: true
+        keepVelocity: false
+        collidesAir: false
+        hittable: false
+        pierce: true
+        hitSize: 9
+
+        statusDuration: 420
+        ammoMultiplier: 3
+        pierceCap: 3
+        status: sapped
+        lifetime: 80
+        damage: 220
+        speed: 2.8
+
+        shootEffect: {
+            particles: 11
+            lightOpacity: 0
+            lifetime: 55
+            sizeFrom: 2
+            sizeTo: 0.25
+            length: 215
+            cone: 5
+
+            colorFrom: bf92f9
+            colorTo: 6d56bf
+
+            sizeInterp: pow3In
+            interp: pow5Out
+        }
+
+        despawnEffect: none
+        hitEffect: none
+
+        frontColor: bf92f9
+        backColor: 6d56bf
+        hitColor: bf92f9
+        }
+    }
+
+{
+    name: purple-missiles
+    layerOffset: -0.001
+    baseRotation: -25
+    shootCone: 120
+    mirror: true
+    shootY: 3.5
+    x: 13.5
+    y: 9
+
+    velocityRnd: 0.5
+    inaccuracy: 15
+    recoil: 1.5
+    reload: 420
+    shake: 1
+
+    shoot: { 
+        shotDelay: 12
+        shots: 3
+    }
+
+    shootSound: missile
+
+    bullet: {
+        type: MissileBulletType
+        keepVelocity: false
+        shrinkX: 0.3
+        shrinkY: 0.6
+        drag: -0.003
+        height: 11
+        width: 11
+
+        splashDamageRadius: 16
+        lightningLength: 5
+        lightningDamage: 9
+        collidesTeam: true
+        splashDamage: 45
+        homingPower: 0.96
+        homingRange: 55
+        weaveScale: 5
+        lifetime: 120
+        lightning: 3
+        weaveMag: 2
+        speed: 2.25
+        damage: 25
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        lightningColor: ffffff
+        frontColor: ffffff
+        trailColor: bf92f9
+        trailInterval: 15
+        backColor: bf92f9
+        }
+    }
+
+{
+    name: purple-missiles
+    layerOffset: -0.001
+    baseRotation: -25
+    shootCone: 120
+    mirror: true
+    shootY: 3.5
+    x: 17.5
+    y: 3.5
+
+    velocityRnd: 0.5
+    inaccuracy: 15
+    recoil: 1.5
+    reload: 600
+    shake: 1
+
+    shoot: { 
+        shotDelay: 12
+        shots: 3
+    }
+
+    shootSound: missile
+
+    bullet: {
+        type: MissileBulletType
+        keepVelocity: false
+        shrinkX: 0.3
+        shrinkY: 0.6
+        drag: -0.003
+        height: 11
+        width: 11
+
+        splashDamageRadius: 16
+        lightningLength: 5
+        lightningDamage: 9
+        collidesTeam: true
+        splashDamage: 45
+        homingPower: 0.96
+        homingRange: 55
+        weaveScale: 5
+        lifetime: 120
+        lightning: 3
+        weaveMag: 2
+        speed: 2.25
+        damage: 25
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        lightningColor: ffffff
+        frontColor: ffffff
+        trailColor: bf92f9
+        trailInterval: 15
+        backColor: bf92f9
+        }
+    }
+]

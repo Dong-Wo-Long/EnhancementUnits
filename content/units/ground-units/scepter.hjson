@@ -4,4 +4,4 @@ itemCapacity: 900
 health: 11000
 armor: 16
 
-immunities: [ blasted ]
+immunities: [ burning, blasted ]

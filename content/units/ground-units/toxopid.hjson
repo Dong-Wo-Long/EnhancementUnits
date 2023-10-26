@@ -148,7 +148,7 @@ weapons: [
     y: 0
 
     velocityRnd: 0.6
-    reload: 12
+    reload: 13.5
 
     shootSound: flame
 

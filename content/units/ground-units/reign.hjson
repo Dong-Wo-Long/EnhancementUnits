@@ -136,7 +136,6 @@ weapons: [
 
     {
     name: large-artillery
-    aiControllable: true
     controllable: false
     autoTarget: true
     shootCone: 360

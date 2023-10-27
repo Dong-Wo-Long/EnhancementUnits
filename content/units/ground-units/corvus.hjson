@@ -520,6 +520,8 @@ weapons: [
         length: 95
         width: 4
 
+	statusDuration: 90
+	status: burning
         lifetime: 155
         damage: 15
         shake: 1

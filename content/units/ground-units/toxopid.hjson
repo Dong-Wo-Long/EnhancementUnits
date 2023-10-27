@@ -1,7 +1,7 @@
 rotateSpeed: 0.45
 stepShake: 10.5
 
-health: 19500
+health: 19600
 
 immunities: [ sapped, spore-slowed, wet ]
 

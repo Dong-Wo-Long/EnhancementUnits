@@ -76,7 +76,7 @@ weapons: [
         length: 485
         width: 90
 
-		buildingDamageMultiplier: 1.07
+		buildingDamageMultiplier: 1.13
 
 		healPercent: 50
         lifetime: 65
@@ -453,15 +453,18 @@ weapons: [
         height: 12
         width: 12
 
+	buildingDamageMultiplier: 1.29
+
         splashDamageRadius: 26
+	statusDuration: 180
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.7
         homingRange: 50
         healPercent: 25
-        inaccuracy: 50
+	status: burning
         weaveScale: 5
-        lifetime: 80
+        lifetime: 100
         weaveMag: 2
         speed: 2.25
         damage: 90

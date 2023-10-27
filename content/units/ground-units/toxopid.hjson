@@ -2,7 +2,7 @@ rotateSpeed: 0.45
 
 health: 19500
 
-immunities: [ sapped ]
+immunities: [ sapped, spore-slowed, wet ]
 
 weapons: [
 {

@@ -1,7 +1,7 @@
 health: 8800
 armor: 7
 
-immunities: [ sapped ]
+immunities: [ sapped, spore-slowed ]
 
 abilities: [
     {

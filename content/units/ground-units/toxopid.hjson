@@ -5,6 +5,35 @@ health: 19500
 
 immunities: [ sapped, spore-slowed, wet ]
 
+abilities: [
+{
+    type: ShieldArcAbility
+	region: enhancement-units-toxopid-shield-right
+    angleOffset: -55
+    radius: 25
+    angle: 60
+	width: 5.5
+	y: -7
+
+	cooldown: 900
+    regen: 2.5
+    max: 2450
+    }
+{
+    type: ShieldArcAbility
+	region: enhancement-units-toxopid-shield-left
+    angleOffset: 55
+    radius: 25
+    angle: 60
+	width: 5.5
+	y: -7
+
+	cooldown: 900
+    regen: 2.5
+    max: 2450
+    }
+]
+
 weapons: [
 {
     name: large-purple-mount

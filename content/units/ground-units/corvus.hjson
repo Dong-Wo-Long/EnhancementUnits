@@ -462,12 +462,12 @@ weapons: [
 
         splashDamageRadius: 26
 	statusDuration: 180
+	status: electrified
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.7
         homingRange: 50
         healPercent: 25
-	status: burning
         weaveScale: 5
         lifetime: 100
         weaveMag: 2
@@ -509,7 +509,6 @@ weapons: [
 
     shootSound: beam
 
-    immunities: [ burning ]
     bullet: {
         type: ContinuousLaserBulletType
         collidesTeam: true

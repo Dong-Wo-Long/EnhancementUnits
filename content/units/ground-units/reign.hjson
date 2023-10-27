@@ -1,6 +1,6 @@
 forceMultiTarget: true
 fogRadius: 34.5
-stepShake: 3
+stepShake: 5
 
 itemCapacity: 2150
 rotateSpeed: 1

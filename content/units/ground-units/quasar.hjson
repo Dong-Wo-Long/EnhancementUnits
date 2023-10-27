@@ -2,8 +2,8 @@ forceMultiTarget: true
 trailLength: 12.5
 engineOffset: 7
 engineSize: 3.5
-stepShake: 1.5
 fogRadius: 26
+stepShake: 1
 
 itemCapacity: 165
 health: 780

@@ -83,7 +83,7 @@ weapons: [
 
 		buildingDamageMultiplier: 1.13
 
-		statusDuration: 300
+		statusDuration: 600
 		healPercent: 50
 		status: melting
         lifetime: 65

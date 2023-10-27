@@ -1,8 +1,8 @@
 forceMultiTarget: true
 legSplashDamage: 310
 legSplashRange: 25
-stepShake: 3.5
 fogRadius: 65
+stepShake: 5
 
 itemCapacity: 940
 rotateSpeed: 0.8

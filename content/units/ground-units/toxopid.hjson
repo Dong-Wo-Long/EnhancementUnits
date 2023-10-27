@@ -145,7 +145,7 @@ weapons: [
     rotateSpeed: 0.9
     rotate: true
     recoil: 1.5
-    shootY: 18
+    shootY: 20
     x: 0
     y: 0
 

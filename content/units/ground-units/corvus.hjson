@@ -83,7 +83,9 @@ weapons: [
 
 		buildingDamageMultiplier: 1.13
 
+		statusDuration: 300
 		healPercent: 50
+		status: melting
         lifetime: 65
 		damage: 1350
 
@@ -458,11 +460,11 @@ weapons: [
         height: 12
         width: 12
 
-	buildingDamageMultiplier: 1.29
+		buildingDamageMultiplier: 1.29
 
         splashDamageRadius: 26
-	statusDuration: 180
-	status: electrified
+		statusDuration: 180
+		status: electrified
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.7

@@ -1,7 +1,9 @@
+stepShake: 4.5
 fogRadius: 23
 
 itemCapacity: 900
 health: 11000
+speed: 0.35
 armor: 16
 
 immunities: [ burning, blasted ]

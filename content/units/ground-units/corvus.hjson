@@ -8,6 +8,8 @@ rotateSpeed: 0.8
 speed: 0.25
 armor: 11
 
+immunities: [ shocked, wet ]
+
 abilities: [
 {
     type: ShieldArcAbility

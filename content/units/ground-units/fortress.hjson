@@ -1,6 +1,6 @@
 forceMultiTarget: true
 targetAir: true
-stepShake: 2.75
+stepShake: 1.75
 fogRadius: 28
 
 itemCapacity: 150

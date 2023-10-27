@@ -474,7 +474,7 @@ weapons: [
         homingRange: 50
         healPercent: 25
         weaveScale: 5
-        lifetime: 100
+        lifetime: 120
         weaveMag: 2
         speed: 2.25
         damage: 90

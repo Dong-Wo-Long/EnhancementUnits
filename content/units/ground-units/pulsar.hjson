@@ -4,6 +4,10 @@ trailLength: 9
 health: 420
 speed: 0.75
 
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 65
+
 immunities: [ shocked ]
 
 abilities: [

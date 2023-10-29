@@ -3,6 +3,10 @@ stepShake: 4.25
 health: 8800
 armor: 7
 
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 150
+
 immunities: [ sapped, spore-slowed ]
 
 abilities: [

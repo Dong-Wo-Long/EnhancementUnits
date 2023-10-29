@@ -7,4 +7,7 @@ health: 11000
 speed: 0.35
 armor: 16
 
+lightOpacity: 0.7
+lightRadius: 140
+
 immunities: [ burning, blasted ]

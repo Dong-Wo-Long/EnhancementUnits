@@ -283,6 +283,7 @@ weapons: [
 
         splashDamageRadius: 10
         splashDamage: 45
+		healPercent: 12
         lifetime: 90
         damage: 70
         speed: 3
@@ -379,6 +380,7 @@ weapons: [
 
         splashDamageRadius: 10
         splashDamage: 32
+		healPercent: 12
         lifetime: 75
         damage: 70
         speed: 3
@@ -547,12 +549,12 @@ weapons: [
 		shake: 3
 
 		statusDuration: 90
+		healPercent: 0.5
 		status: burning
         lifetime: 155
         damage: 15
 
         incendChance: 0.03
-        healPercent: 0.5
         incendSpread: 5
         incendAmount: 1
 

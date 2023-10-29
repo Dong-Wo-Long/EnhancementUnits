@@ -259,6 +259,7 @@ weapons: [
     mirror: true
     rotate: true
     recoil: 2
+	shake: 7
     x: 20
     y: 3.5
 
@@ -276,6 +277,8 @@ weapons: [
     bullet: {
         type: LaserBoltType
         collidesAir: false
+		despawnShake: 5
+		hitShake: 5
         height: 30
 	    width: 5
 
@@ -352,6 +355,7 @@ weapons: [
     mirror: true
     rotate: true
     recoil: 2
+	shake: 7
     x: 9.75
     y: 12.5
 
@@ -369,6 +373,8 @@ weapons: [
     bullet: {
         type: LaserBoltType
         collidesAir: false
+		despawnShake: 5
+		hitShake: 5
         height: 30
 	    width: 5
 
@@ -446,6 +452,7 @@ weapons: [
     rotate: false
     mirror: false
     shootY: 9
+	shake: 15
     x: 0
     y: -9
 
@@ -468,6 +475,8 @@ weapons: [
     bullet: {
         type: MissileBulletType
         keepVelocity: false
+		despawnShake: 11
+		hitShake: 11
         shrinkX: 0.3
         shrinkY: 0.6
         drag: -0.003
@@ -518,6 +527,7 @@ weapons: [
     rotate: true
     shadow: 20
     shootY: 7
+	shake: 5
     x: 18.5
     y: -7
 
@@ -525,7 +535,6 @@ weapons: [
     rotateSpeed: 3.5
     reload: 170
     recoil: 1
-    shake: 3
 
     shootSound: beam
 
@@ -537,12 +546,12 @@ weapons: [
         maxRange: 90
         length: 95
         width: 4
+		shake: 3
 
 		statusDuration: 90
 		status: burning
         lifetime: 155
         damage: 15
-        shake: 1
 
         incendChance: 0.03
         healPercent: 0.5

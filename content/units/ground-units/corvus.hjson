@@ -80,10 +80,12 @@ weapons: [
     bullet: {
         type: LaserBulletType
 		collidesTeam: true
+		despawnShake: 32
 		largeHit: true
 		sideLength: 0
 		sideAngle: 15
 		sideWidth: 0
+		hitShake: 32
         length: 485
         width: 90
 

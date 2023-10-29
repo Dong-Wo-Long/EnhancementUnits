@@ -181,7 +181,7 @@ weapons: [
         statusDuration: 180
         splashDamage: 90
         homingPower: 0.9
-        homingRange: 60
+        homingRange: 120
         status: burning
         weaveScale: 3
         lifetime: 180

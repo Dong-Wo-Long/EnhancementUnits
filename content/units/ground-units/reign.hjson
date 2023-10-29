@@ -8,6 +8,7 @@ health: 27500
 speed: 0.3
 armor: 21
 
+lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 170
 

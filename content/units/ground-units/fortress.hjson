@@ -7,6 +7,7 @@ itemCapacity: 150
 health: 1050
 armor: 11
 
+lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 81.5
 

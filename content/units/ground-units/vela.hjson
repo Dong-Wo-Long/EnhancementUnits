@@ -22,7 +22,7 @@ weapons: [
     shootY: 14
     top: false
     recoil: 0
-    shake: 4
+    shake: 11
     x: 0
     y: 0
 
@@ -60,9 +60,10 @@ weapons: [
     bullet: {
         type: ContinuousLaserBulletType
         collidesTeam: true
+	despawnShake: 7
         drawSize: 420
+	hitShake: 7
         length: 180
-        shake: 1
 
         lifetime: 160
         damage: 45

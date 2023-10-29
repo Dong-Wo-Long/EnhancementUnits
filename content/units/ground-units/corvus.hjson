@@ -250,12 +250,10 @@ weapons: [
 
 {
     name: laser-mount
-    controllable: false
     layerOffset: -0.001
 	rotationLimit: 75
     baseRotation: -55
     rotateSpeed: 1.2
-    autoTarget: true
     alternate: false
     shootCone: 25
     mirror: true
@@ -346,11 +344,9 @@ weapons: [
     }
 {
     name: laser-mount
-    controllable: false
     layerOffset: -0.001
     rotationLimit: 45
     rotateSpeed: 1.2
-    autoTarget: true
     alternate: false
     shootCone: 25
     mirror: true
@@ -442,8 +438,10 @@ weapons: [
 
 {
     name: hidden-plasma-launcher
+	controllable: false
     layerOffset: -0.001
     baseRotation: 180
+	autoTarget: true
     shootCone: 360
     rotate: false
     mirror: false

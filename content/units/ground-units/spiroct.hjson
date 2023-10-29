@@ -5,7 +5,7 @@ health: 1200
 
 lightColor: 665c9f
 lightOpacity: 0.7
-lightRadius: 70
+lightRadius: 120
 
 immunities: [ sapped ]
 

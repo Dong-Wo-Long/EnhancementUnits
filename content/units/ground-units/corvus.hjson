@@ -295,7 +295,7 @@ weapons: [
 
 		lightColor: 84f491
 		lightOpacity: 0.7
-		lightRadius: 25
+		lightRadius: 32
 
 		parentizeEffects: true
         chargeEffect: {
@@ -390,7 +390,7 @@ weapons: [
 
 		lightColor: 84f491
 		lightOpacity: 0.7
-		lightRadius: 25
+		lightRadius: 32
 
 		parentizeEffects: true
         chargeEffect: {
@@ -555,6 +555,10 @@ weapons: [
         hitEffect: hitMeltHeal
         smokeEffect: none
         largeHit: false
+
+		lightColor: 62ae7f
+		lightOpacity: 0.7
+		lightRadius: 45
 
         colors: [ 62ae7f, ffffff ]
         }

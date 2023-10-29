@@ -349,6 +349,10 @@ weapons: [
         trailColor: bf92f9
         trailInterval: 15
         backColor: bf92f9
+
+	lightColor: bf92f9
+	lightOpacity: 0.7
+	lightRadius: 15
         }
     }
 ]

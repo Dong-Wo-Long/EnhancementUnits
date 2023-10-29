@@ -45,6 +45,10 @@ weapons: [
 
         hitColor: bf92f9
         color: bf92f9
+
+        lightColor: bf92f9
+	    lightOpacity: 0.7
+	    lightRadius: 18
         }
     }
 
@@ -75,6 +79,10 @@ weapons: [
         despawnEffect: none
         hitColor: bf92f9
         color: bf92f9
+
+        lightColor: bf92f9
+	    lightOpacity: 0.7
+	    lightRadius: 21
         }
     }
 
@@ -135,6 +143,10 @@ weapons: [
         trailColor: bf92f9
         trailInterval: 12
         backColor: bf92f9
+
+        lightColor: bf92f9
+	    lightOpacity: 0.7
+	    lightRadius: 36.5
         }
     }
 ]

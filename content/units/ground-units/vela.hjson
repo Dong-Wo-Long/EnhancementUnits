@@ -3,7 +3,7 @@ stepShake: 12.5
 fogRadius: 29
 
 itemCapacity: 350
-health: 9300
+health: 8900
 speed: 0.32
 
 lightColor: 98ffa9

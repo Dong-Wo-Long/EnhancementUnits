@@ -17,6 +17,7 @@ immunities: [ burning ]
 weapons: [
 {
 name: vela-weapon
+
     continuous: true
     mirror: false
     shootY: 14

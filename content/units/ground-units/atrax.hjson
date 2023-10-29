@@ -63,10 +63,10 @@ weapons: [
         collidesTiles: false
         keepVelocity: false
         collidesAir: false
+        despawnShake: 9
         shrinkX: 0.25
         shrinkY: 0.5
         drag: -0.003
-        shake: 12.5
         height: 11
         width: 11
 

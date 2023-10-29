@@ -110,10 +110,10 @@ weapons: [
         type: ArtilleryBulletType
         collidesTiles: true
         collidesAir: false
-		despawnShake: 45
+		despawnShake: 68
         knockback: 0.8
         collides: true
-		hitShake: 45
+		hitShake: 68
         height: 25
         width: 25
 
@@ -146,9 +146,9 @@ weapons: [
             type: ArtilleryBulletType
             collidesTiles: false
             collidesAir: false
-			despawnShake: 23
+			despawnShake: 27
             knockback: 0.8
-			hitShake: 23
+			hitShake: 27
             height: 20
             width: 20
 

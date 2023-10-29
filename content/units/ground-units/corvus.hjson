@@ -7,7 +7,7 @@ stepShake: 17
 itemCapacity: 940
 rotateSpeed: 0.8
 speed: 0.25
-armor: 11
+armor: 15
 
 lightColor: 98ffa9
 lightOpacity: 0.7
@@ -30,8 +30,8 @@ abilities: [
     }
 {
 	type: RegenAbility
-	percentAmount: 0.025
-	amount: 0.15
+	percentAmount: 0.015
+	amount: 0.05
 	}
 ]
 

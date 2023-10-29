@@ -214,7 +214,7 @@ weapons: [
 
 		lightColor: ff7538
 		lightOpacity: 0.7
-		lightRadius: 19.5
+		lightRadius: 45
 
 		despawnEffect: blastExplosion
         hitEffect: blastExplosion

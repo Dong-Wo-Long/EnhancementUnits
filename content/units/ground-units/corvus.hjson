@@ -41,7 +41,7 @@ weapons: [
 	mirror: false
     top: false
 	shootY: 5
-    shake: 60
+    shake: 98
     x: 0
     y: 0
 
@@ -80,12 +80,12 @@ weapons: [
     bullet: {
         type: LaserBulletType
 		collidesTeam: true
-		despawnShake: 32
+		despawnShake: 52
 		largeHit: true
 		sideLength: 0
 		sideAngle: 15
 		sideWidth: 0
-		hitShake: 32
+		hitShake: 52
         length: 485
         width: 90
 

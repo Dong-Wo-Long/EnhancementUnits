@@ -131,7 +131,7 @@ weapons: [
 
 		lightColor: ffa665
 		lightOpacity: 0.7
-		lightRadius: 25
+		lightRadius: 32
 
         fragBullet: {
             type: BasicBulletType
@@ -156,7 +156,7 @@ weapons: [
 
 			lightColor: ffa665
 			lightOpacity: 0.7
-			lightRadius: 12
+			lightRadius: 17
             }
         }
     }

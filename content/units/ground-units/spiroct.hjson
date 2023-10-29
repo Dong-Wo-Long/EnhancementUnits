@@ -3,6 +3,10 @@ stepShake: 1.5
 itemCapacity: 90
 health: 1200
 
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 70
+
 immunities: [ sapped ]
 
 weapons: [

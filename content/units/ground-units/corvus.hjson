@@ -460,7 +460,6 @@ weapons: [
     inaccuracy: 25
     recoil: -4.65
     reload: 360
-    shake: 1
 
     shoot: { 
         type: ShootAlternate

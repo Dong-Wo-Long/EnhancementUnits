@@ -2,8 +2,8 @@ forceMultiTarget: true
 trailLength: 12.5
 engineOffset: 7
 engineSize: 3.5
+stepShake: 2.25
 fogRadius: 26
-stepShake: 1
 
 itemCapacity: 165
 health: 780
@@ -28,7 +28,7 @@ weapons: [
     name: beam-weapon
     predictTarget: true
     shootCone: 160
-    shake: 5.5
+    shake: 11.5
     recoil: 4
     shootY: 4
     x: 6.5

@@ -4,7 +4,7 @@ speed: 0.6
 armor: 2
 
 lightOpacity: 0.7
-lightRadius: 60
+lightRadius: 55
 
 weapons: [
     {

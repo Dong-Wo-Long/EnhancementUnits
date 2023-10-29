@@ -50,6 +50,10 @@ weapons: [
 
         hitColor: bf92f9
         color: bf92f9
+
+        lightColor: bf92f9
+        lightOpacity: 0.7
+        lightRadius: 17
         }
     }
 {
@@ -80,6 +84,10 @@ weapons: [
 
         hitColor: bf92f9
         color: bf92f9
+
+        lightColor: bf92f9
+        lightOpacity: 0.7
+        lightRadius: 17
         }
     }
 {
@@ -110,6 +118,10 @@ weapons: [
 
         hitColor: bf92f9
         color: bf92f9
+
+        lightColor: bf92f9
+        lightOpacity: 0.7
+        lightRadius: 17
         }
     }
 
@@ -166,6 +178,10 @@ weapons: [
         lightningColor: bf92f9
         frontColor: bf92f9
         backColor: 6d56bf
+
+        lightColor: bf92f9
+        lightOpacity: 0.7
+        lightRadius: 38
         }
     }
 
@@ -204,6 +220,17 @@ weapons: [
         damage: 54
         speed: 2.8
 
+        despawnEffect: none
+        hitEffect: none
+
+        frontColor: bf92f9
+        backColor: 6d56bf
+        hitColor: bf92f9
+
+        lightColor: bf92f9
+        lightOpacity: 0.7
+        lightRadius: 18
+
         shootEffect: {
             particles: 7
             lightOpacity: 0
@@ -219,13 +246,6 @@ weapons: [
             sizeInterp: pow3In
             interp: pow5Out
         }
-
-        despawnEffect: none
-        hitEffect: none
-
-        frontColor: bf92f9
-        backColor: 6d56bf
-        hitColor: bf92f9
         }
     }
 ]

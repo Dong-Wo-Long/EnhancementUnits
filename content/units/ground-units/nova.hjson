@@ -1,4 +1,5 @@
 boostMultiplier: 2
+stepShake: 0.25
 trailLength: 8
 fogRadius: 25
 

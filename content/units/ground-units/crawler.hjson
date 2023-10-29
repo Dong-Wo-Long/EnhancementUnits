@@ -3,7 +3,7 @@ range: 25
 
 lightColor: 665c9f
 lightOpacity: 0.7
-lightRadius: 50
+lightRadius: 47.5
 
 weapons: [
     {

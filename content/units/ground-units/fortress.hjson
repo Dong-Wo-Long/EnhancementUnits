@@ -16,7 +16,7 @@ weapons: [
     {
     name: artillery
     shootCone: 30
-	shake: 3.5
+	shake: 7.5
     recoil: 4
     x: 9.5
     y: 1

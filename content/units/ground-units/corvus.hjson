@@ -39,9 +39,8 @@ weapons: [
 {
     name: corvus-weapon
 	mirror: false
-    top: false
+	shake: 115
 	shootY: 5
-    shake: 98
     x: 0
     y: 0
 

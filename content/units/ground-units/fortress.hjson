@@ -95,6 +95,10 @@ weapons: [
         trailColor: f9c27a
         trailLength: 3.2
         trailWidth: 1.5
+
+		lightColor: f9c27a
+        lightOpacity: 0.7
+        lightRadius: 21
         }
     }
 ]

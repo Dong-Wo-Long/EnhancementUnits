@@ -50,10 +50,10 @@ weapons: [
         hitEffect: blastExplosion
 
         trailEffect: artilleryTrail
+		trailInterval: 9.5
         trailColor: f9c27a
         frontColor: fff8e8
         backColor: f9c27a
-        trailInterval: 9.5
         trailLength: 3
         trailWidth: 1
 		trailSize: 4
@@ -93,11 +93,11 @@ weapons: [
         damage: 7
         speed: 3
 
-        trailColor: f9c27a
+        trailColor: fff8e8
         trailLength: 3.2
         trailWidth: 1.5
 
-		lightColor: f9c27a
+		lightColor: fff8e8
         lightOpacity: 0.7
         lightRadius: 21
         }

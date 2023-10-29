@@ -83,6 +83,8 @@ bullet: {
     smokeEffect: none
 
     colors: [ 98ffa9, ffffff ]
+    lightColor: 98ffa9
+    lightOpacity: 0.7
 }
     }
 
@@ -117,6 +119,7 @@ name: laser-mount
     mirror: true
     rotate: true
     recoil: 2
+    shake: 7
     x: 14.5
     y: -1.5
 
@@ -134,6 +137,8 @@ shoot: {
 
 bullet: {
     type: LaserBoltType
+    despawnShake: 5
+    hitShake: 5
     height: 9
 	width: 5
 
@@ -148,10 +153,15 @@ bullet: {
     speed: 4
 
     trailColor: 84f491
+    lightColor: 84f491
     frontColor: 84f491
     trailLength: 5.25
     backColor: ffffff
     trailWidth: 1.75
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 25
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
@@ -180,12 +190,12 @@ name: plasma-missile-mount
     shootCone: 60
     rotate: true
     recoil: 3
+    shake: 21
     x: 11
     y: -8
 
     inaccuracy: 2.5
     reload: 420
-    shake: 2
 
     shootEffect: shootSmall
     shootSound: artillery
@@ -196,6 +206,8 @@ bullet: {
     sprite: enhancement-units-circle-bullet
     collidesTiles: true
     collidesAir: false
+    despawnShake: 25
+    hitShake: 25
     shrinkX: 0.5
     shrinkY: 0.25
     height: 18
@@ -220,10 +232,15 @@ bullet: {
 
     trailEffect: artilleryTrail
     trailColor: 84f491
+    lightColor: 84f491
     frontColor: ffffff
     backColor: 84f491
     trailLength: 21
     trailWidth: 4.5
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 75
 
 hitEffect: {
     type: WaveEffect

@@ -85,6 +85,7 @@ weapons: [
     mirror: false
     rotate: true
     shootY: 1
+    shake: 5
     x: 0
     y: -7
 
@@ -92,7 +93,6 @@ weapons: [
     inaccuracy: 30
     reload: 600
     recoil: 2
-    shake: 1
     
     shootSound: missile
 
@@ -113,6 +113,7 @@ weapons: [
         drag: -0.003
         height: 11
         width: 11
+        shake: 3
 
         splashDamageRadius: 25
         lightningLength: 7

@@ -28,7 +28,7 @@ weapons: [
     name: beam-weapon
     predictTarget: true
     shootCone: 160
-    shake: 3.5
+    shake: 5.5
     recoil: 4
     shootY: 4
     x: 6.5
@@ -59,6 +59,7 @@ weapons: [
     shootCone: 360
     rotate: false
     shootY: 5.25
+    shake: 3.5
     x: 7.5
     y: -1.5
 
@@ -83,6 +84,7 @@ weapons: [
         drag: -0.003
         height: 9
         width: 9
+        shake: 2
 
         splashDamageRadius: 15
         collidesTeam: true

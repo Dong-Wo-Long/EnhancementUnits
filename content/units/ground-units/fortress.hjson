@@ -16,12 +16,12 @@ weapons: [
     {
     name: artillery
     shootCone: 30
+	shake: 3.5
     recoil: 4
     x: 9.5
     y: 1
 
     reload: 60
-    shake: 2
 
     shootEffect: shootSmall
     shootSound: artillery
@@ -35,8 +35,9 @@ weapons: [
         shrinkY: 0.5
         height: 20
 		width: 16
+		shake: 2
 
-	buildingDamageMultiplier: 1.21
+		buildingDamageMultiplier: 1.21
 
         splashDamageRadius: 35
         splashDamage: 80

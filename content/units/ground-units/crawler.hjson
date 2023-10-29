@@ -1,6 +1,10 @@
 fogRadius: 5
 range: 25
 
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 50
+
 weapons: [
     {
     shootCone: 160

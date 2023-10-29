@@ -1,5 +1,9 @@
 health: 690
 
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 90
+
 weapons: [
 {
     name: atrax-weapon

@@ -65,6 +65,10 @@ weapons: [
 
             hitEffect: hitLancer
             despawnEffect: none
+
+            lightColor: 98ffa9
+            lightOpacity: 0.7
+            lightRadius: 75
             }
         }
     }

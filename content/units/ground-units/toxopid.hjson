@@ -213,7 +213,18 @@ weapons: [
         damage: 72
         speed: 2.8
 
-        shootEffect: {
+        despawnEffect: none
+        hitEffect: none
+
+        frontColor: bf92f9
+        backColor: 6d56bf
+        hitColor: bf92f9
+
+		lightColor: bf92f9
+        lightOpacity: 0.7
+        lightRadius: 21
+
+		shootEffect: {
             particles: 11
             lightOpacity: 0
             lifetime: 55
@@ -228,13 +239,6 @@ weapons: [
             sizeInterp: pow3In
             interp: pow5Out
         }
-
-        despawnEffect: none
-        hitEffect: none
-
-        frontColor: bf92f9
-        backColor: 6d56bf
-        hitColor: bf92f9
         }
     }
 

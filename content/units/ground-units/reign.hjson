@@ -18,12 +18,12 @@ weapons: [
     name: reign-weapon
     shootCone: 45
     recoil: 5
+	shake: 6
     x: 21.5
     y: 1
 
     shootY: 11
     reload: 9
-    shake: 2
 
     ejectEffect: casing4
     shootSound: bang
@@ -33,6 +33,7 @@ weapons: [
         pierce: true
         height: 33
         width: 14
+		shake: 4
 
         splashDamageRadius: 13
         fragRandomSpread: 45
@@ -74,6 +75,7 @@ weapons: [
     rotateSpeed: 0.75
     shootCone: 360
     rotate: true
+	shake: 4.5
     x: -6.5
     y: -12
 
@@ -81,7 +83,6 @@ weapons: [
     inaccuracy: 45
     reload: 120
     recoil: 1.5
-    shake: 1
 
     shoot: { 
         shotDelay: 8
@@ -98,6 +99,7 @@ weapons: [
         shrinkY: 0
         height: 9
         width: 9
+		shake: 3
 
         splashDamageRadius: 19
         fragRandomSpread: 360
@@ -122,6 +124,7 @@ weapons: [
             pierceBuilding: true
             collidesAir: false
             pierce: true
+			shake: 0.75
             height: 3
             width: 3
 
@@ -147,6 +150,7 @@ weapons: [
     shootCone: 360
     mirror: false
     shootY: 2
+	shake: 3
     x: 13
     y: -3
 
@@ -170,6 +174,7 @@ weapons: [
         shrinkY: 0.5
         height: 9
 	    width: 9
+		shake: 2
 
         splashDamageRadius: 21
         statusDuration: 180

@@ -6,6 +6,10 @@ itemCapacity: 350
 health: 9300
 speed: 0.32
 
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 125
+
 trailLength: 15
 
 immunities: [ burning ]

@@ -557,8 +557,6 @@ weapons: [
         largeHit: false
 
 		lightColor: 62ae7f
-		lightOpacity: 0.7
-		lightRadius: 45
 
         colors: [ 62ae7f, ffffff ]
         }

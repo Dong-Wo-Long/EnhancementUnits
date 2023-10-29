@@ -42,7 +42,7 @@ weapons: [
 	mirror: false
     top: false
 	shootY: 5
-    shake: 14
+    shake: 45
     x: 0
     y: 0
 

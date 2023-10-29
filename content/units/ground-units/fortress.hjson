@@ -7,6 +7,9 @@ itemCapacity: 150
 health: 1050
 armor: 11
 
+lightOpacity: 0.7
+lightRadius: 90
+
 immunities: [ blasted ]
 
 weapons: [

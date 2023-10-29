@@ -51,6 +51,10 @@ weapons: [
         hitEffect: blastExplosion
         shootEffect: shootBig
 
+		lightColor: fff8e8
+		lightOpacity: 0.7
+		lightRadius: 52
+
         fragBullet: {
             type: BasicBulletType
             pierceBuilding: true
@@ -66,6 +70,10 @@ weapons: [
             speed: 5
 
             hitEffect: flakExplosion
+
+			lightColor: fff8e8
+			lightOpacity: 0.7
+			lightRadius: 21
         	}
         }
     }
@@ -121,6 +129,10 @@ weapons: [
         trailColor: ffa665
         trailInterval: 8
 
+		lightColor: ffa665
+		lightOpacity: 0.7
+		lightRadius: 25
+
         fragBullet: {
             type: BasicBulletType
             pierceBuilding: true
@@ -141,6 +153,10 @@ weapons: [
 
             trailInterval: 6.5
             trailColor: ffa665
+
+			lightColor: ffa665
+			lightOpacity: 0.7
+			lightRadius: 12
             }
         }
     }
@@ -190,9 +206,19 @@ weapons: [
         damage: 180
         speed: 1.6
 
-        despawnEffect: blastExplosion
+        trailColor: ff7538
+        frontColor: ffffff
+        trailLength: 6.75
+        backColor: ff7538
+        trailWidth: 1.5
+
+		lightColor: ff7538
+		lightOpacity: 0.7
+		lightRadius: 19.5
+
+		despawnEffect: blastExplosion
         hitEffect: blastExplosion
-        shootEffect: {
+		shootEffect: {
             line: true
             length: 60
             cone: 25
@@ -207,13 +233,7 @@ weapons: [
             cap: false
             colorFrom: ffdd55
             colorTo: db401c
-        }
-
-        trailColor: ff7538
-        frontColor: ffffff
-        trailLength: 6.75
-        backColor: ff7538
-        trailWidth: 1.5
+        	}
         }
     }
 

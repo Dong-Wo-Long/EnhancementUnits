@@ -488,7 +488,7 @@ weapons: [
 		statusDuration: 180
 		status: electrified
         collidesTeam: true
-        splashDamage: 45
+        splashDamage: 132
         homingPower: 0.7
         homingRange: 50
         healPercent: 25
@@ -496,7 +496,7 @@ weapons: [
         lifetime: 120
         weaveMag: 2
         speed: 2.25
-        damage: 90
+		damage: 96
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion

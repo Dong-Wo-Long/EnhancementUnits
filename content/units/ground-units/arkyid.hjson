@@ -1,4 +1,5 @@
 stepShake: 4.25
+fogRadius: 30.5
 
 health: 8800
 armor: 7

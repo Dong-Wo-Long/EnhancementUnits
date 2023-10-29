@@ -245,6 +245,7 @@ weapons: [
     shootCone: 120
     mirror: true
     shootY: 3.5
+	shake: 5
     x: 13.5
     y: 9
 
@@ -252,64 +253,6 @@ weapons: [
     inaccuracy: 15
     recoil: 1.5
     reload: 420
-    shake: 1
-
-    shoot: { 
-        shotDelay: 12
-        shots: 3
-    }
-
-    shootSound: missile
-
-    bullet: {
-        type: MissileBulletType
-        keepVelocity: false
-        shrinkX: 0.3
-        shrinkY: 0.6
-        drag: -0.003
-        height: 11
-        width: 11
-
-        splashDamageRadius: 16
-        lightningLength: 5
-        lightningDamage: 9
-        collidesTeam: true
-        splashDamage: 45
-        homingPower: 0.96
-        homingRange: 55
-        weaveScale: 5
-        lifetime: 120
-        lightning: 3
-        weaveMag: 2
-        speed: 2.25
-        damage: 25
-
-        despawnEffect: blastExplosion
-        hitEffect: blastExplosion
-
-        lightningColor: ffffff
-        frontColor: ffffff
-        trailColor: bf92f9
-        trailInterval: 15
-        backColor: bf92f9
-        }
-    }
-
-{
-    name: purple-missiles
-    layerOffset: -0.001
-    baseRotation: -25
-    shootCone: 120
-    mirror: true
-    shootY: 3.5
-    x: 17.5
-    y: 3.5
-
-    velocityRnd: 0.5
-    inaccuracy: 15
-    recoil: 1.5
-    reload: 600
-    shake: 1
 
     shoot: { 
         shotDelay: 12
@@ -352,7 +295,68 @@ weapons: [
 
 	lightColor: bf92f9
 	lightOpacity: 0.7
-	lightRadius: 15
+	lightRadius: 23.5
+        }
+    }
+
+{
+    name: purple-missiles
+    layerOffset: -0.001
+    baseRotation: -25
+    shootCone: 120
+    mirror: true
+    shootY: 3.5
+	shake: 5
+    x: 17.5
+    y: 3.5
+
+    velocityRnd: 0.5
+    inaccuracy: 15
+    recoil: 1.5
+    reload: 600
+
+    shoot: { 
+        shotDelay: 12
+        shots: 3
+    }
+
+    shootSound: missile
+
+    bullet: {
+        type: MissileBulletType
+        keepVelocity: false
+        shrinkX: 0.3
+        shrinkY: 0.6
+        drag: -0.003
+        height: 11
+        width: 11
+
+        splashDamageRadius: 16
+        lightningLength: 5
+        lightningDamage: 9
+        collidesTeam: true
+        splashDamage: 45
+        homingPower: 0.96
+        homingRange: 55
+        weaveScale: 5
+        lifetime: 120
+        lightning: 3
+        weaveMag: 2
+        speed: 2.25
+        damage: 25
+
+        despawnEffect: blastExplosion
+        hitEffect: blastExplosion
+
+        lightningColor: ffffff
+        frontColor: ffffff
+        trailColor: bf92f9
+        trailInterval: 15
+        backColor: bf92f9
+
+		lightColor: bf92f9
+		lightOpacity: 0.7
+		lightRadius: 23.5
         }
     }
 ]

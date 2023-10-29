@@ -23,7 +23,7 @@ name: vela-weapon
     shootY: 14
     top: false
     recoil: 0
-    shake: 18
+    shake: 21
     x: 0
     y: 0
 
@@ -62,10 +62,11 @@ effects: [
 bullet: {
     type: ContinuousLaserBulletType
     collidesTeam: true
-	despawnShake: 7
+	despawnShake: 13
     drawSize: 420
-	hitShake: 7
+	hitShake: 13
     length: 180
+    shake: 5.5
 
     lifetime: 160
     damage: 45

@@ -31,6 +31,10 @@ weapons: [
         speed: 2.5
 
         shootEffect: shootSmall
+
+	lightColor: ffa166
+	lightOpacity: 0.7
+	lightRadius: 32
         }
     }
 

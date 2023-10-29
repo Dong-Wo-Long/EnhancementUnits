@@ -1,3 +1,5 @@
+stepShake: 0.50
+
 itemCapacity: 45
 health: 210
 speed: 0.6

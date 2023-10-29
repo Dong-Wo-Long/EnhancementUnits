@@ -38,7 +38,6 @@ abilities: [
 weapons: [
 {
     name: corvus-weapon
-    shootCone: 15
 	mirror: false
     top: false
 	shootY: 5

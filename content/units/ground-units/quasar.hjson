@@ -59,7 +59,7 @@ weapons: [
     shootCone: 360
     rotate: false
     shootY: 5.25
-    shake: 3.5
+    shake: 5
     x: 7.5
     y: -1.5
 
@@ -79,12 +79,13 @@ weapons: [
     bullet: {
         type: MissileBulletType
         keepVelocity: false
+        despawnShake: 3
         shrinkX: 0.25
         shrinkY: 0.5
         drag: -0.003
+        hitShake: 3
         height: 9
         width: 9
-        shake: 2
 
         splashDamageRadius: 15
         collidesTeam: true

@@ -48,7 +48,7 @@ weapons: [
     shadow: 12
     recoil: 3
     shootY: 7
-    shake: 12
+    shake: 17
     x: 11
     y: -5
 
@@ -93,7 +93,7 @@ weapons: [
     shadow: 30
     shootY: 22
     recoil: 10
-    shake: 32
+    shake: 65
     y: -14
     x: 0
 
@@ -110,10 +110,10 @@ weapons: [
         type: ArtilleryBulletType
         collidesTiles: true
         collidesAir: false
-		despawnShake: 21
+		despawnShake: 29
         knockback: 0.8
         collides: true
-		hitShake: 21
+		hitShake: 29
         height: 25
         width: 25
 
@@ -254,7 +254,7 @@ weapons: [
     shootCone: 120
     mirror: true
     shootY: 3.5
-	shake: 9
+	shake: 11.5
     x: 13.5
     y: 9
 
@@ -273,8 +273,8 @@ weapons: [
     bullet: {
         type: MissileBulletType
         keepVelocity: false
-		despawnShake: 11
-		hitShake: 11
+		despawnShake: 15
+		hitShake: 15
         shrinkX: 0.3
         shrinkY: 0.6
         drag: -0.003
@@ -306,7 +306,7 @@ weapons: [
 
 		lightColor: bf92f9
 		lightOpacity: 0.7
-		lightRadius: 23.5
+		lightRadius: 31
         }
     }
 
@@ -317,7 +317,7 @@ weapons: [
     shootCone: 120
     mirror: true
     shootY: 3.5
-	shake: 9
+	shake: 11.5
     x: 17.5
     y: 3.5
 
@@ -336,8 +336,8 @@ weapons: [
     bullet: {
         type: MissileBulletType
         keepVelocity: false
-		despawnShake: 11
-		hitShake: 11
+		despawnShake: 15
+		hitShake: 15
         shrinkX: 0.3
         shrinkY: 0.6
         drag: -0.003
@@ -369,7 +369,7 @@ weapons: [
 
 		lightColor: bf92f9
 		lightOpacity: 0.7
-		lightRadius: 23.5
+		lightRadius: 31
         }
     }
 ]

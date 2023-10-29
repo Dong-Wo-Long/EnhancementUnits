@@ -30,10 +30,11 @@ weapons: [
 
     bullet: {
         type: BasicBulletType
+		despawnShake: 6
         pierce: true
+		hitShake: 6
         height: 33
         width: 14
-		shake: 6
 
         splashDamageRadius: 13
         fragRandomSpread: 45

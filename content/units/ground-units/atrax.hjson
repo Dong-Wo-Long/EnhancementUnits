@@ -46,7 +46,7 @@ weapons: [
     inaccuracy: 15
     reload: 300
     recoil: 2
-    shake: 1
+    shake: 13
     
     shootSound: missile
 
@@ -68,7 +68,7 @@ weapons: [
         drag: -0.003
         height: 11
         width: 11
-        shake: 3
+        shake: 9
 
         splashDamageRadius: 23
         lightningLength: 5

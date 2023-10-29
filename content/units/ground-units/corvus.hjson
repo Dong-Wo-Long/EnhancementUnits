@@ -119,7 +119,7 @@ weapons: [
                 sizeTo: 7
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -132,7 +132,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 7
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -145,7 +145,7 @@ weapons: [
                 sizeTo: 15
                 strokeFrom: 0
                 strokeTo: 5
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -158,7 +158,7 @@ weapons: [
                 sizeTo: 120
                 strokeFrom: 0
                 strokeTo: 9
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -171,7 +171,7 @@ weapons: [
                 sizeTo: 230
                 strokeFrom: 0
                 strokeTo: 6
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 followParent: true
                 rotWithParent: true
@@ -186,7 +186,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 2.5
                 sizeTo: 0
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -202,7 +202,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 5
                 sizeTo: 0
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -218,7 +218,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 9
                 sizeTo: 0
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -236,7 +236,7 @@ weapons: [
                 lifetime: 15
                 sizeFrom: 3
                 sizeTo: 0
-                colorFrom: 84f491
+                colorFrom: 98ffa9
                 colorTo: ffffff
                 strokeFrom: 2
                 strokeTo: 0.4 
@@ -287,7 +287,17 @@ weapons: [
         damage: 70
         speed: 3
 
-        parentizeEffects: true
+        trailColor: 84f491
+        frontColor: 84f491
+        trailLength: 5.25
+        backColor: ffffff
+        trailWidth: 0.5
+
+		lightColor: 84f491
+		lightOpacity: 0.7
+		lightRadius: 25
+
+		parentizeEffects: true
         chargeEffect: {
             type: WaveEffect
             rotWithParent: true
@@ -332,12 +342,6 @@ weapons: [
                 }
             ]
         }
-
-        trailColor: 84f491
-        frontColor: 84f491
-        trailLength: 5.25
-        backColor: ffffff
-        trailWidth: 0.5
         }
     }
 {
@@ -378,7 +382,17 @@ weapons: [
         damage: 70
         speed: 3
 
-        parentizeEffects: true
+        trailColor: 84f491
+        frontColor: 84f491
+        trailLength: 5.25
+        backColor: ffffff
+        trailWidth: 0.5
+
+		lightColor: 84f491
+		lightOpacity: 0.7
+		lightRadius: 25
+
+		parentizeEffects: true
         chargeEffect: {
             type: WaveEffect
             rotWithParent: true
@@ -423,12 +437,6 @@ weapons: [
                 }
             ]
         }
-
-        trailColor: 84f491
-        frontColor: 84f491
-        trailLength: 5.25
-        backColor: ffffff
-        trailWidth: 0.5
         }
     }
 
@@ -491,6 +499,10 @@ weapons: [
         trailColor: 62ae7f
         trailInterval: 15
         backColor: 62ae7f
+
+		lightColor: 62ae7f
+		lightOpacity: 0.7
+		lightRadius: 41
         }
     }
 
@@ -528,8 +540,8 @@ weapons: [
         length: 95
         width: 4
 
-	statusDuration: 90
-	status: burning
+		statusDuration: 90
+		status: burning
         lifetime: 155
         damage: 15
         shake: 1

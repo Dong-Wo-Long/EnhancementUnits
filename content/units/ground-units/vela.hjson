@@ -6,9 +6,9 @@ itemCapacity: 350
 health: 9300
 speed: 0.32
 
-immunities: [ burning ]
-
 trailLength: 15
+
+immunities: [ burning ]
 
 weapons: [
 {

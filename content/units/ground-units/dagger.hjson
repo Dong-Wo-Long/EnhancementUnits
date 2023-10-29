@@ -5,7 +5,7 @@ health: 210
 speed: 0.6
 armor: 2
 
-lightColor:
+lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 55
 
@@ -27,6 +27,10 @@ weapons: [
         lifetime: 60
         speed: 2.5
         damage: 9
+
+        lightColor: fff8e8
+        lightOpacity: 0.7
+        lightRadius: 20
         }
     }
 ]

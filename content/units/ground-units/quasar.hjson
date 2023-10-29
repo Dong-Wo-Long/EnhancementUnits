@@ -8,6 +8,10 @@ stepShake: 1
 itemCapacity: 165
 health: 780
 
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 90
+
 abilities: [
     {
     type: ForceFieldAbility 

@@ -8,7 +8,7 @@ health: 1050
 armor: 11
 
 lightOpacity: 0.7
-lightRadius: 90
+lightRadius: 81.5
 
 immunities: [ blasted ]
 

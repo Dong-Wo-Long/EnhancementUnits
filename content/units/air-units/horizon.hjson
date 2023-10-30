@@ -4,6 +4,10 @@ accel: 1.7
 
 trailLength: 9.5
 
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 52
+
 weapons: [
 {
     minShootVelocity: 0.75
@@ -39,6 +43,10 @@ bullet: {
     hitEffect: flakExplosion
     shootEffect: none
     smokeEffect: none
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 32
 }
     }
 ]

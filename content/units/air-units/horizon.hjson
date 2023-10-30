@@ -1,5 +1,6 @@
+rotateSpeed: 10.5
+speed: 1.95
 accel: 1.7
-speed: 2.6
 
 trailLength: 9.5
 
@@ -13,15 +14,15 @@ weapons: [
     x: 3
     y: 0
 
-    reload: 150
+    reload: 105
 
     ejectEffect: none
 
     shootSound: none
 
 shoot: {
-    shotDelay: 12
-    shots: 3
+    shotDelay: 15
+    shots: 5
 }
 
 bullet: {
@@ -29,9 +30,11 @@ bullet: {
     height: 14
     width: 10
 
+    splashDamageRadius: 36.5
     statusDuration: 90
+    splashDamage: 32
     status: blasted
-    damage: 32
+    damage: 23.5
 
     hitEffect: flakExplosion
     shootEffect: none

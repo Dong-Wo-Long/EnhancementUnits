@@ -1,1 +1,41 @@
+accel: 1.7
+speed: 2.6
+
 trailLength: 9.5
+
+weapons: [
+{
+    minShootVelocity: 0.75
+    ignoreRotation: true
+    inaccuracy: 15
+    shootCone: 180
+    shootY: 0
+    x: 3
+    y: 0
+
+    reload: 150
+
+    ejectEffect: none
+
+    shootSound: none
+
+shoot: {
+    shotDelay: 12
+    shots: 3
+}
+
+bullet: {
+    type: BombBulletType
+    height: 14
+    width: 10
+
+    statusDuration: 90
+    status: blasted
+    damage: 32
+
+    hitEffect: flakExplosion
+    shootEffect: none
+    smokeEffect: none
+}
+    }
+]

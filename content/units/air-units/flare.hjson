@@ -7,12 +7,16 @@ speed: 3
 
 trailLength: 7.5
 
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 45
+
 weapons: [
 {
     x: 2
     y: 0
 
-    reload: 9
+    reload: 5
 
     shootSound: pew
     
@@ -24,7 +28,7 @@ weapons: [
         height: 9
         width: 7
 
-        lifetime: 45
+        lifetime: 52.5
         damage: 5.5
         speed: 3
         
@@ -32,6 +36,10 @@ weapons: [
         smokeEffect: shootSmallSmoke
         
         shootSound: pew
+
+        lightColor: fff8e8
+        lightOpacity: 0.7
+        lightRadius: 17.5
         }
     }
 ]

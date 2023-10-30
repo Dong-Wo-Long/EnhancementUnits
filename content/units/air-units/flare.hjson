@@ -1,4 +1,5 @@
 circleTarget: true
+rotateSpeed: 12
 
 health: 75
 accel: 2.1

@@ -44,11 +44,11 @@ bullet: {
     width: 11
 
     lifetime: 35
-    damage: 175
+    damage: 98
     speed: 7
 
     lightningColor: f3e979
-    lightningDamage: 52
+    lightningDamage: 32
     lightningLength: 7
     lightning: 3
 

@@ -11,7 +11,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 45
 
-targetFlags: [
+targetFlags: [ extinguisher, reactor, generator, battery, drill, repair ]
 
 weapons: [
 {

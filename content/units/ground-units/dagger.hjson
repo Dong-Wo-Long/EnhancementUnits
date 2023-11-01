@@ -20,18 +20,19 @@ weapons: [
 
     ejectEffect: casing1
 
-    bullet: {
-        type: BasicBulletType
-        height: 9
-        width: 7
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    height: 9
+    width: 7
 
-        lifetime: 60
-        speed: 2.5
-        damage: 9
+    lifetime: 60
+    speed: 2.5
+    damage: 9
 
-        lightColor: fff8e8
-        lightOpacity: 0.7
-        lightRadius: 20
-        }
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 20
+}
     }
 ]

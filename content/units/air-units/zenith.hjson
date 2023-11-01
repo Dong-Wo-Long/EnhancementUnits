@@ -1,1 +1,120 @@
+circleTarget: true
+rotateSpeed: 1.9
+
+ammoType: blast-compound
+health: 810
+armor: 6
+
 trailLength: 11.5
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 67.5
+
+targetFlags: [ launchPad, factory, storage, repair, unitAssembler, battery ]
+
+weapons: [
+{
+name: zenith-missiles
+    rotate: true
+    shake: 1.5
+    x: 7
+    y: 0
+
+    velocityRnd: 0.35
+    inaccuracy: 9
+    reload: 320
+
+    shootSound: missile
+
+    shootStatusDuration: 90
+    shootStatus: slow
+shoot: {
+    shotDelay: 6
+    shots: 9
+}
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    height: 8
+    width: 8
+
+    splashDamageRadius: 27.5
+    statusDuration: 90
+    splashDamage: 52
+    homingRange: 60
+    status: blasted
+    weaveScale: 6
+    lifetime: 75
+    weaveMag: 1
+    damage: 26
+    speed: 2.8
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffa665
+    trailColor: d06b53
+    backColor: d06b53
+}
+    }
+
+{
+name: hidden-zenith-mount-weapon
+    minShootVelocity: 0.75
+    ignoreRotation: true
+    layerOffset: -0.001
+    baseRotation: -115
+    alternate: false
+    inaccuracy: 25
+    shootCone: 90
+    mirror: true
+    shootY: 1
+    x: 9
+    y: -4
+
+    velocityRnd: 0.5
+    reload: 75
+
+    ejectEffect: none
+
+    shootSound: none
+
+shoot: {
+    shotDelay: 18
+    shots: 5
+}
+
+bullet: {
+    type: BombBulletType
+    height: 10
+    width: 10 
+
+    splashDamageRadius: 19.5
+    statusDuration: 90
+    splashDamage: 27.5
+    status: burning
+    lifetime: 90
+    damage: 12.5
+    speed: 2.75
+
+    hitEffect: flakExplosion
+    shootEffect: none
+    smokeEffect: none
+
+    trailInterval: 4.5
+    frontColor: ffa665
+    trailColor: d06b53
+    backColor: d06b53
+    trailLength: 5
+
+    lightColor: d06b53
+    lightOpacity: 0.7
+    lightRadius: 62.5
+}
+    }
+]

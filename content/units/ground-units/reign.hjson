@@ -58,7 +58,9 @@ weapons: [
 
         fragBullet: {
             type: BasicBulletType
+			collideTerrain: true
             pierceBuilding: true
+			collidesAir: false
             pierce: true
             height: 10
             width: 10
@@ -137,6 +139,7 @@ weapons: [
 
         fragBullet: {
             type: BasicBulletType
+			collideTerrain: true
             pierceBuilding: true
             collidesAir: false
             pierce: true

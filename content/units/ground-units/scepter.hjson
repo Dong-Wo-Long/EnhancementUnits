@@ -38,6 +38,7 @@ shoot: {
 
 bullet: {
     type: BasicBulletType
+    collideTerrain: true
     despawnShake: 21
     hitShake: 21
     height: 20

@@ -1,5 +1,6 @@
 circleTarget: true
 rotateSpeed: 1.9
+fogRadius: 32
 
 ammoType: blast-compound
 health: 810

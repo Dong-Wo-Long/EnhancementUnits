@@ -1,4 +1,5 @@
 circleTarget: true
+faceTarget: false
 rotateSpeed: 12
 
 health: 75
@@ -11,10 +12,12 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 45
 
-targetFlags: [ extinguisher, reactor, generator, battery, drill, repair ]
+targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
 weapons: [
 {
+    inaccuracy: 7
+    shootCone: 15
     x: 2
     y: 0
 
@@ -24,24 +27,24 @@ weapons: [
     
     ejectEffect: casing1
         
-    bullet: {
-        type: BasicBulletType
-        ammoMultiplier: 2
-        height: 9
-        width: 7
+bullet: {
+    type: BasicBulletType
+    ammoMultiplier: 2
+    height: 9
+    width: 7
 
-        lifetime: 52.5
-        damage: 5.5
-        speed: 3
+    lifetime: 52.5
+    damage: 5.5
+    speed: 3
         
-        shootEffect: shootSmall
-        smokeEffect: shootSmallSmoke
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
         
-        shootSound: pew
+    shootSound: pew
 
-        lightColor: fff8e8
-        lightOpacity: 0.7
-        lightRadius: 17.5
-        }
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 17.5
+}
     }
 ]

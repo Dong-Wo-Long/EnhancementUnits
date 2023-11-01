@@ -26,6 +26,7 @@ weapons: [
 
     bullet: {
         type: LaserBoltBulletType
+        collideTerrain: true
         collidesTeam: true
         speed: 3.85
 

@@ -22,6 +22,7 @@ weapons: [
 
     bullet: { 
         type: LiquidBulletType
+	collideTerrain: true
         collidesAir: false
         liquid: slag
 

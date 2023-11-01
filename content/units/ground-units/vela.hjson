@@ -138,7 +138,7 @@ shoot: {
 
 bullet: {
     type: LaserBoltType
-	collidesTerrain: true
+	collideTerrain: true
     despawnShake: 5
     hitShake: 5
     height: 9

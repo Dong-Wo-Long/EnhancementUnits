@@ -41,7 +41,7 @@ bullet: {
     splashDamageRadius: 36.5
     statusDuration: 90
     splashDamage: 74.5
-    status: blasted
+    status: burning
     lifetime: 90
     damage: 52.5
     speed: 5.2

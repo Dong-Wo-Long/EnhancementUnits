@@ -1,7 +1,8 @@
 rotateSpeed: 10.5
+
 health: 360
-speed: 1.95
-accel: 1.7
+accel: 0.25
+speed: 2.5
 
 trailLength: 9.5
 
@@ -9,27 +10,27 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 52
 
-targetFlags: [ factory, generator, unitAssembler, storage, battery, drill ]
+targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
 
 weapons: [
 {
     minShootVelocity: 0.75
     ignoreRotation: true
-    inaccuracy: 15
-    shootCone: 180
+    inaccuracy: 5
+    shootCone: 3
     shootY: 0
     x: 3
     y: 0
 
-    reload: 105
+    reload: 75
 
     ejectEffect: none
 
     shootSound: none
 
 shoot: {
-    shotDelay: 15
-    shots: 5
+    shotDelay: 18
+    shots: 3
 }
 
 bullet: {
@@ -39,9 +40,11 @@ bullet: {
 
     splashDamageRadius: 36.5
     statusDuration: 90
-    splashDamage: 32
+    splashDamage: 74.5
     status: blasted
-    damage: 23.5
+    lifetime: 90
+    damage: 52.5
+    speed: 5.2
 
     hitEffect: flakExplosion
     shootEffect: none
@@ -49,7 +52,11 @@ bullet: {
 
     lightColor: fff8e8
     lightOpacity: 0.7
-    lightRadius: 32
+    lightRadius: 72
+
+    trailInterval: 3.2
+    trailColor: fff8e8
+    trailLength: 5
 }
     }
 ]

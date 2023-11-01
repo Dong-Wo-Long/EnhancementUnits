@@ -31,6 +31,7 @@ weapons: [
 
     bullet: {
         type: BasicBulletType
+		collideTerrain: true
 		despawnShake: 6
         pierce: true
 		hitShake: 6
@@ -103,6 +104,7 @@ weapons: [
 
     bullet: {
         type: MissileBulletType
+		collideTerrain: true
         keepVelocity: false
         collidesAir: false
         drag: -0.003

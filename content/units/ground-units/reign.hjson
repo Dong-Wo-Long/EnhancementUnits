@@ -1,6 +1,6 @@
 forceMultiTarget: true
 fogRadius: 36.5
-stepShake: 21
+stepShake: 19
 
 itemCapacity: 2150
 rotateSpeed: 1
@@ -19,7 +19,7 @@ weapons: [
     name: reign-weapon
     shootCone: 45
     recoil: 5
-	shake: 9
+	shake: 7
     x: 21.5
     y: 1
 
@@ -32,9 +32,9 @@ weapons: [
     bullet: {
         type: BasicBulletType
 		collideTerrain: true
-		despawnShake: 6
+		despawnShake: 5
         pierce: true
-		hitShake: 6
+		hitShake: 5
         height: 33
         width: 14
 
@@ -61,7 +61,9 @@ weapons: [
 			collideTerrain: true
             pierceBuilding: true
 			collidesAir: false
+			despawnShake: 1
             pierce: true
+			hitShake: 1
             height: 10
             width: 10
 
@@ -109,11 +111,12 @@ weapons: [
 		collideTerrain: true
         keepVelocity: false
         collidesAir: false
+		despawnShake: 4
         drag: -0.003
+		hitShake: 4
         shrinkY: 0
         height: 9
         width: 9
-		shake: 5
 
         splashDamageRadius: 19
         fragRandomSpread: 360
@@ -142,6 +145,8 @@ weapons: [
 			collideTerrain: true
             pierceBuilding: true
             collidesAir: false
+			despawnShake: 1.75
+			hitShake: 1.75
             pierce: true
 			shake: 0.75
             height: 3
@@ -192,7 +197,9 @@ weapons: [
         type: BasicBulletType
         sprite: enhancement-units-mine-bullet
         collidesGround: false
+		despawnShake: 2.25
         collidesAir: true
+		hitShake: 2.25
         shrinkX: 0.5
         shrinkY: 0.5
         height: 9

@@ -74,7 +74,7 @@ weapons: [
         serrationLenScl: 7
         serrationWidth: 6
         serrations: 10
-        damage: 430
+        damage: 320
 
         shootEffect: sparkShoot
         smokeEffect: sparkShoot
@@ -110,19 +110,19 @@ weapons: [
         type: ArtilleryBulletType
         collidesTiles: true
         collidesAir: false
-		despawnShake: 68
+		despawnShake: 17
         knockback: 0.8
         collides: true
-		hitShake: 68
+		hitShake: 17
         height: 25
         width: 25
 
         splashDamageRadius: 80
-        lightningDamage: 270
+        lightningDamage: 115
         lightningLength: 20
         statusDuration: 720
-        splashDamage: 1100
         ammoMultiplier: 4
+        splashDamage: 750
         lightOpacity: 0.6
         fragLifeMin: 0.3
         lightRadius: 40
@@ -130,8 +130,7 @@ weapons: [
         status: sapped
         lifetime: 196
         lightning: 9
-        hitShake: 10
-        damage: 900
+        damage: 390
         speed: 2.1
 
         smokeEffect: shootBigSmoke2
@@ -146,24 +145,23 @@ weapons: [
             type: ArtilleryBulletType
             collidesTiles: false
             collidesAir: false
-			despawnShake: 27
+			despawnShake: 11
             knockback: 0.8
-			hitShake: 27
-            height: 20
-            width: 20
+			hitShake: 11
+            height: 18
+            width: 18
 
             splashDamageRadius: 70
-            lightningDamage: 110
+            lightningDamage: 70
             statusDuration: 540
             lightningLength: 6
             lightOpacity: 0.5
-            splashDamage: 320
+            splashDamage: 196
             lightRadius: 30
             status: sapped
             lifetime: 110
             lightning: 2
-            hitShake: 5
-            damage: 190
+            damage: 98
             speed: 1.7
 
             smokeEffect: shootBigSmoke2

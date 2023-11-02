@@ -68,7 +68,10 @@ bullet: {
 name: hidden-zenith-mount-weapon
     minShootVelocity: 0.75
     ignoreRotation: true
+    controllable: false
     layerOffset: -0.001
+    autoTarget: true
+    
     baseRotation: -115
     alternate: false
     inaccuracy: 25

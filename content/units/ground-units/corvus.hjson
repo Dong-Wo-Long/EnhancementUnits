@@ -1,8 +1,8 @@
 forceMultiTarget: true
 legSplashDamage: 310
 legSplashRange: 25
+stepShake: 14.5
 fogRadius: 65
-stepShake: 17
 
 itemCapacity: 940
 rotateSpeed: 0.8
@@ -39,8 +39,8 @@ weapons: [
 {
     name: corvus-weapon
 	mirror: false
-	shake: 115
 	shootY: 5
+	shake: 75
     x: 0
     y: 0
 
@@ -79,12 +79,12 @@ weapons: [
     bullet: {
         type: LaserBulletType
 		collidesTeam: true
-		despawnShake: 52
+		despawnShake: 32
 		largeHit: true
 		sideLength: 0
 		sideAngle: 15
 		sideWidth: 0
-		hitShake: 52
+		hitShake: 32
         length: 485
         width: 90
 

@@ -40,7 +40,7 @@ weapons: [
     name: corvus-weapon
 	mirror: false
 	shootY: 5
-	shake: 75
+	shake: 45
     x: 0
     y: 0
 
@@ -79,12 +79,12 @@ weapons: [
     bullet: {
         type: LaserBulletType
 		collidesTeam: true
-		despawnShake: 32
+		despawnShake: 21
 		largeHit: true
 		sideLength: 0
 		sideAngle: 15
 		sideWidth: 0
-		hitShake: 32
+		hitShake: 21
         length: 485
         width: 90
 

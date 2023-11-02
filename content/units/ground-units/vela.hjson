@@ -216,17 +216,15 @@ bullet: {
     height: 18
     width: 18
 
-    buildingDamageMultiplier: 1.21
+    buildingDamageMultiplier: 1.27
 
-    splashDamageRadius: 27
     statusDuration: 300
     status: electrified
-    splashDamage: 120
     healPercent: 21
     knockback: 0.8
     lifetime: 180
-    speed: 1.25
     damage: 140
+	speed: 1.25
 
     smokeEffect: shootBigSmoke2
     hitEffect: hitEmpSpark

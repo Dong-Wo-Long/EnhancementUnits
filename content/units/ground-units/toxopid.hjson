@@ -93,7 +93,7 @@ weapons: [
     shadow: 30
     shootY: 22
     recoil: 10
-    shake: 81
+    shake: 35
     y: -14
     x: 0
 

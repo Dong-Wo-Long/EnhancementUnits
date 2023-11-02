@@ -32,7 +32,7 @@ bullet: {
     type: ArtilleryBulletType
     collidesTiles: true
     collidesAir: false
-	despawnShake: 17
+	despawnShake: 9
     shrinkX: 0.3
     shrinkY: 0.5
     height: 20

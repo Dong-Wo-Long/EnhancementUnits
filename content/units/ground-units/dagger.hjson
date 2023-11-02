@@ -1,5 +1,5 @@
 rotateSpeed: 11.5
-stepShake: 0.5
+stepShake: 0.2
 
 itemCapacity: 45
 health: 210

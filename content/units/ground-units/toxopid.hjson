@@ -130,7 +130,7 @@ weapons: [
         status: sapped
         lifetime: 196
         lightning: 9
-        damage: 390
+        damage: 325
         speed: 2.1
 
         smokeEffect: shootBigSmoke2

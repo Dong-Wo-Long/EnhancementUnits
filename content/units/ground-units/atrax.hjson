@@ -43,7 +43,7 @@ weapons: [
     name: purple-missiles
     mirror: false
     shootY: 1
-    shake: 5
+    shake: 7.5
     x: 4.15
     y: -5
 
@@ -51,7 +51,6 @@ weapons: [
     inaccuracy: 15
     reload: 300
     recoil: 2
-    shake: 13
     
     shootSound: missile
 
@@ -68,7 +67,7 @@ weapons: [
         collidesTiles: false
         keepVelocity: false
         collidesAir: false
-        despawnShake: 9
+        despawnShake: 7.5
         shrinkX: 0.25
         shrinkY: 0.5
         drag: -0.003

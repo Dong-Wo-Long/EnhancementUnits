@@ -55,7 +55,10 @@ bullet: {
 
     shootEffect: shootBig
 
-    lightColor: fff8e8
+    lightColor: f3e979
+    frontColor: ffffff
+    backColor: f3e979
+
     lightOpacity: 0.7
     lightRadius: 37.5
 }

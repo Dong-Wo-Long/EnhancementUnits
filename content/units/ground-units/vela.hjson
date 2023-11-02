@@ -1,5 +1,5 @@
 rotateSpeed: 0.9
-stepShake: 12.5
+stepShake: 10.5
 fogRadius: 29
 
 itemCapacity: 350
@@ -24,7 +24,7 @@ name: vela-weapon
     shootY: 14
     top: false
     recoil: 0
-    shake: 21
+    shake: 16
     x: 0
     y: 0
 
@@ -63,9 +63,9 @@ effects: [
 bullet: {
     type: ContinuousLaserBulletType
     collidesTeam: true
-	despawnShake: 13
+	despawnShake: 9
     drawSize: 420
-	hitShake: 13
+	hitShake: 9
     length: 180
     shake: 5.5
 

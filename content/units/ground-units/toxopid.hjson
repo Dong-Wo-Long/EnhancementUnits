@@ -74,7 +74,7 @@ weapons: [
         serrationLenScl: 7
         serrationWidth: 6
         serrations: 10
-        damage: 320
+        damage: 290
 
         shootEffect: sparkShoot
         smokeEffect: sparkShoot
@@ -130,7 +130,7 @@ weapons: [
         status: sapped
         lifetime: 196
         lightning: 9
-        damage: 325
+        damage: 320
         speed: 2.1
 
         smokeEffect: shootBigSmoke2

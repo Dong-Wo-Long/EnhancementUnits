@@ -332,7 +332,7 @@ bullet: {
     fragBullets: 3
     fragLifeMin: 0
     lifetime: 45
-    damage: 27.5
+    damage: 34.5
     speed: 6
 
     shootEffect: shootBig
@@ -354,11 +354,11 @@ fragBullet: {
     width: 5
 
     splashDamageRadius: 17.5
-    splashDamage: 9
+    splashDamage: 11.5
     pierceCap: 2
     lifetime: 60
     speed: 1.2
-    damage: 7
+    damage: 9
 
     hitEffect: flakExplosion
 

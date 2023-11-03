@@ -227,18 +227,24 @@ shoot: {
     
 bullet: {
     type: ArtilleryBulletType
+    pierceBuilding: true
     collidesTiles: true
     collidesAir: false
 	despawnShake: 9
+    pierceCap: 5
     shrinkX: 0.3
     shrinkY: 0.5
+    pierce: true
     height: 22
 	width: 18
 
 	buildingDamageMultiplier: 1.32
 
     splashDamageRadius: 46.5
+    fragRandomSpread: 360
     splashDamage: 92
+    fragBullets: 3
+    fragLifeMin: 0
     knockback: 0.8
     lifetime: 120
     speed: 2.25
@@ -255,9 +261,38 @@ bullet: {
     trailWidth: 1
 	trailSize: 4
 
-	lightColor: fff8e8
+	lightColor: f9c27a
     lightOpacity: 0.7
     lightRadius: 67.5
+
+fragBullet: {
+    type: BasicBulletType
+	collideTerrain: true
+    pierceBuilding: true
+    collidesAir: false
+	despawnShake: 1.75
+	hitShake: 1.75
+    pierce: true
+	shake: 0.75
+    height: 3
+    width: 3
+
+    splashDamageRadius: 13
+    splashDamage: 27.5
+    pierceCap: 2
+    lifetime: 60
+    damage: 19.5
+    speed: 1.45
+
+    hitEffect: flakExplosion
+
+    trailInterval: 6.5
+    trailColor: ffa665
+
+	lightColor: ffa665
+	lightOpacity: 0.7
+	lightRadius: 17
+    }
 }
     }
 
@@ -286,10 +321,15 @@ bullet: {
     type: BasicBulletType
     collidesAir: false
     despawnShake: 7
+    pierceCap: 7
+    pierce: true
     hitShake: 7
     height: 15
     width: 9
-        
+    
+    fragRandomSpread: 360
+    fragBullets: 3
+    fragLifeMin: 0
     lifetime: 45
     damage: 27.5
     speed: 6
@@ -299,6 +339,35 @@ bullet: {
     lightColor: fff8e8
 	lightOpacity: 0.7
 	lightRadius: 37.5
+
+fragBullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    pierceBuilding: true
+    collidesAir: false
+    despawnShake: 2.1
+    hitShake: 2.1
+    pierce: true
+    shake: 0.75
+    height: 9
+    width: 5
+
+    splashDamageRadius: 17.5
+    splashDamage: 9
+    pierceCap: 1
+    lifetime: 60
+    speed: 1.2
+    damage: 7
+
+    hitEffect: flakExplosion
+
+    trailInterval: 6.5
+    trailColor: f9c27a
+
+    lightColor: fff8e8
+	lightOpacity: 0.7
+	lightRadius: 19.5
+    }
 }
     }
 ]

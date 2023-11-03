@@ -1,7 +1,7 @@
 circleTarget: true
 faceTarget: false
 rotateSpeed: 12
-fogRadius: 23
+fogRadius: 23.5
 
 health: 75
 accel: 2.1

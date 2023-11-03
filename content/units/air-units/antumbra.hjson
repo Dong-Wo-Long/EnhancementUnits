@@ -1,5 +1,6 @@
 circleTarget: true
 rotateSpeed: 1.1
+fogRadius: 35.5
 accel: 0.04
 speed: 1.3
 

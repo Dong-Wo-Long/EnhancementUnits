@@ -13,6 +13,8 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 110
 
+crashDamageMultiplier: 2.5
+
 immunities: [ burning, shocked ]
 
 targetFlags: [ unitAssembler, unitCargoUnloadPoint, turret, reactor, generator, battery, core ]

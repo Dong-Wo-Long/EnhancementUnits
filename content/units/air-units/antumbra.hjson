@@ -240,7 +240,7 @@ bullet: {
     splashDamageRadius: 46.5
     splashDamage: 92
     knockback: 0.8
-    lifetime: 140
+    lifetime: 120
     speed: 2.25
     damage: 72
 

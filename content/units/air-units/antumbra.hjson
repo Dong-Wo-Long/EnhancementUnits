@@ -279,7 +279,7 @@ fragBullet: {
 
     splashDamageRadius: 13
     splashDamage: 27.5
-    pierceCap: 2
+    pierceCap: 3
     lifetime: 60
     damage: 19.5
     speed: 1.45
@@ -354,7 +354,7 @@ fragBullet: {
 
     splashDamageRadius: 17.5
     splashDamage: 9
-    pierceCap: 1
+    pierceCap: 2
     lifetime: 60
     speed: 1.2
     damage: 7

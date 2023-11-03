@@ -24,15 +24,15 @@ abilities: [
     type: ShieldRegenFieldAbility
     range: 0
 
-    reload: 540
-    amount: 900
+    reload: 750
+    amount: 230
     max: 2300
     }
 {
     type: ShieldRegenFieldAbility
-    range: 81
+    range: 90
 
-    reload: 540
+    reload: 750
     amount: 105
     max: 520
     }

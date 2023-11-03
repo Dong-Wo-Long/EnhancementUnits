@@ -1,4 +1,5 @@
 rotateSpeed: 10.5
+fogRadius: 19.5
 
 health: 360
 accel: 0.25

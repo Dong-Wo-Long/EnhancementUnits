@@ -12,6 +12,8 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 67.5
 
+immunities: [ burning ]
+
 targetFlags: [ launchPad, factory, storage, repair, unitAssembler, battery ]
 
 weapons: [

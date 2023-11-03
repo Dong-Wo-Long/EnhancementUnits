@@ -17,6 +17,18 @@ immunities: [ burning, shocked ]
 
 targetFlags: [ unitAssembler, unitCargoUnloadPoint, turret, reactor, generator, battery, core ]
 
+abilities: [
+{
+    type: ForceFieldAbility 
+    radius: 70
+    sides: 1
+
+    cooldown: 900
+    regen: 2.25
+    max: 2300
+    }
+]
+
 weapons: [
 {
 name: air-def-mount

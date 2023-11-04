@@ -324,6 +324,7 @@ fragBullet: {
 {
 name: large-bullet-mount
 
+	predictTarget: false
     rotationLimit: 45
     baseRotation: 15
     rotateSpeed: 2

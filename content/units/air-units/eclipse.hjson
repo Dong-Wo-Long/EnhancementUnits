@@ -1,3 +1,7 @@
+circleTarget: true
+rotateSpeed: 0.8
+fogRadius: 41.5
+
 health: 21000
 armor: 15
 

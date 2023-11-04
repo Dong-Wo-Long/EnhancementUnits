@@ -299,7 +299,6 @@ fragBullet: {
 	despawnShake: 1.75
 	hitShake: 1.75
     pierce: true
-	shake: 0.75
     height: 3
     width: 3
 

@@ -94,7 +94,6 @@ name: large-bullet-mount
 
     reload: 0.75
     
-    
     ejectEffect: casing1
 
     shootSound: shootBig

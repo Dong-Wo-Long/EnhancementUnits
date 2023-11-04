@@ -145,8 +145,8 @@ weapons: [
 			collideTerrain: true
             pierceBuilding: true
             collidesAir: false
-			despawnShake: 1.75
-			hitShake: 1.75
+			despawnShake: 1.8
+			hitShake: 1.8
             pierce: true
             height: 3
             width: 3

@@ -28,7 +28,7 @@ abilities: [
 
     reload: 750
     amount: 230
-    max: 2300
+    max: 1300
     }
 {
     type: ShieldRegenFieldAbility
@@ -36,7 +36,7 @@ abilities: [
 
     reload: 750
     amount: 105
-    max: 520
+    max: 350
     }
 ]
 
@@ -347,54 +347,24 @@ bullet: {
     type: BasicBulletType
     collidesAir: false
     despawnShake: 7
-    pierceCap: 7
+    pierceCap: 5
     pierce: true
     hitShake: 7
     height: 15
     width: 9
     
-    fragRandomSpread: 360
-	fragLifeMax: 30
-    fragBullets: 3
-    fragLifeMin: 0
+    splashDamageRadius: 24.5
+    splashDamage: 17.5
     lifetime: 45
-    damage: 19.5
+    damage: 12.5
     speed: 6
 
+    hitEffect: flakExplosion
     shootEffect: shootBig
 
     lightColor: fff8e8
 	lightOpacity: 0.7
 	lightRadius: 37.5
-
-fragBullet: {
-    type: BasicBulletType
-    collideTerrain: true
-    pierceBuilding: true
-    collidesAir: false
-    despawnShake: 2.1
-    hitShake: 2.1
-    pierce: true
-    shake: 0.75
-    height: 9
-    width: 5
-
-    splashDamageRadius: 17.5
-    splashDamage: 7.5
-    pierceCap: 2
-    lifetime: 60
-    speed: 1.2
-    damage: 3
-
-    hitEffect: flakExplosion
-
-    trailInterval: 6.5
-    trailColor: f9c27a
-
-    lightColor: fff8e8
-	lightOpacity: 0.7
-	lightRadius: 19.5
-    }
 }
     }
 ]

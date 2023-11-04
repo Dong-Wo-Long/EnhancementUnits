@@ -1,8 +1,7 @@
 circleTarget: true
+fallSpeed: 0.0027
 rotateSpeed: 1.1
 fogRadius: 35.5
-
-fallSpeed: 0.0027
 
 ammoType: thorium
 accel: 0.04

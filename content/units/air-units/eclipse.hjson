@@ -84,7 +84,7 @@ name: large-bullet-mount
     baseRotation: 9
     rotateSpeed: 2
     inaccuracy: 11
-	shootCone: 15
+	shootCone: 30
     rotate: true
     shootY: 10
     shadow: 8

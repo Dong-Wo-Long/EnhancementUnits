@@ -116,7 +116,7 @@ bullet: {
     width: 7
 
     lifetime: 50
-    damage: 13
+    damage: 7.5
     speed: 4.5
 
     lightColor: fff8e8
@@ -152,7 +152,7 @@ bullet: {
     width: 7
 
     lifetime: 50
-    damage: 15
+    damage: 9
     speed: 4.5
 
     lightColor: fff8e8
@@ -198,13 +198,13 @@ bullet: {
 
     splashDamageRadius: 27.5
     statusDuration: 90
-    splashDamage: 61
+    splashDamage: 54.5
     homingRange: 60
     status: blasted
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 32.5
+    damage: 26.5
     speed: 2.8
 
     despawnEffect: blastExplosion
@@ -268,13 +268,13 @@ bullet: {
 
     splashDamageRadius: 46.5
     fragRandomSpread: 360
-    splashDamage: 92
+    splashDamage: 78.5
     fragBullets: 3
     fragLifeMin: 0
     knockback: 0.8
     lifetime: 120
     speed: 2.25
-    damage: 72
+    damage: 52
 
     hitEffect: blastExplosion
 
@@ -303,10 +303,10 @@ fragBullet: {
     width: 3
 
     splashDamageRadius: 13
-    splashDamage: 27.5
+    splashDamage: 11.5
     pierceCap: 3
     lifetime: 60
-    damage: 19.5
+    damage: 9.5
     speed: 1.45
 
     hitEffect: flakExplosion
@@ -357,7 +357,7 @@ bullet: {
     fragBullets: 3
     fragLifeMin: 0
     lifetime: 45
-    damage: 34.5
+    damage: 19.5
     speed: 6
 
     shootEffect: shootBig
@@ -379,11 +379,11 @@ fragBullet: {
     width: 5
 
     splashDamageRadius: 17.5
-    splashDamage: 11.5
+    splashDamage: 7.5
     pierceCap: 2
     lifetime: 60
     speed: 1.2
-    damage: 9
+    damage: 3
 
     hitEffect: flakExplosion
 

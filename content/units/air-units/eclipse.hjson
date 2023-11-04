@@ -382,8 +382,8 @@ name: large-artillery
     shootStatusDuration: 75
     shootStatus: slow
 shoot: {
-    shotDelay: 21
-    shots: 3
+    shotDelay: 23
+    shots: 5
 }
     
 bullet: {

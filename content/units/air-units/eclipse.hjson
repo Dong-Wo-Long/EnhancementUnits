@@ -359,7 +359,7 @@ name: large-artillery
     rotateSpeed: 2.1
     autoTarget: true
     alternate: false
-    inaccuracy: 7
+    inaccuracy: 9
     shootCone: 30
     rotate: true
     shadow: 17.5
@@ -433,10 +433,10 @@ fragBullet: {
     width: 5
 
     splashDamageRadius: 13
-    splashDamage: 29
+    splashDamage: 23
     pierceCap: 3
     lifetime: 60
-    damage: 21
+    damage: 15
     speed: 1.5
 
     hitEffect: flakExplosion

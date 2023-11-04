@@ -207,13 +207,13 @@ bullet: {
 
     splashDamageRadius: 27.5
     statusDuration: 90
-    splashDamage: 72
+    splashDamage: 49.5
     homingRange: 65
     status: blasted
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 37.5
+    damage: 24.5
     speed: 2.8
 
     despawnEffect: blastExplosion
@@ -267,13 +267,13 @@ bullet: {
 
     splashDamageRadius: 28.5
     statusDuration: 90
-    splashDamage: 92.5
+    splashDamage: 78.5
     homingRange: 75
     status: blasted
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 41.5
+    damage: 34.5
     speed: 2.8
 
     despawnEffect: blastExplosion

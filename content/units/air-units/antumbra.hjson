@@ -354,6 +354,7 @@ bullet: {
     width: 9
     
     fragRandomSpread: 360
+	fragLifeMax: 30
     fragBullets: 3
     fragLifeMin: 0
     lifetime: 45

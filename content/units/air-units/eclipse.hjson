@@ -4,6 +4,7 @@ rotateSpeed: 0.8
 fogRadius: 41.5
 
 health: 21000
+speed: 0.7
 armor: 15
 
 trailLength: 46

@@ -451,7 +451,7 @@ bullet: {
     length: 270
     width: 27.5
 
-    damage: 272
+    damage: 172
     
     shootEffect: shockwave
 

@@ -4,7 +4,6 @@ rotateSpeed: 1.1
 fogRadius: 35.5
 
 ammoType: thorium
-accel: 0.04
 speed: 1.3
 armor: 11
 

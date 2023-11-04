@@ -463,6 +463,7 @@ name: large-laser-mount
     rotationLimit: 15
     baseRotation: 15
     rotateSpeed: 1.8
+    inaccuracy: 11
     rotate: true
     shadow: 20
     shootY: 9
@@ -471,9 +472,14 @@ name: large-laser-mount
     x: 15
     y: 2
 
-    reload: 90
+    reload: 320
 
     shootSound: laser
+
+shoot: {
+    shotDelay: 15
+    shots: 5
+}
 
 bullet: {
     type: LaserBulletType
@@ -483,7 +489,7 @@ bullet: {
     length: 270
     width: 27.5
 
-    damage: 172
+    damage: 132
     
     shootEffect: shockwave
 

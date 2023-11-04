@@ -1,8 +1,30 @@
+health: 21000
+armor: 15
+
 trailLength: 46
 
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 145
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility
+    range: 0
+
+    reload: 1020
+    amount: 250
+    max: 2100
+    }
+{
+    type: ShieldRegenFieldAbility
+    range: 90
+
+    reload: 1020
+    amount: 130
+    max: 520
+    }
+]
 
 weapons: [
 {

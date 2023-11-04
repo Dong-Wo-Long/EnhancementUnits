@@ -56,7 +56,7 @@ name: air-def-mount
     reload: 5
 
 bullet: {
-    maxRange: 100
+    maxRange: 120
 
     damage: 19
 
@@ -79,7 +79,7 @@ name: air-def-mount
     reload: 7
 
 bullet: {
-    maxRange: 100
+    maxRange: 150
 
     damage: 21
 

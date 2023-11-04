@@ -34,7 +34,7 @@ bullet: {
     width: 7
 
     lifetime: 60
-    damage: 24.5
+    damage: 18.5
     speed: 4.5
 
     lightColor: fff8e8
@@ -76,48 +76,19 @@ bullet: {
     hitShake: 5
     height: 15
     width: 9
-    
-    fragRandomSpread: 360
-    fragBullets: 3
-    fragLifeMin: 0
+
+	splashDamageRadius: 26.5
+	splashDamage: 23.5
     lifetime: 45
-    damage: 34.5
+    damage: 19.5
     speed: 6.75
 
+	hitEffect: flakExplosion
     shootEffect: shootBig
 
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 37.5
-
-fragBullet: {
-    type: BasicBulletType
-    collideTerrain: true
-    pierceBuilding: true
-    collidesAir: false
-    despawnShake: 1.3
-    hitShake: 1.3
-    pierce: true
-    shake: 0.75
-    height: 9
-    width: 5
-
-    splashDamageRadius: 17.5
-    splashDamage: 11.5
-    pierceCap: 2
-    lifetime: 60
-    speed: 1.2
-    damage: 9
-
-    hitEffect: flakExplosion
-
-    trailInterval: 6.5
-    trailColor: f9c27a
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 19.5
-    }
 }
     }
 

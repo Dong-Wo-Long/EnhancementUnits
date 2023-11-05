@@ -18,6 +18,18 @@ targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCa
 
 abilities: [
 {
+    type: ShieldArcAbility
+    region: enhancement-units-eclipse-shield
+    radius: 52.5
+    angle: 54.5
+	width: 10.5
+	y: -7
+
+	cooldown: 900
+    regen: 3.2
+    max: 740
+    }
+{
     type: ShieldRegenFieldAbility
     range: 0
 

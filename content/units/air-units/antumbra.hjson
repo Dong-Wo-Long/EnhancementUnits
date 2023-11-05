@@ -3,6 +3,8 @@ fallSpeed: 0.0027
 rotateSpeed: 1.1
 fogRadius: 35.5
 
+crashDamageMultiplier: 5
+
 ammoType: plastanium
 speed: 1.3
 armor: 11
@@ -12,8 +14,6 @@ trailLength: 19
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 110
-
-crashDamageMultiplier: 2.5
 
 immunities: [ burning, shocked ]
 

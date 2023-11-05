@@ -2,7 +2,7 @@ rotateSpeed: 0.45
 stepShake: 7.25
 fogRadius: 55
 
-health: 19600
+health: 17500
 
 lightColor: 665c9f
 lightOpacity: 0.7

@@ -176,73 +176,72 @@ weapons: [
     }
 
 {
-    name: large-purple-flamethrower
+name: hidden-purple-flamethrower-mount
+
     layerOffset: -0.001
-    rotationLimit: 35
-    rotateSpeed: 0.9
+    rotationLimit: 45
+    rotateSpeed: 1.5
+    shootCone: 30
+    mirror: false
     rotate: true
-    recoil: 1.5
-    shootY: 20
-	shake: 2.5
+    recoil: 3
+    shake: 12
     x: 0
-    y: 0
+    y: 8.5
 
-    velocityRnd: 0.6
-    reload: 13.5
+    inaccuracy: 3.2
+    reload: 150
 
-    shootSound: flame
+    shootEffect: shootSmall
+    shootSound: artillery
+    ejectEffect: casing2
 
-    ejectEffect: none
+shoot: {
+    shotDelay: 9
+    shots: 5
+}
 
-    shoot: {
-        type: ShootSpread
-        spread: 3
-        shots: 3
-    }
+bullet: {
+    type: BasicBulletType
+    sprite: enhancement-units-circle-bullet
+    collideTerrain: true
+    collidesAir: false
+    despawnShake: 3
+    pierceCap: 5
+    pierce: true
+    shrinkX: 0.5
+    shrinkY: 0.35
+    hitShake: 3
+    height: 12
+    width: 12
 
-    bullet: {
-        pierceBuilding: true
-        keepVelocity: false
-        collidesAir: false
-        hittable: false
-        pierce: true
-        hitSize: 9
+	splashDamageRadius: 41.5
+    lightningDamage: 14.5
+    lightningLength: 7.5
+    statusDuration: 180
+	splashDamage: 78.5
+    lifetime: 72.5
+    status: sapped
+    lightning: 3
+    damage: 54.5
+    speed: 2.5
 
-        statusDuration: 420
-        ammoMultiplier: 3
-        status: sapped
-		pierceCap: 3
-        lifetime: 80
-        damage: 72
-        speed: 2.8
+	hitEffect: flakExplosion
+    shootEffect: shootBig
 
-        despawnEffect: none
-        hitEffect: none
+    lightningColor: ffffff
+    trailInterval: 3.5
+    trailColor: bf92f9
+    frontColor: ffffff
+    backColor: bf92f9
+    trailLength: 7.2
+    trailWidth: 4.1
+    trailSize: 5
 
-        frontColor: bf92f9
-        backColor: 6d56bf
-        hitColor: bf92f9
-
-		lightColor: bf92f9
-        lightOpacity: 0.7
-        lightRadius: 21
-
-		shootEffect: {
-            particles: 11
-            lightOpacity: 0
-            lifetime: 55
-            sizeFrom: 2
-            sizeTo: 0.25
-            length: 215
-            cone: 5
-
-            colorFrom: bf92f9
-            colorTo: 6d56bf
-
-            sizeInterp: pow3In
-            interp: pow5Out
-        }
-        }
+    lightColor: bf92f9
+	lightOpacity: 0.7
+	lightRadius: 31
+}
     }
 
 {

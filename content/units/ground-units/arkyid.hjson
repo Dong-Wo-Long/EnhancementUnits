@@ -134,7 +134,7 @@ weapons: [
     shadow: 8
     shootY: 7
     recoil: 3
-    shake: 18
+    shake: 11
     y: -7
     x: 9
 
@@ -154,7 +154,7 @@ weapons: [
         hitEffect: sapExplosion
         collidesTiles: true
         collidesAir: false
-        despawnShake: 19
+        despawnShake: 13
         knockback: 0.8
         height: 19
         width: 19

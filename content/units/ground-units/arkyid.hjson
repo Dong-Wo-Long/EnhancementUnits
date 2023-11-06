@@ -162,15 +162,15 @@ weapons: [
         buildingDamageMultiplier: 1.30
 
         splashDamageRadius: 80
-        lightningDamage: 32
+        lightningDamage: 27.5
         lightningLength: 12
         statusDuration: 600
         ammoMultiplier: 4
-        splashDamage: 150
+        splashDamage: 102.5
         status: sapped
         lightning: 5
         lifetime: 120
-        damage: 90
+        damage: 72
         speed: 2
 
         smokeEffect: shootBigSmoke2
@@ -217,7 +217,7 @@ weapons: [
         pierceCap: 1.5
         status: sapped
         lifetime: 40
-        damage: 54
+        damage: 42.5
         speed: 2.8
 
         despawnEffect: none

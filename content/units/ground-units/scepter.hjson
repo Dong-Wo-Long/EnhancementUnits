@@ -21,7 +21,7 @@ name: scepter-weapon
     shootCone: 45
     shootY: 8
     recoil: 5
-    shake: 16
+    shake: 12
     y: 1
     x: 16
 
@@ -39,8 +39,8 @@ shoot: {
 bullet: {
     type: BasicBulletType
     collideTerrain: true
-    despawnShake: 19
-    hitShake: 19
+    despawnShake: 15
+    hitShake: 15
     height: 20
     width: 11
 

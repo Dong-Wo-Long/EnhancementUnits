@@ -529,15 +529,15 @@ weapons: [
     mirror: true
     rotate: true
     shadow: 20
+	recoil: 1
     shootY: 7
-	shake: 5
+	shake: 3
     x: 18.5
     y: -7
 
-    cooldownTime: 170
+    cooldownTime: 130
     rotateSpeed: 3.5
-    reload: 170
-    recoil: 1
+    reload: 130
 
     shootSound: beam
 
@@ -554,7 +554,7 @@ weapons: [
 		statusDuration: 90
 		healPercent: 0.5
 		status: burning
-        lifetime: 155
+        lifetime: 115
         damage: 15
 
         incendChance: 0.03

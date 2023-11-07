@@ -255,7 +255,7 @@ bullet: {
     collidesTiles: true
     collidesAir: false
 	despawnShake: 9
-    pierceCap: 5
+    pierceCap: 3
     shrinkX: 0.3
     shrinkY: 0.5
     pierce: true
@@ -302,7 +302,7 @@ fragBullet: {
 
     splashDamageRadius: 13
     splashDamage: 11.5
-    pierceCap: 3
+    pierceCap: 2
     lifetime: 60
     damage: 9.5
     speed: 1.45

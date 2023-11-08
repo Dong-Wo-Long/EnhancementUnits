@@ -2,6 +2,7 @@ rotateSpeed: 0.45
 stepShake: 5.75
 fogRadius: 55
 
+itemCapacity: 1800
 health: 17500
 
 lightColor: 665c9f

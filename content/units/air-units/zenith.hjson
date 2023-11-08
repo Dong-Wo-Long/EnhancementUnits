@@ -3,6 +3,7 @@ rotateSpeed: 1.9
 fogRadius: 32
 
 ammoType: blast-compound
+itemCapacity: 190
 health: 810
 armor: 6
 

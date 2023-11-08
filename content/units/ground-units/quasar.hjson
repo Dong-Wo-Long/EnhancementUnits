@@ -5,7 +5,7 @@ engineSize: 3.5
 stepShake: 2.65
 fogRadius: 26
 
-itemCapacity: 165
+itemCapacity: 140
 health: 780
 
 lightColor: 98ffa9

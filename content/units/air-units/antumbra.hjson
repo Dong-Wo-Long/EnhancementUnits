@@ -1,7 +1,7 @@
 circleTarget: true
 fallSpeed: 0.0027
 rotateSpeed: 1.1
-fogRadius: 35.5
+fogRadius: 38.5
 
 crashDamageMultiplier: 5
 

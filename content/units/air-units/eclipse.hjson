@@ -70,7 +70,7 @@ name: mount-weapon
     x: 3
     y: 37
 
-	velocityRnd: 0.29
+	velocityRnd: 0.18
     reload: 2.25
 
     ejectEffect: casing1
@@ -84,9 +84,9 @@ bullet: {
     height: 9
     width: 7
 
-    lifetime: 60
+    lifetime: 41.5
     damage: 18.5
-    speed: 4.5
+    speed: 8.1
 
     lightColor: fff8e8
     lightOpacity: 0.7
@@ -111,7 +111,7 @@ name: large-bullet-mount
     x: 12
     y: 26
 
-	velocityRnd: 0.41
+	velocityRnd: 0.32
     reload: 0.75
     
     ejectEffect: casing1
@@ -132,9 +132,9 @@ bullet: {
 
 	splashDamageRadius: 26.5
 	splashDamage: 23.5
-    lifetime: 45
+    lifetime: 21.5
     damage: 19.5
-    speed: 6.75
+    speed: 10.5
 
 	hitEffect: flakExplosion
     shootEffect: shootBig

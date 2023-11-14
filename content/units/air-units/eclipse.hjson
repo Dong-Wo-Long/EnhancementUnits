@@ -84,7 +84,7 @@ bullet: {
     height: 9
     width: 7
 
-    lifetime: 41.5
+    lifetime: 52.5
     damage: 18.5
     speed: 8.1
 
@@ -132,7 +132,7 @@ bullet: {
 
 	splashDamageRadius: 26.5
 	splashDamage: 23.5
-    lifetime: 21.5
+    lifetime: 32.5
     damage: 19.5
     speed: 10.5
 

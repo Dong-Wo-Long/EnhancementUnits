@@ -1,7 +1,7 @@
 circleTarget: true
 fallSpeed: 0.0027
 rotateSpeed: 1.1
-fogRadius: 38.5
+fogRadius: 35.5
 
 crashDamageMultiplier: 5
 
@@ -102,7 +102,6 @@ name: mount-weapon
     x: 2.5
     y: 18.5
 
-	velocityRnd: 0.23
     reload: 3.5
 
     ejectEffect: casing1
@@ -112,13 +111,12 @@ name: mount-weapon
 bullet: {
     type: BasicBulletType
     collideTerrain: true
-	keepVelocity: true
     height: 9
     width: 7
 
-    lifetime: 41.5
+    lifetime: 50
     damage: 7.5
-    speed: 7.8
+    speed: 4.5
 
     lightColor: fff8e8
     lightOpacity: 0.7
@@ -140,7 +138,6 @@ name: mount-weapon
     x: 7.5
     y: 16.5
 
-	velocityRnd: 0.23
     reload: 4.5
 
     ejectEffect: casing1
@@ -150,13 +147,12 @@ name: mount-weapon
 bullet: {
     type: BasicBulletType
     collideTerrain: true
-	keepVelocity: true
     height: 9
     width: 7
 
-    lifetime: 41.5
+    lifetime: 50
     damage: 9
-    speed: 7.8
+    speed: 4.5
 
     lightColor: fff8e8
     lightOpacity: 0.7
@@ -339,7 +335,6 @@ name: large-bullet-mount
     x: 10
     y: -3.25
 
-	velocityRnd: 0.38
     reload: 1.25
     
     
@@ -349,7 +344,6 @@ name: large-bullet-mount
     
 bullet: {
     type: BasicBulletType
-	keepVelocity: true
     collidesAir: false
     despawnShake: 7
     pierceCap: 5
@@ -360,9 +354,9 @@ bullet: {
     
     splashDamageRadius: 24.5
     splashDamage: 17.5
-    lifetime: 32.5
+    lifetime: 45
     damage: 12.5
-    speed: 9.2
+    speed: 6
 
     hitEffect: flakExplosion
     shootEffect: shootBig

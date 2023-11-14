@@ -112,7 +112,7 @@ name: mount-weapon
 bullet: {
     type: BasicBulletType
     collideTerrain: true
-	keepVelocity: false
+	keepVelocity: true
     height: 9
     width: 7
 
@@ -150,7 +150,7 @@ name: mount-weapon
 bullet: {
     type: BasicBulletType
     collideTerrain: true
-	keepVelocity: false
+	keepVelocity: true
     height: 9
     width: 7
 
@@ -349,7 +349,7 @@ name: large-bullet-mount
     
 bullet: {
     type: BasicBulletType
-	keepVelocity: false
+	keepVelocity: true
     collidesAir: false
     despawnShake: 7
     pierceCap: 5

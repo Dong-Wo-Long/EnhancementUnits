@@ -102,6 +102,7 @@ name: mount-weapon
     x: 2.5
     y: 18.5
 
+	velocityRnd: 0.32
     reload: 3.5
 
     ejectEffect: casing1
@@ -111,6 +112,7 @@ name: mount-weapon
 bullet: {
     type: BasicBulletType
     collideTerrain: true
+	keepVelocity: false
     height: 9
     width: 7
 
@@ -138,6 +140,7 @@ name: mount-weapon
     x: 7.5
     y: 16.5
 
+	velocityRnd: 0.32
     reload: 4.5
 
     ejectEffect: casing1
@@ -147,6 +150,7 @@ name: mount-weapon
 bullet: {
     type: BasicBulletType
     collideTerrain: true
+	keepVelocity: false
     height: 9
     width: 7
 
@@ -335,6 +339,7 @@ name: large-bullet-mount
     x: 10
     y: -3.25
 
+	velocityRnd: 0.5
     reload: 1.25
     
     
@@ -344,6 +349,7 @@ name: large-bullet-mount
     
 bullet: {
     type: BasicBulletType
+	keepVelocity: false
     collidesAir: false
     despawnShake: 7
     pierceCap: 5

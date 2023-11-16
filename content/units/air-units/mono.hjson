@@ -1,0 +1,12 @@
+itemCapacity: 15
+mineSpeed: 3.2
+speed: 2.25
+
+health: 150
+
+trailLength: 5.45
+
+ammoType: {
+    type: PowerAmmoType
+    totalPower: 15
+}

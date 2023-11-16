@@ -1,5 +1,6 @@
 itemCapacity: 32
 buildSpeed: 0.9
+fogRadius: 10.5
 mineSpeed: 4.5
 speed: 3.25
 

@@ -36,7 +36,7 @@ weapons: [
     y: -2.5
     
     velocityRnd: 0.25
-    reload: 65
+    reload: 50
     
     shootSound: missile
     
@@ -51,7 +51,7 @@ bullet: {
     healPercent: 7.5
     homingRange: 180
     weaveScale: 4
-    lifetime: 75
+    lifetime: 60
     weaveMag: 4
     damage: 30
     speed: 4.8

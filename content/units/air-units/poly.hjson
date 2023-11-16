@@ -1,0 +1,76 @@
+payloadCapacity: 12
+pickupUnits: true
+itemCapacity: 32
+buildSpeed: 0.9
+mineSpeed: 4.1
+speed: 3.25
+
+health: 410
+
+trailLength: 6.25
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 62.5
+
+ammoType: {
+    type: PowerAmmoType
+    totalPower: 90
+}
+
+abilities: [
+{
+    type: RepairFieldAbility
+    reload: 280
+    amount: 15
+    range: 45
+    }
+]
+
+weapons: [
+{
+    name: poly-weapon
+    
+    alternate: true
+    inaccuracy: 15
+    recoil: 2
+    x: 3.75
+    y: -2.5
+    
+    velocityRnd: 0.25
+    reload: 65
+    
+    shootSound: missile
+    
+    ejectEffect: none
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    collidesTeam: true
+
+    homingPower: 1
+    healPercent: 7.5
+    homingRange: 180
+    weaveScale: 4
+    lifetime: 75
+    weaveMag: 4
+    damage: 30
+    speed: 4.8
+    
+    despawnEffect: hitLaser
+    shootEffect: shootHeal
+    smokeEffect: hitLaser
+    frontColor: ffffff
+    hitEffect: hitLaser
+    hitSound: none
+
+    trailColor: 98ffa9
+    backColor: 98ffa9
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 25
+}
+    }
+]

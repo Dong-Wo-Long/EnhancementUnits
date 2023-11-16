@@ -16,7 +16,7 @@ type: RepairFieldAbility
 amount: 15
 reload: 160
 range: 50
-}
+    }
 ]
 
 weapons: [

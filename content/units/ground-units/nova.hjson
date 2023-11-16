@@ -12,10 +12,10 @@ lightRadius: 60
 
 abilities: [
 {
-type: RepairFieldAbility
-amount: 15
-reload: 160
-range: 50
+    type: RepairFieldAbility
+    amount: 15
+    reload: 160
+    range: 50
     }
 ]
 

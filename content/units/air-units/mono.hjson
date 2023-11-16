@@ -6,6 +6,10 @@ health: 150
 
 trailLength: 5.45
 
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 52.5
+
 ammoType: {
     type: PowerAmmoType
     totalPower: 15

@@ -1,4 +1,4 @@
-itemCapacity: 15
+itemCapacity: 64
 fogRadius: 10.5
 mineSpeed: 3.2
 speed: 2.25
@@ -13,5 +13,5 @@ lightRadius: 52.5
 
 ammoType: {
     type: PowerAmmoType
-    totalPower: 60
+    totalPower: 15
 }

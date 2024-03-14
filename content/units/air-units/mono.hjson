@@ -13,5 +13,5 @@ lightRadius: 52.5
 
 ammoType: {
     type: PowerAmmoType
-    totalPower: 15
+    totalPower: 60
 }

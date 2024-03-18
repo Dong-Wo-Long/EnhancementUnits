@@ -1,6 +1,7 @@
 itemCapacity: 64
 fogRadius: 10.5
 mineSpeed: 4.2
+mineTier: 2
 speed: 2.25
 
 health: 120

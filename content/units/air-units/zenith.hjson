@@ -11,7 +11,7 @@ trailLength: 11.5
 
 lightColor: fff8e8
 lightOpacity: 0.7
-lightRadius: 67.5
+lightRadius: 72.5
 
 immunities: [ burning ]
 

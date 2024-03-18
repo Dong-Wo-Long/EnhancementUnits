@@ -14,7 +14,7 @@ trailLength: 7.5
 
 lightColor: 98ffa9
 lightOpacity: 0.7
-lightRadius: 72.5
+lightRadius: 67.5
 
 ammoType: {
     type: PowerAmmoType

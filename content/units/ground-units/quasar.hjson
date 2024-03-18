@@ -80,6 +80,7 @@ weapons: [
         type: MissileBulletType
         collideTerrain: true
         keepVelocity: false
+        collidesTeam: true
         collidesAir: false
         despawnShake: 3
         shrinkX: 0.25
@@ -90,7 +91,6 @@ weapons: [
         width: 9
 
         splashDamageRadius: 15
-        collidesTeam: true
         homingPower: 0.65
         splashDamage: 52
         homingRange: 45

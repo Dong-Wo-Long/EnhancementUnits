@@ -13,6 +13,7 @@ lightRadius: 60
 abilities: [
 {
     type: RepairFieldAbility
+
     reload: 180
     amount: 30
     range: 60
@@ -20,8 +21,9 @@ abilities: [
 ]
 
 weapons: [
-    {
+{
     name: heal-weapon
+
     alternate: false
     shootY: 2
     recoil: 2
@@ -33,18 +35,18 @@ weapons: [
 
     shootSound: lasershoot
 
-    bullet: {
-        type: LaserBoltBulletType
-        collideTerrain: true
-        collidesTeam: true
-        speed: 3.85
+bullet: {
+    type: LaserBoltBulletType
+    collideTerrain: true
+    collidesTeam: true
+    speed: 3.85
 
-        healPercent: 5
-        lifetime: 45
-        damage: 26
+    healPercent: 5
+    lifetime: 45
+    damage: 26
 
-        frontColor: ffffff
-        backColor: 84f491
-        }
+    frontColor: ffffff
+    backColor: 84f491
+}
     }
 ]

@@ -46,7 +46,7 @@ bullet: {
 
     buildingDamageMultiplier: 0.25
 
-    healPercent: 0.25
+    healPercent: 0.32
     lifetime: 60
     speed: 5.25
     damage: 9

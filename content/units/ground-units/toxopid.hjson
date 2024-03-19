@@ -217,14 +217,14 @@ bullet: {
     width: 12
 
 	splashDamageRadius: 41.5
-    lightningDamage: 14.5
+    lightningDamage: 16.5
     lightningLength: 7.5
     statusDuration: 180
-	splashDamage: 78.5
+	splashDamage: 81.5
     lifetime: 72.5
     status: sapped
     lightning: 3
-    damage: 54.5
+    damage: 62.5
     speed: 2.5
 
 	hitEffect: flakExplosion

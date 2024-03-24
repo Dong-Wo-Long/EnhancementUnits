@@ -12,4 +12,4 @@ This mod does not add new content, but uses a ready-made one, and only with rare
 ## Conclusion
 Ahem, that's it, wait for more news from me in the near future :D
 
-### P.S. Not that this is important, but the mod itself was originally planned for ALE maps, and in general, my final goal has not changed. However, you can use this mod for your own purposes, I do not forbid you and I cannot.
+#### P.S. Not that this is important, but the mod itself was originally planned for ALE maps, and in general, my final goal has not changed. However, you can use this mod for your own purposes, I do not forbid you and I cannot.

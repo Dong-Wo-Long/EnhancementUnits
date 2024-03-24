@@ -59,12 +59,10 @@ bullet: {
 {
 name: laser-mount
 
-    controllable: false
     layerOffset: -0.001
     rotationLimit: 45
     rotateSpeed: 2.25
     baseRotation: -15
-    autoTarget: true
     alternate: true
     shootCone: 15
     rotate: true

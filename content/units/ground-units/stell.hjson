@@ -1,0 +1,73 @@
+targetAir: false
+rotateSpeed: 3
+fogRadius: 27.5
+speed: 0.45
+
+health: 750
+armor: 12
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 62.5
+
+immunities: [ burning ]
+
+weapons: [
+{
+    name: stell-weapon
+
+    layerOffset: 0.0001
+    rotateSpeed: 0.8
+    mirror: false
+    rotate: true
+    shootY: 4.5
+    recoil: 1
+    x: 0
+    y: -0.75
+
+    cooldownTime: 81
+    reload: 125
+
+    heatColor: f9350f
+
+shoot: { 
+    type: ShootAlternate
+    barrels: 2
+    spread: 3.5
+    shots: 2
+}
+
+bullet: {
+    type: BasicBulletType
+    sprite: missile-large
+    collideTerrain: true
+    collidesAir: false
+    hitSize: 4
+    height: 7
+    width: 5
+
+    splashDamageRadius: 36
+    splashDamage: 41
+    lifetime: 60
+    damage: 32
+    speed: 3.2
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: feb380
+    trailWidth: 1.7
+    trailLength: 5
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    despawnEffect: hitBulletColor
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    hitEffect: blastExplosion
+}
+    }
+]

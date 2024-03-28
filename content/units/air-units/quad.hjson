@@ -1,0 +1,340 @@
+fallSpeed: 0.0025
+faceTarget: true
+
+crashDamageMultiplier: 5
+
+itemCapacity: 750
+buildSpeed: 2.5
+fogRadius: 62.5
+mineSpeed: 5
+health: 8100
+mineTier: 3
+speed: 1.1
+armor: 15
+
+trailLength: 21.5
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 75
+
+ammoType: {
+    type: PowerAmmoType
+    totalPower: 7500
+}
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility
+    range: 0
+
+    reload: 900
+    amount: 320
+    max: 1800
+    }
+{
+    type: RepairFieldAbility
+    reload: 150
+    amount: 90
+    range: 60
+    }
+]
+
+immunities: [ shocked, blasted, electrified ]
+
+targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
+
+weapons: [
+{
+    minShootVelocity: 0.01
+    soundPitchMin: 1
+    mirror: false
+    x: 0
+    y: 0
+
+    reload: 75
+
+    shootSound: plasmadrop
+
+    shootStatusDuration: 32
+    shootStatus: slow
+
+bullet: {
+    type: BasicBulletType
+    ignoreRotation: true
+    keepVelocity: false
+    collidesAir: false
+    sprite: large-bomb
+    despawnShake: 11
+    collides: false
+    shootCone: 180
+    maxRange: 30
+    shrinkX: 0.7
+    shrinkY: 0.7
+    hitShake: 11
+    height: 30
+    width: 30
+    spin: 2
+
+    splashDamageRadius: 72
+    fragRandomSpread: 360
+    splashDamage: 320
+    healPercent: 4.5
+    fragBullets: 9
+    fragLifeMin: 0
+    lifetime: 70
+    speed: 0
+
+    hitEffect: massiveExplosion
+    despawnEffect: greenBomb
+    ejectEffect: none
+
+    frontColor: ffffff
+    mixColorTo: ffffff
+    backColor: 84f491
+
+    hitSound: plasmaboom
+
+fragBullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    pierceBuilding: true
+    collidesAir: false
+    despawnShake: 1.8
+    hitShake: 1.8
+    pierce: true
+    height: 9
+    width: 9
+
+    splashDamageRadius: 29
+    splashDamage: 25
+    pierceCap: 2
+    lifetime: 60
+    speed: 1.75
+    damage: 50
+
+    hitEffect: flakExplosion
+
+    trailInterval: 6.5
+    trailColor: 84f491
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+}
+
+{
+    name: rocket-weapon-mount
+
+    controllable: false
+    layerOffset: -0.001
+    autoTarget: true
+    shootCone: 45
+    recoil: 2.5
+    shake: 1.5
+    x: 17.5
+    y: 12.5
+
+    velocityRnd: 0.25
+    reload: 200
+
+    shootSound: missile
+
+shoot: {
+    shotDelay: 32
+    shots: 2
+}
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesTeam: true
+    despawnShake: 3.25
+    hitShake: 3.25
+
+    splashDamageRadius: 36
+    splashDamage: 54.5
+    healPercent: 0.5
+    homingRange: 320
+    homingPower: 1
+    lifetime: 280
+    damage: 36.5
+    speed: 1.75
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffffff
+    trailColor: 98ffa9
+    backColor: 98ffa9
+}
+    }
+{
+    name: rocket-weapon-mount
+
+    controllable: false
+    layerOffset: -0.001
+    autoTarget: true
+    shootCone: 45
+    recoil: 2.5
+    shake: 1.5
+    x: 15
+    y: 16.5
+
+    velocityRnd: 0.25
+    reload: 180
+
+    shootSound: missile
+
+shoot: {
+    shotDelay: 32
+    shots: 2
+}
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesTeam: true
+    despawnShake: 3.25
+    hitShake: 3.25
+
+    splashDamageRadius: 36
+    splashDamage: 52.5
+    healPercent: 0.5
+    homingRange: 320
+    homingPower: 1
+    lifetime: 280
+    damage: 32.5
+    speed: 1.75
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffffff
+    trailColor: 98ffa9
+    backColor: 98ffa9
+}
+    }
+
+{
+    name: quad-weapon
+
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 15
+    autoTarget: true
+    shootCone: 15
+    rotate: true
+    shake: 0.32
+    x: 3
+    y: 21.5
+
+    inaccuracy: 3
+    reload: 3.25
+
+    shootSound: lasershoot
+
+bullet: {
+    type: LaserBoltBulletType
+    collideTerrain: true
+    collidesTeam: true
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.25
+
+    healPercent: 0.32
+    lifetime: 32
+    damage: 21.5
+    speed: 7.25
+
+    frontColor: ffffff
+    backColor: 84f491
+}
+    }
+
+{
+    name: hidden-plasma-missile-mount
+
+    layerOffset: -0.001
+    rotationLimit: 115
+    controllable: false
+    autoTarget: true
+    baseRotation: -45
+    rotateSpeed: 0.15
+    alternate: false
+    shootCone: 30
+    rotate: true
+    recoil: 1.5
+    x: 21.5
+    y: -0.75
+
+    inaccuracy: 15
+    reload: 240
+
+    shootStatusDuration: 180
+    shootStatus: slow
+shoot: {
+        shotDelay: 21
+        shots: 3
+}
+
+    ejectEffect: casing1
+
+    shootSound: railgun
+
+bullet: {
+    type: LaserBoltType
+    collideTerrain: true
+    collidesAir: false
+    despawnShake: 5
+    shrinkX: 0.5
+    shrinkY: 0.25
+    hitShake: 5
+    height: 26
+    width: 22
+
+    splashDamageRadius: 60
+    splashDamage: 210
+    healPercent: 9
+    lifetime: 120
+    damage: 180
+    speed: 2.4
+
+    trailEffect: hitSquaresColor
+    trailInterval: 5.25
+    trailColor: 84f491
+    lightColor: 84f491
+    frontColor: 84f491
+    trailLength: 7.25
+    backColor: ffffff
+    trailWidth: 3.25
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    despawnEffect: massiveExplosion
+    smokeEffect: shootBigSmoke2
+    hitEffect: massiveExplosion
+    parentizeEffects: true
+    hitSound: dullExplosion
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    sizeFrom: 7.5
+    sizeTo: 0
+
+    lifetime: 45
+
+    colorFrom: 84f491
+    colorTo: ffffff
+    }
+}
+    }
+]

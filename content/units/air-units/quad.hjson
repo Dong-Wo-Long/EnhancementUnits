@@ -106,7 +106,7 @@ fragBullet: {
     height: 9
     width: 9
 
-    splashDamageRadius: 29
+    splashDamageRadius: 28
     splashDamage: 25
     pierceCap: 2
     lifetime: 60

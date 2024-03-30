@@ -18,7 +18,7 @@ weapons: [
 {
     minShootVelocity: 0.75
     ignoreRotation: true
-    shootCone: 90
+    shootCone: 360
     shootY: 0
     x: 0
     y: 0
@@ -35,16 +35,16 @@ bullet: {
     type: BombBulletType
     despawnShake: 3.25
     hitShake: 3.25
-    maxRange: 360
+    maxRange: 90
     height: 14
     width: 14
 
     splashDamageRadius: 36.5
     statusDuration: 180
-    splashDamage: 32.5
+    splashDamage: 41.5
     status: burning
     lifetime: 90
-    damage: 24.5
+    damage: 27.5
 
     hitEffect: flakExplosion
     shootEffect: none

@@ -121,6 +121,9 @@ fragBullet: {
     lightColor: 84f491
     lightOpacity: 0.7
     lightRadius: 17
+
+    frontColor: ffffff
+    backColor: 84f491
 }
     }
 }

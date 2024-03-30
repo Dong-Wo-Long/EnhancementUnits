@@ -44,7 +44,7 @@ weapons: [
 
         sapStrength: 1
         lifetime: 30
-        damage: 15
+        damage: 25
 
         shootEffect: shootSmall
         despawnEffect: none
@@ -78,7 +78,7 @@ weapons: [
 
         sapStrength: 0.85
         lifetime: 30
-        damage: 25
+        damage: 45
 
         shootEffect: shootSmall
         despawnEffect: none
@@ -112,7 +112,7 @@ weapons: [
 
         sapStrength: 0.65
         lifetime: 30
-        damage: 45
+        damage: 75
 
         shootEffect: shootSmall
         despawnEffect: none

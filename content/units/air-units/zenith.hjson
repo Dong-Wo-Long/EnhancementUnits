@@ -76,6 +76,7 @@ name: hidden-zenith-mount-weapon
     controllable: false
     layerOffset: -0.001
     autoTarget: true
+    shake: 1.75
     
     baseRotation: -115
     alternate: false

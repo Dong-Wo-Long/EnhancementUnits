@@ -68,10 +68,10 @@ bullet: {
     pierceBuilding: true
     keepVelocity: true
     despawnShake: 2.5
+    hitShake: 2.5
     pierceCap: 2
     pierce: true
     drag: -0.003
-    hitShake: 2.5
     shrinkY: 0
     height: 8
     width: 8
@@ -81,8 +81,8 @@ bullet: {
     homingRange: 60
     weaveScale: 8
     lifetime: 96
-    weaveMag: 2
     damage: 19.5
+    weaveMag: 2
     speed: 2
 
     trailColor: 454545

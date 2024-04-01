@@ -41,8 +41,8 @@ shoot: {
 bullet: {
     type: MissileBulletType
     keepVelocity: false
-    despawnShake: 1.25
-    hitShake: 1.25
+    despawnShake: 2.25
+    hitShake: 2.25
     shrinkX: 0.25
     shrinkY: 0.5
     drag: -0.003

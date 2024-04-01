@@ -95,7 +95,7 @@ bullet: {
 
     lightColor: fff8e8
     lightOpacity: 0.7
-    lightRadius: 24.5
+    lightRadius: 27.5
 }
     }
 ]

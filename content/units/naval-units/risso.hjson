@@ -4,6 +4,10 @@ speed: 1.25
 health: 320
 armor: 3
 
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 62.5
+
 weapons: [
 {
     name: risso-mount-weapon
@@ -31,7 +35,7 @@ bullet: {
     damage: 7.5
     speed: 7.5
 
-    lightColor: f9c27a
+    lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 20
 }

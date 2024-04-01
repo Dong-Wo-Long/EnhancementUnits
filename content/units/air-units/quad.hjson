@@ -272,6 +272,7 @@ bullet: {
     shootCone: 30
     rotate: true
     recoil: 1.5
+    shake: 7.5
     x: 21.5
     y: -0.75
 

@@ -63,6 +63,7 @@ bullet: {
     trailWidth: 1.7
     trailLength: 5
 
+    hitSound: dullExplosion
     frontColor: ffffff
     backColor: feb380
     hitColor: feb380

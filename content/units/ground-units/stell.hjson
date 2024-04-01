@@ -22,6 +22,7 @@ weapons: [
     rotate: true
     shootY: 4.5
     recoil: 1
+    shake: 3
     x: 0
     y: -0.75
 
@@ -42,6 +43,8 @@ bullet: {
     sprite: missile-large
     collideTerrain: true
     collidesAir: false
+    despawnShake: 3.2
+    hitShake: 3.2
     hitSize: 4
     height: 7
     width: 5

@@ -42,7 +42,7 @@ bullet: {
 
     rotate: true
     mirror: false
-    shake: 1.5
+    shake: 2.5
     x: 0
     y: -5
 

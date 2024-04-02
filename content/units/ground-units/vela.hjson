@@ -107,11 +107,10 @@ bullet: {
     }
 
 {
-name: laser-mount
+name: plasma-anti-air
 
     controllable: false
     layerOffset: -0.001
-    baseRotation: -135
     rotationLimit: 25
     rotateSpeed: 0.8
     autoTarget: true
@@ -122,7 +121,7 @@ name: laser-mount
     recoil: 2
     shake: 7
     x: 14.5
-    y: -1.5
+    y: 3.75
 
     inaccuracy: 1.75
     reload: 180
@@ -197,18 +196,23 @@ name: plasma-missile-mount
     x: 11
     y: -8
 
-    inaccuracy: 2.5
+    inaccuracy: 3
     reload: 420
 
     shootEffect: shootSmall
     shootSound: artillery
     ejectEffect: casing2
 
+    shootStatusDuration: 180
+    shootStatus: slow
+shoot: {
+        shotDelay: 32
+        shots: 3
+}
+
 bullet: {
     type: EmpBulletType
     sprite: enhancement-units-circle-bullet
-    collidesTiles: true
-    collidesAir: false
     despawnShake: 25
     hitShake: 25
     shrinkX: 0.5
@@ -218,8 +222,10 @@ bullet: {
 
     buildingDamageMultiplier: 1.27
 
+    splashDamageRadius: 60
     statusDuration: 300
     status: electrified
+    splashDamage: 120
     healPercent: 21
     knockback: 0.8
     lifetime: 180
@@ -227,11 +233,11 @@ bullet: {
     speed: 1.25
 
     smokeEffect: shootBigSmoke2
-    hitEffect: hitEmpSpark
 
     hitSound: plasmaboom
 
     trailEffect: artilleryTrail
+    trailInterval: 12.5
     trailColor: 84f491
     lightColor: 84f491
     frontColor: ffffff
@@ -244,18 +250,24 @@ bullet: {
     lightRadius: 75
 
 hitEffect: {
-    type: WaveEffect
-    startDelay: 0
-    lifetime: 20
+    type: ExplosionEffect
 
-    strokeFrom: 4
-    sizeFrom: 75
-    strokeTo: 4
-    strokeTo: 0
-    sizeTo: 75
+    lifetime: 40
 
-    colorFrom: 84f491
-    colorTo: 84f491
+    waveColor: 84f491
+    waveStroke: 4
+    waveRad: 90
+
+    smokeColor: 84f491
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 8
+
+    sparkColor: 84f491
+    sparkStroke: 3
+    sparkRad: 40
+    sparkLen: 4
+    sparks: 8
     }
 }
     }

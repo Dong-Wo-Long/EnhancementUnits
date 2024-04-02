@@ -6,7 +6,7 @@ fogRadius: 35.5
 crashDamageMultiplier: 5
 
 ammoType: plastanium
-itemCapacity: 2300
+itemCapacity: 2100
 health: 12000
 speed: 1.3
 armor: 18

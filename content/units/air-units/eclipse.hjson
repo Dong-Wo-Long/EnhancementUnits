@@ -9,7 +9,7 @@ itemCapacity: 4500
 ammoType: thorium
 health: 21000
 speed: 0.7
-armor: 21
+armor: 24
 
 trailLength: 46
 

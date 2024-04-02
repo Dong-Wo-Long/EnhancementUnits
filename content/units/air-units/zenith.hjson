@@ -49,7 +49,7 @@ bullet: {
     height: 8
     width: 8
 
-    splashDamageRadius: 27.5
+    splashDamageRadius: 28
     statusDuration: 90
     splashDamage: 52
     homingRange: 60
@@ -106,7 +106,7 @@ bullet: {
     height: 10
     width: 10 
 
-    splashDamageRadius: 35
+    splashDamageRadius: 37
     statusDuration: 90
     splashDamage: 27.5
     status: burning

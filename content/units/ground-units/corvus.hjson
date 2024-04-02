@@ -249,7 +249,7 @@ weapons: [
     }
 
 {
-    name: laser-mount
+    name: plasma-anti-air
     layerOffset: -0.001
     rotationLimit: 75
     baseRotation: -55
@@ -348,7 +348,7 @@ weapons: [
         }
     }
 {
-    name: laser-mount
+    name: plasma-anti-air
     layerOffset: -0.001
     rotationLimit: 45
     rotateSpeed: 1.2

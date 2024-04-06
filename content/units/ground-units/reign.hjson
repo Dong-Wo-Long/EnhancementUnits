@@ -4,9 +4,9 @@ stepShake: 14.5
 
 itemCapacity: 2150
 rotateSpeed: 1
-health: 25000
+health: 24000
 speed: 0.3
-armor: 24
+armor: 32
 
 lightColor: fff8e8
 lightOpacity: 0.7

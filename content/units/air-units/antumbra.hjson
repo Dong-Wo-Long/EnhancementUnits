@@ -204,15 +204,15 @@ bullet: {
     height: 8
     width: 8
 
-    splashDamageRadius: 27.5
+    splashDamageRadius: 26
     statusDuration: 90
-    splashDamage: 54.5
+    splashDamage: 64
     homingRange: 60
     status: blasted
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 26.5
+    damage: 32.5
     speed: 2.8
 
     despawnEffect: blastExplosion

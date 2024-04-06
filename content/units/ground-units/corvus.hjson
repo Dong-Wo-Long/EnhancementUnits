@@ -8,7 +8,7 @@ itemCapacity: 940
 rotateSpeed: 0.8
 health: 19000
 speed: 0.25
-armor: 15
+armor: 21
 
 lightColor: 98ffa9
 lightOpacity: 0.7

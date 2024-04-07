@@ -87,7 +87,7 @@ bullet: {
     buildingDamageMultiplier: 0.85
 
     lifetime: 60
-    damage: 21.5
+    damage: 27.5
     speed: 4.5
 
     lightColor: fff8e8
@@ -135,9 +135,9 @@ bullet: {
     buildingDamageMultiplier: 0.75
 
     splashDamageRadius: 26
-    splashDamage: 27.5
+    splashDamage: 32.5
     lifetime: 45
-    damage: 32.5
+    damage: 42.5
     speed: 6.75
 
     hitEffect: flakExplosion

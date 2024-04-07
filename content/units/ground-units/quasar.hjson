@@ -6,7 +6,7 @@ stepShake: 2.65
 fogRadius: 26
 
 itemCapacity: 140
-health: 780
+health: 1200
 armor: 12
 
 lightColor: 98ffa9
@@ -16,11 +16,11 @@ lightRadius: 90
 abilities: [
     {
     type: ForceFieldAbility 
-    cooldown: 480
+    cooldown: 720
     radius: 70
     regen: 0.3
     sides: 4
-    max: 470
+    max: 1500
     }
 ]
 

@@ -31,6 +31,8 @@ weapons: [
 
     heatColor: f9350f
 
+    shootSound: dullExplosion
+
 shoot: { 
     type: ShootAlternate
     barrels: 2
@@ -63,7 +65,7 @@ bullet: {
     trailWidth: 1.7
     trailLength: 5
 
-    hitSound: dullExplosion
+    hitSound: explosion
 
     frontColor: ffffff
     backColor: feb380

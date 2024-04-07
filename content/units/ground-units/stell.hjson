@@ -16,6 +16,7 @@ weapons: [
 {
     name: stell-weapon
 
+    soundPitchMax: 0.25
     layerOffset: 0.0001
     rotateSpeed: 0.8
     mirror: false

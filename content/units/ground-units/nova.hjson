@@ -29,7 +29,7 @@ weapons: [
     recoil: 2
     x: 4.5
 
-    reload: 40
+    reload: 45
 
     ejectEffect: none
 
@@ -43,7 +43,7 @@ bullet: {
 
     healPercent: 5
     lifetime: 45
-    damage: 26
+    damage: 32
 
     frontColor: ffffff
     backColor: 84f491

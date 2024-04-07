@@ -181,7 +181,7 @@ name: zenith-missiles
     y: 3
 
     velocityRnd: 0.4
-    inaccuracy: 45
+    inaccuracy: 32
     reload: 230
 
     shootSound: missile
@@ -207,8 +207,9 @@ bullet: {
     splashDamageRadius: 26
     statusDuration: 90
     splashDamage: 64
-    homingRange: 60
     status: burning
+    homingPower: 0
+    homingRange: 0
     weaveScale: 6
     lifetime: 75
     weaveMag: 1

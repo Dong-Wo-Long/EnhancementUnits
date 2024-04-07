@@ -45,6 +45,7 @@ bullet: {
     type: BasicBulletType
     sprite: missile-large
     collideTerrain: true
+    soundPitchMax: 0.45
     collidesAir: false
     despawnShake: 3.2
     hitShake: 3.2

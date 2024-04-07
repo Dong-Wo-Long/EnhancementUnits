@@ -3,7 +3,7 @@ stepShake: 1.7
 
 itemCapacity: 130
 health: 1600
-armor: 12
+armor: 9
 
 lightColor: 665c9f
 lightOpacity: 0.7

@@ -4,7 +4,7 @@ fogRadius: 32
 
 ammoType: blast-compound
 itemCapacity: 190
-health: 1250
+health: 1450
 armor: 14
 
 trailLength: 11.5

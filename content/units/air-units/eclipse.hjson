@@ -237,7 +237,7 @@ bullet: {
     statusDuration: 90
     homingPower: 0.25
     splashDamage: 64
-    homingRange: 65
+    homingRange: 25
     status: burning
     weaveScale: 6
     lifetime: 75
@@ -298,7 +298,7 @@ bullet: {
     statusDuration: 90
     splashDamage: 90
     homingPower: 0.5
-    homingRange: 75
+    homingRange: 32
     status: burning
     weaveScale: 6
     lifetime: 75
@@ -359,7 +359,7 @@ bullet: {
 
     splashDamageRadius: 36
     splashDamage: 121
-    homingRange: 81
+    homingRange: 75
     status: blasted
     homingPower: 1
     weaveScale: 6

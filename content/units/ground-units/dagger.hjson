@@ -27,8 +27,8 @@ bullet: {
     width: 7
 
     lifetime: 60
+    damage: 12.5
     speed: 2.5
-    damage: 9
 
     lightColor: fff8e8
     lightOpacity: 0.7

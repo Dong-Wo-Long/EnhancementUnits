@@ -50,7 +50,7 @@ bullet: {
     width: 5
 
     splashDamageRadius: 24
-    splashDamage: 41
+    splashDamage: 45
     lifetime: 60
     damage: 32
     speed: 3.2

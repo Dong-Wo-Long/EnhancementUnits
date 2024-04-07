@@ -4,7 +4,7 @@ fogRadius: 32
 
 ammoType: blast-compound
 itemCapacity: 190
-health: 1600
+health: 1450
 armor: 12
 
 trailLength: 11.5
@@ -108,10 +108,10 @@ bullet: {
 
     splashDamageRadius: 37
     statusDuration: 90
-    splashDamage: 27.5
+    splashDamage: 32.5
     status: burning
     lifetime: 90
-    damage: 12.5
+    damage: 17.5
     speed: 2.75
 
     hitEffect: flakExplosion

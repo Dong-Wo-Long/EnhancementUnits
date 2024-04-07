@@ -20,7 +20,7 @@ abilities: [
     radius: 70
     regen: 0.3
     sides: 4
-    max: 1500
+    max: 1200
     }
 ]
 

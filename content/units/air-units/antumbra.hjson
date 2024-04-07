@@ -120,7 +120,7 @@ bullet: {
     buildingDamageMultiplier: 0.75
 
     lifetime: 50
-    damage: 21.5
+    damage: 24.5
     speed: 4.5
 
     lightColor: fff8e8
@@ -160,7 +160,7 @@ bullet: {
     buildingDamageMultiplier: 0.85
 
     lifetime: 50
-    damage: 14.5
+    damage: 16.5
     speed: 4.5
 
     lightColor: fff8e8
@@ -365,7 +365,7 @@ bullet: {
     width: 9
     
     splashDamageRadius: 32.5
-    splashDamage: 24.5
+    splashDamage: 27.5
     lifetime: 45
     damage: 32.5
     speed: 6

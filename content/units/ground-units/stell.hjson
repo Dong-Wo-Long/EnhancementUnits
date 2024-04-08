@@ -3,8 +3,8 @@ fogRadius: 27.5
 rotateSpeed: 3
 speed: 0.45
 
-health: 750
-armor: 12
+health: 810
+armor: 9
 
 lightColor: feb380
 lightOpacity: 0.7

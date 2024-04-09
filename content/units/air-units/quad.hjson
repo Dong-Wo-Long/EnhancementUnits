@@ -4,7 +4,7 @@ faceTarget: true
 crashDamageMultiplier: 5
 
 itemCapacity: 750
-buildSpeed: 4.8
+buildSpeed: 2.4
 fogRadius: 62.5
 health: 12800
 mineSpeed: 8

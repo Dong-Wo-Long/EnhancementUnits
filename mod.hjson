@@ -4,8 +4,8 @@
     displayName: "Enhancement Units"
     author: "D&X"
     description: "Important:\n\nThis mod does not bring anything radically new to the game, but only expands the combat functionality of existing combat units.\n\nPlease pay attention:\n\nThe mod significantly redesigns units, changes the balance and generally complicates the game. Don't forget to make a backup in case you don't like the changes that the mod itself makes.\n\nP.S. The mod is made for ALE maps."
-    version: v1.4.22 beta
-    subtitle: "Improving and changing units | v1.4.22 beta"
+    version: v1.4.23 beta
+    subtitle: "Improving and changing units | v1.4.23 beta"
 	
     minGameVersion: 146
 

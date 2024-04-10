@@ -1,7 +1,7 @@
 forceMultiTarget: true
 targetAir: true
 stepShake: 3.25
-fogRadius: 32
+fogRadius: 37.5
 
 itemCapacity: 150
 health: 2250
@@ -44,7 +44,7 @@ bullet: {
     splashDamageRadius: 35
     splashDamage: 80
     knockback: 0.8
-    lifetime: 160
+    lifetime: 180
     speed: 1.45
     damage: 60
 

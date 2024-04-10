@@ -17,7 +17,6 @@ targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
 weapons: [
 {
-    inaccuracy: 7
     shootCone: 15
     x: 2
     y: 0

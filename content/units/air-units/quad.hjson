@@ -1,5 +1,6 @@
 fallSpeed: 0.0025
 faceTarget: true
+fogRadius: 64
 
 crashDamageMultiplier: 5
 

@@ -3,7 +3,7 @@ buildSpeed: 1.8
 fogRadius: 37.5
 mineSpeed: 2.4
 mineTier: 1
-health: 180
+health: 120
 speed: 3.25
 armor: 1
 

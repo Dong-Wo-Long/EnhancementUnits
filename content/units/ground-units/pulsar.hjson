@@ -15,9 +15,9 @@ abilities: [
 {
     type: ShieldRegenFieldAbility 
     reload: 180
-    amount: 20
+    amount: 40
     range: 60
-    max: 120
+    max: 240
     }
 ]
 

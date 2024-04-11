@@ -312,11 +312,11 @@ bullet: {
     trailEffect: hitSquaresColor
     trailInterval: 5.25
     trailColor: 84f491
-    lightColor: 84f491
-    frontColor: 84f491
     trailLength: 7.25
-    backColor: ffffff
     trailWidth: 3.25
+
+    frontColor: ffffff
+    backColor: 84f491
 
     lightColor: 84f491
     lightOpacity: 0.7

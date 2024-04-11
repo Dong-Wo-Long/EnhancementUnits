@@ -155,11 +155,11 @@ bullet: {
     speed: 4
 
     trailColor: 84f491
-    lightColor: 84f491
-    frontColor: 84f491
     trailLength: 5.25
-    backColor: ffffff
     trailWidth: 1.75
+
+    frontColor: ffffff
+    backColor: 84f491
 
     lightColor: 84f491
     lightOpacity: 0.7

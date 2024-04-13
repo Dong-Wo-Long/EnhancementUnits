@@ -44,8 +44,8 @@ bullet: {
     height: 20
     width: 11
 
-    lifetime: 35
-    damage: 98
+    lifetime: 38
+    damage: 96
     speed: 7
 
     lightningColor: f3e979
@@ -88,6 +88,7 @@ bullet: {
     lightRadius: 21
 }
     }
+
 {
 name: mount-weapon
     rotate: true

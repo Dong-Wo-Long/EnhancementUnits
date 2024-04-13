@@ -1,6 +1,6 @@
 boostMultiplier: 2
 stepShake: 0.125
-fogRadius: 32.5
+fogRadius: 34.5
 trailLength: 8
 
 health: 190

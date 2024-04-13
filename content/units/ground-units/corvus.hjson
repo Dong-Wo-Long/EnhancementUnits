@@ -1,8 +1,7 @@
-forceMultiTarget: true
 legSplashDamage: 310
 legSplashRange: 25
 stepShake: 10.5
-fogRadius: 65
+fogRadius: 128
 
 itemCapacity: 940
 rotateSpeed: 0.8
@@ -25,32 +24,33 @@ abilities: [
     width: 8
     y: -9
 
-    cooldown: 600
+    cooldown: 900
     regen: 1.8
-    max: 2300
+    max: 12000
     }
 {
     type: RegenAbility
-    percentAmount: 0.0075
-    amount: 0.025
+    percentAmount: 0.0125
+    amount: 0.015
     }
 ]
 
 weapons: [
 {
     name: corvus-weapon
+    inaccuracy: 0
     mirror: false
     shootY: 5
     shake: 45
     x: 0
     y: 0
 
-    reload: 1200
+    reload: 3000
     recoil: 0
 
-    cooldownTime: 1200
+    cooldownTime: 3000
 
-    shootStatusDuration: 540
+    shootStatusDuration: 900
     shootStatus: unmoving
     shoot: {
         firstShotDelay: 300
@@ -86,21 +86,19 @@ weapons: [
         sideAngle: 15
         sideWidth: 0
         hitShake: 21
-        length: 655
+        length: 970
         width: 90
 
-        buildingDamageMultiplier: 1.15
-
-        statusDuration: 600
+        statusDuration: 900
         healPercent: 50
         status: melting
-        lifetime: 65
-        damage: 1480
+        lifetime: 90
+        damage: 4800
 
         lightningLengthRand: 25
         lightningAngleRand: 50
         lightningSpacing: 35
-        lightningDamage: 230
+        lightningDamage: 320
         lightningDelay: 1.1
         lightningLength: 5
 

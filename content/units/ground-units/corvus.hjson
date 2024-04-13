@@ -86,16 +86,16 @@ weapons: [
         sideAngle: 15
         sideWidth: 0
         hitShake: 21
-        length: 485
+        length: 655
         width: 90
 
-        buildingDamageMultiplier: 1.13
+        buildingDamageMultiplier: 1.15
 
         statusDuration: 600
         healPercent: 50
         status: melting
         lifetime: 65
-        damage: 1350
+        damage: 1480
 
         lightningLengthRand: 25
         lightningAngleRand: 50
@@ -284,18 +284,17 @@ weapons: [
         width: 5
 
         splashDamageRadius: 10
-        splashDamage: 45
+        splashDamage: 32
         healPercent: 12
-        lifetime: 90
-        damage: 70
+        lifetime: 112
+        damage: 64
         speed: 3
 
         trailColor: 84f491
+        frontColor: 84f491
         trailLength: 5.25
+        backColor: ffffff
         trailWidth: 0.5
-
-        frontColor: ffffff
-        backColor: 84f491
 
         lightColor: 84f491
         lightOpacity: 0.7
@@ -383,18 +382,17 @@ weapons: [
         width: 5
 
         splashDamageRadius: 10
-        splashDamage: 32
+        splashDamage: 45
         healPercent: 12
-        lifetime: 75
-        damage: 70
+        lifetime: 112
+        damage: 75
         speed: 3
 
         trailColor: 84f491
+        frontColor: 84f491
         trailLength: 5.25
+        backColor: ffffff
         trailWidth: 0.5
-
-        frontColor: ffffff
-        backColor: 84f491
 
         lightColor: 84f491
         lightOpacity: 0.7

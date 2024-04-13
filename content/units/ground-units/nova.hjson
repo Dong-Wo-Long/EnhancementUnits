@@ -2,7 +2,7 @@ boostMultiplier: 2
 stepShake: 0.125
 fogRadius: 35
 
-health: 190
+health: 210
 speed: 0.65
 
 lightColor: 98ffa9

@@ -55,7 +55,7 @@ bullet: {
 
     splashDamageRadius: 26
     splashDamage: 45
-    lifetime: 60
+    lifetime: 78
     damage: 32
     speed: 3.2
 

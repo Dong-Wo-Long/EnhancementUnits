@@ -3,6 +3,7 @@ stepShake: 0.125
 fogRadius: 32.5
 trailLength: 8
 
+itemCapacity: 32
 health: 210
 speed: 0.65
 

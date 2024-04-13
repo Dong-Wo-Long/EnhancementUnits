@@ -33,7 +33,6 @@ weapons: [
 bullet: {
     type: BasicBulletType
     collideTerrain: true
-    pierceArmor: true
     despawnShake: 5
     pierce: true
     hitShake: 5

@@ -33,6 +33,7 @@ weapons: [
 bullet: {
     type: BasicBulletType
     collideTerrain: true
+    pierceArmor: true
     despawnShake: 5
     pierce: true
     hitShake: 5
@@ -45,8 +46,8 @@ bullet: {
     splashDamage: 80
     fragBullets: 3
     fragLifeMin: 0
-    pierceCap: 10
     lifetime: 20.5
+    pierceCap: 10
     damage: 140
     speed: 19
 
@@ -62,6 +63,7 @@ fragBullet: {
     collideTerrain: true
     pierceBuilding: true
     collidesAir: false
+    pierceArmor: true
     despawnShake: 1
     pierce: true
     hitShake: 1

@@ -1,4 +1,4 @@
-legSplashDamage: 310
+legSplashDamage: 320
 legSplashRange: 25
 stepShake: 10.5
 fogRadius: 128
@@ -30,8 +30,8 @@ abilities: [
     }
 {
     type: RegenAbility
-    percentAmount: 0.0125
-    amount: 0.005
+    percentAmount: 0.008
+    amount: 0.008
     }
 ]
 
@@ -533,9 +533,9 @@ weapons: [
     x: 18.5
     y: -7
 
-    cooldownTime: 130
+    cooldownTime: 320
     rotateSpeed: 3.5
-    reload: 130
+    reload: 320
 
     shootSound: beam
 
@@ -552,7 +552,7 @@ weapons: [
         statusDuration: 90
         healPercent: 0.5
         status: burning
-        lifetime: 115
+        lifetime: 300
         damage: 15
 
         incendChance: 0.03

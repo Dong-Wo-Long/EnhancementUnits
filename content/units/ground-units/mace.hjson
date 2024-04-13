@@ -3,7 +3,7 @@ fogRadius: 7.5
 
 itemCapacity: 70
 speed: 0.55
-armor: 5
+armor: 8
 
 lightColor: fff8e8
 lightOpacity: 0.7

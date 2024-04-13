@@ -23,7 +23,7 @@ name: artillery
     x: 9.5
     y: 1
 
-    reload: 60
+    reload: 80
 
     shootEffect: shootSmall
     shootSound: artillery
@@ -42,11 +42,10 @@ bullet: {
     buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 26
-    splashDamage: 90
+    splashDamage: 120
     knockback: 0.8
     lifetime: 255
-    speed: 1.45
-    damage: 45
+    speed: 1.8
 
     hitEffect: blastExplosion
 

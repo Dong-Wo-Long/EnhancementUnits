@@ -1,10 +1,10 @@
 forceMultiTarget: true
-fogRadius: 36.5
+fogRadius: 52.5
 stepShake: 14.5
 
 itemCapacity: 1600
 rotateSpeed: 1
-health: 33000
+health: 32000
 speed: 0.3
 armor: 32
 
@@ -46,7 +46,7 @@ bullet: {
     fragBullets: 3
     fragLifeMin: 0
     pierceCap: 10
-    lifetime: 15
+    lifetime: 20.5
     damage: 140
     speed: 19
 
@@ -72,7 +72,7 @@ fragBullet: {
     splashDamage: 15
     pierceCap: 3
     lifetime: 20
-    damage: 17
+    damage: 21
     speed: 5
 
     hitEffect: flakExplosion
@@ -122,15 +122,15 @@ bullet: {
 
     splashDamageRadius: 19
     fragRandomSpread: 360
-    splashDamage: 98
+    splashDamage: 120
     homingRange: 60
     fragBullets: 3
     fragLifeMin: 0
-    lifetime: 100
     weaveScale: 6
+    lifetime: 120
     weaveMag: 2
     speed: 2.25
-    damage: 32
+    damage: 64
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion

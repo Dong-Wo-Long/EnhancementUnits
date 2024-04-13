@@ -1,9 +1,9 @@
 rotateSpeed: 0.45
 stepShake: 5.75
-fogRadius: 55
+fogRadius: 96
 
 itemCapacity: 900
-health: 21000
+health: 18000
 armor: 24
 
 lightColor: 665c9f
@@ -24,7 +24,7 @@ abilities: [
 
     cooldown: 900
     regen: 2.5
-    max: 2450
+    max: 8100
     }
 {
     type: ShieldArcAbility
@@ -37,7 +37,7 @@ abilities: [
 
     cooldown: 900
     regen: 2.5
-    max: 2450
+    max: 8100
     }
 ]
 
@@ -54,7 +54,7 @@ weapons: [
     x: 11
     y: -5
 
-    reload: 50
+    reload: 90
 
     ejectEffect: casing1
 
@@ -68,7 +68,7 @@ weapons: [
 
     bullet: {
         type: ShrapnelBulletType
-        length: 90
+        length: 115
         width: 25
 
         serrationSpaceOffset: 60
@@ -76,7 +76,7 @@ weapons: [
         serrationLenScl: 7
         serrationWidth: 6
         serrations: 10
-        damage: 290
+        damage: 320
 
         shootEffect: sparkShoot
         smokeEffect: sparkShoot
@@ -99,14 +99,19 @@ weapons: [
     y: -14
     x: 0
 
-    reload: 1950
+    inaccuracy: 15
+    reload: 1920
 
     ejectEffect: casing3
 
     shootSound: artillery
 
-    shootStatusDuration: 350
+    shootStatusDuration: 750
     shootStatus: slow
+shoot: {
+    shotDelay: 60
+    shots: 3
+    }
 
     bullet: {
         type: ArtilleryBulletType
@@ -116,32 +121,41 @@ weapons: [
         knockback: 0.8
         collides: true
         hitShake: 17
-        height: 25
-        width: 25
+        height: 32
+        width: 32
 
-        splashDamageRadius: 80
-        lightningDamage: 115
+        buildingDamageMultiplier: 8.5
+
+        splashDamageRadius: 90
+        lightningDamage: 120
         lightningLength: 20
         statusDuration: 720
         ammoMultiplier: 4
-        splashDamage: 750
+        splashDamage: 320
         lightOpacity: 0.6
         fragLifeMin: 0.3
         lightRadius: 40
         fragBullets: 9
         status: sapped
-        lifetime: 196
+        lifetime: 500
         lightning: 9
-        damage: 320
-        speed: 2.1
+        damage: 180
+        speed: 1.45
 
         smokeEffect: shootBigSmoke2
         hitEffect: sapExplosion
 
-        lightningColor: bf92f9
-        lightColor: 665c9f
         frontColor: bf92f9
         backColor: 6d56bf
+
+        lightningColor: bf92f9
+        lightColor: 665c9f
+        lightOpacity: 0.7
+        lightRadius: 160
+
+        trailLength: 9
+        trailWidth: 5
+        trailSize: 7
 
         fragBullet: { 
             type: ArtilleryBulletType
@@ -150,100 +164,36 @@ weapons: [
             despawnShake: 11
             knockback: 0.8
             hitShake: 11
-            height: 18
-            width: 18
+            height: 21
+            width: 21
 
-            splashDamageRadius: 70
-            lightningDamage: 70
+            buildingDamageMultiplier: 6
+
+            splashDamageRadius: 75
+            lightningDamage: 64
             statusDuration: 540
             lightningLength: 6
             lightOpacity: 0.5
-            splashDamage: 196
+            splashDamage: 210
             lightRadius: 30
             status: sapped
             lifetime: 110
             lightning: 2
-            damage: 98
+            damage: 90
             speed: 1.7
 
             smokeEffect: shootBigSmoke2
             hitEffect: sapExplosion
 
-            lightningColor: bf92f9
-            lightColor: 665c9f
             frontColor: bf92f9
             backColor: 6d56bf
+
+            lightningColor: bf92f9
+            lightColor: 665c9f
+            lightOpacity: 0.7
+            lightRadius: 90
             }
         }
-    }
-
-{
-name: hidden-purple-flamethrower-mount
-
-    layerOffset: -0.001
-    rotationLimit: 45
-    rotateSpeed: 1.5
-    shootCone: 30
-    mirror: false
-    rotate: true
-    recoil: 3
-    shake: 12
-    x: 0
-    y: 8.5
-
-    inaccuracy: 3.2
-    reload: 150
-
-    shootEffect: shootSmall
-    shootSound: artillery
-    ejectEffect: casing2
-
-shoot: {
-    shotDelay: 9
-    shots: 5
-}
-
-bullet: {
-    type: BasicBulletType
-    sprite: enhancement-units-circle-bullet
-    collideTerrain: true
-    collidesAir: false
-    despawnShake: 3
-    pierceCap: 5
-    pierce: true
-    shrinkX: 0.5
-    shrinkY: 0.35
-    hitShake: 3
-    height: 12
-    width: 12
-
-    splashDamageRadius: 41.5
-    lightningDamage: 16.5
-    lightningLength: 7.5
-    statusDuration: 180
-    splashDamage: 81.5
-    lifetime: 72.5
-    status: sapped
-    lightning: 3
-    damage: 62.5
-    speed: 2.5
-
-    hitEffect: flakExplosion
-    shootEffect: shootBig
-
-    lightningColor: ffffff
-    trailInterval: 3.5
-    trailColor: bf92f9
-    frontColor: ffffff
-    backColor: bf92f9
-    trailLength: 7.2
-    trailWidth: 4.1
-    trailSize: 5
-
-    lightColor: bf92f9
-    lightOpacity: 0.7
-    lightRadius: 31
-}
     }
 
 {
@@ -282,17 +232,17 @@ bullet: {
 
         splashDamageRadius: 16
         lightningLength: 5
-        lightningDamage: 9
+        lightningDamage: 21
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.96
         homingRange: 55
         weaveScale: 5
-        lifetime: 120
+        lifetime: 140
         lightning: 3
         weaveMag: 2
         speed: 2.25
-        damage: 25
+        damage: 81
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
@@ -345,17 +295,17 @@ bullet: {
 
         splashDamageRadius: 16
         lightningLength: 5
-        lightningDamage: 9
+        lightningDamage: 21
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.96
         homingRange: 55
         weaveScale: 5
-        lifetime: 120
+        lifetime: 140
         lightning: 3
         weaveMag: 2
         speed: 2.25
-        damage: 25
+        damage: 81
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion

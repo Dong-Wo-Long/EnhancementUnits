@@ -1,7 +1,7 @@
 boostMultiplier: 2
 stepShake: 0.125
+fogRadius: 32.5
 trailLength: 8
-fogRadius: 27.5
 
 health: 190
 speed: 0.65
@@ -42,7 +42,7 @@ bullet: {
     speed: 3.85
 
     healPercent: 5
-    lifetime: 45
+    lifetime: 60
     damage: 32
 
     frontColor: ffffff

@@ -1,9 +1,6 @@
 forceMultiTarget: true
-trailLength: 12.5
-engineOffset: 7
-engineSize: 3.5
 stepShake: 2.65
-fogRadius: 26
+fogRadius: 32.5
 
 itemCapacity: 140
 health: 2100
@@ -12,6 +9,10 @@ armor: 15
 lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 90
+
+trailLength: 12.5
+engineOffset: 7
+engineSize: 3.5
 
 abilities: [
     {
@@ -41,12 +42,12 @@ weapons: [
     bullet: {
         type: LaserBulletType
         collidesTeam: true
-        length: 135
+        length: 150
         recoil: 1
         width: 25
 
         healPercent: 25
-        damage: 90
+        damage: 96
 
         colors: [ 84f491, 84f491, ffffff ]
     }
@@ -93,13 +94,13 @@ weapons: [
 
         splashDamageRadius: 15
         homingPower: 0.65
-        splashDamage: 52
+        splashDamage: 45
         homingRange: 45
         healPercent: 7
         weaveScale: 4
-        lifetime: 80
+        lifetime: 106
         weaveMag: 2
-        damage: 29
+        damage: 32
         speed: 2
 
         despawnEffect: blastExplosion

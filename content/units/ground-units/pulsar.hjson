@@ -1,13 +1,14 @@
 stepShake: 0.6
-fogRadius: 10
+fogRadius: 18
 
-trailLength: 9
 health: 420
 speed: 0.75
 
 lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 75
+
+trailLength: 9
 
 immunities: [ shocked ]
 
@@ -30,12 +31,12 @@ weapons: [
     x: 5
     y: 0.5
 
-    inaccuracy: 35
-    reload: 36
+    inaccuracy: 15
+    reload: 32
 
     shoot: {
-        shots: 3
         shotDelay: 0.5
+        shots: 3
     }
 
     ejectEffect: none
@@ -44,13 +45,13 @@ weapons: [
 
     bullet: {
         type: LightningBulletType
-        lightningLengthRand: 8.5
+        lightningLengthRand: 14.5
         lightningColor: 98ffa9
-        lightningLength: 8.5
+        lightningLength: 14.5
         hitColor: 98ffa9
 
         healPercent: 4.5
-        damage: 36
+        damage: 24
 
         shootEffect: shootHeal
 
@@ -58,7 +59,7 @@ weapons: [
             collidesTeam: true
             hittable: false
 
-            statusDuration: 10
+            statusDuration: 15
             healPercent: 2.1
             status: shocked
             lifetime: 1
@@ -73,3 +74,4 @@ weapons: [
         }
     }
 ]
+

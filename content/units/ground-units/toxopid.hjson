@@ -43,6 +43,42 @@ abilities: [
 
 weapons: [
 {
+    name: mount-purple-weapon
+    layerOffset: -0.001
+    rotationLimit: 45
+    rotate: true
+    x: 3
+    y: 9
+
+    reload: 4.5
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    knockback: -1
+    length: 180
+    width: 0.45
+
+    buildingDamageMultiplier: 0.01
+
+    sapStrength: 3.2
+    lifetime: 15
+    damage: 32
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+
+{
     name: large-purple-mount
     rotationLimit: 60
     rotateSpeed: 2

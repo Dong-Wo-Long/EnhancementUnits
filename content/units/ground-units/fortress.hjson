@@ -1,7 +1,7 @@
 forceMultiTarget: true
 targetAir: true
 stepShake: 3.25
-fogRadius: 37.5
+fogRadius: 47.5
 
 itemCapacity: 150
 health: 2250
@@ -39,14 +39,14 @@ bullet: {
     height: 20
     width: 16
 
-    buildingDamageMultiplier: 1.21
+    buildingDamageMultiplier: 1.25
 
-    splashDamageRadius: 35
-    splashDamage: 80
+    splashDamageRadius: 26
+    splashDamage: 90
     knockback: 0.8
-    lifetime: 180
+    lifetime: 255
     speed: 1.45
-    damage: 60
+    damage: 45
 
     hitEffect: blastExplosion
 
@@ -91,8 +91,8 @@ bullet: {
 
     buildingDamageMultiplier: 0.01
 
-    lifetime: 55
-    damage: 7
+    lifetime: 90
+    damage: 7.5
     speed: 3
 
     trailColor: fff8e8

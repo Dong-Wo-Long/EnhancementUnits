@@ -1,4 +1,5 @@
 rotateSpeed: 3.2
+fogRadius: 35
 speed: 1.25
 
 health: 320
@@ -31,7 +32,7 @@ bullet: {
     height: 8.5
     width: 6.5
 
-    lifetime: 32
+    lifetime: 35
     damage: 7.5
     speed: 7.5
 

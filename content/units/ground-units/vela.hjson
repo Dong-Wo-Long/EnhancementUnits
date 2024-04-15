@@ -70,7 +70,7 @@ bullet: {
     shake: 5.5
 
     lifetime: 160
-    damage: 45
+    damage: 140
 
     incendChance: 0.1
     incendSpread: 5

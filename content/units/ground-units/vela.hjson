@@ -226,7 +226,7 @@ bullet: {
     splashDamage: 120
     healPercent: 21
     knockback: 0.8
-    lifetime: 180
+    lifetime: 210
     damage: 140
     speed: 1.25
 

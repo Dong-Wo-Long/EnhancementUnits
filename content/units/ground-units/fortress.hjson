@@ -90,8 +90,8 @@ bullet: {
 
     buildingDamageMultiplier: 0.01
 
-    lifetime: 45
-    damage: 7.5
+    lifetime: 50
+    damage: 9
     speed: 5
 
     lightColor: fff8e8

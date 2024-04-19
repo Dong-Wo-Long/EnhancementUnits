@@ -44,7 +44,7 @@ bullet: {
     splashDamageRadius: 26
     splashDamage: 125
     knockback: 0.8
-    lifetime: 180
+    lifetime: 120
     speed: 2.4
 
     hitEffect: blastExplosion

@@ -90,13 +90,9 @@ bullet: {
 
     buildingDamageMultiplier: 0.01
 
-    lifetime: 90
+    lifetime: 60
     damage: 7.5
-    speed: 3
-
-    trailColor: fff8e8
-    trailLength: 3.2
-    trailWidth: 1.5
+    speed: 5
 
     lightColor: fff8e8
     lightOpacity: 0.7

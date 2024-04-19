@@ -18,8 +18,8 @@ weapons: [
 name: artillery
 
     shootCone: 30
-    shake: 11
     recoil: 4
+    shake: 11
     x: 9.5
     y: 1
 
@@ -42,9 +42,9 @@ bullet: {
     buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 26
-    splashDamage: 125
-    knockback: 0.8
-    lifetime: 120
+    splashDamage: 120
+    knockback: 4.45
+    lifetime: 152.5
     speed: 2.4
 
     hitEffect: blastExplosion
@@ -85,12 +85,12 @@ name: mount-weapon
 bullet: {
     type: BasicBulletType
     collidesAir: true
-    height: 8
-    width: 4
+    height: 9
+    width: 6
 
     buildingDamageMultiplier: 0.01
 
-    lifetime: 60
+    lifetime: 45
     damage: 7.5
     speed: 5
 

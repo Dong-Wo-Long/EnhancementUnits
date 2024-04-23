@@ -108,7 +108,7 @@ bullet: {
     width: 10 
 
     splashDamageRadius: 36
-    statusDuration: 90
+    statusDuration: 300
     splashDamage: 32
     status: burning
     lifetime: 90

@@ -51,14 +51,14 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 90
-    splashDamage: 52
+    splashDamage: 32
     status: blasted
     homingPower: 0
     homingRange: 0
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 32
+    damage: 45
     speed: 2.8
 
     despawnEffect: blastExplosion
@@ -109,10 +109,9 @@ bullet: {
 
     splashDamageRadius: 36
     statusDuration: 90
-    splashDamage: 32.5
+    splashDamage: 32
     status: burning
     lifetime: 90
-    damage: 17.5
     speed: 2.75
 
     hitEffect: flakExplosion

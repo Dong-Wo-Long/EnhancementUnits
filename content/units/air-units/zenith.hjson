@@ -49,7 +49,7 @@ bullet: {
     height: 8
     width: 8
 
-    splashDamageRadius: 28
+    splashDamageRadius: 26
     statusDuration: 90
     splashDamage: 52
     status: blasted

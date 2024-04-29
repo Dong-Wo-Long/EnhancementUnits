@@ -1,11 +1,11 @@
 itemCapacity: 32
 buildSpeed: 1.8
 fogRadius: 37.5
-mineSpeed: 2.4
+mineSpeed: 3.2
 mineTier: 1
-health: 120
+health: 180
 speed: 3.25
-armor: 1
+armor: 2
 
 trailLength: 6.25
 
@@ -22,7 +22,7 @@ abilities: [
 {
     type: RepairFieldAbility
     reload: 240
-    amount: 15
+    amount: 24
     range: 70
     }
 ]
@@ -55,7 +55,7 @@ bullet: {
     weaveScale: 4
     lifetime: 60
     weaveMag: 4
-    damage: 30
+    damage: 32
     speed: 4.8
     
     despawnEffect: hitLaser

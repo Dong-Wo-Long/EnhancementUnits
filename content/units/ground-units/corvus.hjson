@@ -90,7 +90,7 @@ weapons: [
         width: 90
 
         statusDuration: 900
-        healPercent: 50
+        healPercent: 75
         status: melting
         lifetime: 90
         damage: 4800

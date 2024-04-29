@@ -83,7 +83,7 @@ bullet: {
     height: 9
     width: 9
 
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.75
 
     splashDamageRadius: 32
     statusDuration: 180
@@ -209,7 +209,7 @@ bullet: {
     height: 12
     width: 12
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.25
 
     splashDamageRadius: 32
     statusDuration: 180

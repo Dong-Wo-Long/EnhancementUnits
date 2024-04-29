@@ -19,12 +19,9 @@ lightRadius: 215
 abilities: [
 {
     type: EnergyFieldAbility
-
-    buildingDamageMultiplier: 0.75
-
     sameTypeHealMult: 1.5
     statusDuration: 540
-    healPercent: 3.2
+    healPercent: 25
     maxTargets: 32
     damage: 180
     reload: 90

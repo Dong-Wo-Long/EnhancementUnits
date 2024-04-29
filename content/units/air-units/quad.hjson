@@ -4,10 +4,10 @@ fogRadius: 64
 
 crashDamageMultiplier: 5
 
-itemCapacity: 750
+itemCapacity: 800
 buildSpeed: 2.4
 fogRadius: 62.5
-health: 12800
+health: 15000
 mineSpeed: 8
 mineTier: 3
 speed: 1.1
@@ -70,17 +70,19 @@ bullet: {
     collides: false
     shootCone: 180
     maxRange: 30
+    hitShake: 11
     shrinkX: 0.7
     shrinkY: 0.7
-    hitShake: 11
     height: 30
     width: 30
     spin: 2
 
+    buildingDamageMultiplier: 1.32
+
     splashDamageRadius: 72
     fragRandomSpread: 360
-    splashDamage: 320
-    healPercent: 4.5
+    splashDamage: 750
+    healPercent: 1.8
     fragBullets: 9
     fragLifeMin: 0
     lifetime: 70
@@ -104,15 +106,15 @@ fragBullet: {
     despawnShake: 1.8
     hitShake: 1.8
     pierce: true
-    height: 9
-    width: 9
+    height: 16
+    width: 12
 
     splashDamageRadius: 28
-    splashDamage: 25
+    splashDamage: 180
     pierceCap: 2
     lifetime: 60
     speed: 1.75
-    damage: 50
+    damage: 90
 
     hitEffect: flakExplosion
 
@@ -252,7 +254,7 @@ bullet: {
 
     healPercent: 0.32
     lifetime: 32
-    damage: 21.5
+    damage: 24.5
     speed: 7.25
 
     frontColor: ffffff
@@ -301,6 +303,8 @@ bullet: {
     hitShake: 5
     height: 26
     width: 22
+
+    buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 60
     splashDamage: 210

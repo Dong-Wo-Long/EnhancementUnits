@@ -1,10 +1,10 @@
-itemCapacity: 64
+itemCapacity: 48
 fogRadius: 10.5
-mineSpeed: 4.10
+mineSpeed: 4.2
 mineTier: 2
 speed: 2.25
 
-health: 90
+health: 64
 
 trailLength: 5.45
 

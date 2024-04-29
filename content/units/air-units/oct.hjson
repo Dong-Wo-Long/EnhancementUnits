@@ -46,6 +46,8 @@ abilities: [
     }
 ]
 
+immunities: [ shocked, blasted, electrified, burning ]
+
 weapons: [
 {
     controllable: false

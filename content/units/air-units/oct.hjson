@@ -19,6 +19,9 @@ lightRadius: 215
 abilities: [
 {
     type: EnergyFieldAbility
+
+    buildingDamageMultiplier: 0.75
+
     sameTypeHealMult: 1.5
     statusDuration: 540
     healPercent: 3.2
@@ -79,6 +82,8 @@ bullet: {
     shrinkY: 0.5
     height: 9
     width: 9
+
+    buildingDamageMultiplier: 0.25
 
     splashDamageRadius: 32
     statusDuration: 180
@@ -141,6 +146,8 @@ bullet: {
     height: 7.5
     width: 7.5
 
+    buildingDamageMultiplier: 0.5
+
     splashDamageRadius: 32
     statusDuration: 180
     splashDamage: 90
@@ -201,6 +208,8 @@ bullet: {
     shrinkY: 0.5
     height: 12
     width: 12
+
+    buildingDamageMultiplier: 0.75
 
     splashDamageRadius: 32
     statusDuration: 180

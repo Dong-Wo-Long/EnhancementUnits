@@ -5,6 +5,7 @@ fogRadius: 55
 crashDamageMultiplier: 12.5
 
 itemCapacity: 18000
+itemOffsetY: -4.5
 rotateSpeed: 0.25
 buildSpeed: 3.2
 mineSpeed: 4.5

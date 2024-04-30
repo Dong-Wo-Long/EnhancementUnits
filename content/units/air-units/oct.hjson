@@ -279,7 +279,7 @@ bullet: {
     height: 15
     width: 7
 
-    splashDamageRadius: 32
+    splashDamageRadius: 36
     splashDamage: 150
     lifetime: 60
     damage: 250
@@ -365,7 +365,7 @@ bullet: {
     height: 15
     width: 7
 
-    splashDamageRadius: 32
+    splashDamageRadius: 36
     splashDamage: 150
     lifetime: 60
     damage: 250

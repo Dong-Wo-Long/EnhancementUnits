@@ -90,7 +90,7 @@ bullet: {
     homingRange: 180
     status: burning
     homingPower: 1
-    lifetime: 160
+    lifetime: 162
     damage: 90
     speed: 2.5
 
@@ -153,7 +153,7 @@ bullet: {
     homingRange: 180
     status: burning
     homingPower: 1
-    lifetime: 140
+    lifetime: 142
     damage: 120
     speed: 2.5
 
@@ -216,7 +216,7 @@ bullet: {
     homingRange: 180
     status: burning
     homingPower: 1
-    lifetime: 120
+    lifetime: 122
     damage: 180
     speed: 2.5
 

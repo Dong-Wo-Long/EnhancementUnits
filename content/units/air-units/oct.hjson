@@ -84,7 +84,7 @@ bullet: {
 
     buildingDamageMultiplier: 0.75
 
-    splashDamageRadius: 32
+    splashDamageRadius: 20
     statusDuration: 180
     splashDamage: 45
     homingRange: 180
@@ -147,7 +147,7 @@ bullet: {
 
     buildingDamageMultiplier: 0.5
 
-    splashDamageRadius: 32
+    splashDamageRadius: 24
     statusDuration: 180
     splashDamage: 90
     homingRange: 180
@@ -210,7 +210,7 @@ bullet: {
 
     buildingDamageMultiplier: 0.25
 
-    splashDamageRadius: 32
+    splashDamageRadius: 26
     statusDuration: 180
     splashDamage: 120
     homingRange: 180

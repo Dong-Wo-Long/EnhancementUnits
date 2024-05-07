@@ -1,4 +1,5 @@
 research: core-shard
+researchCostMultiplier: 0
 
 itemCapacity: 75
 buildSpeed: 0.75

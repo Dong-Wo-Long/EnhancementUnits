@@ -1,7 +1,7 @@
 research: tetrativeReconstructor
 
 legSplashDamage: 320
-legSplashRange: 25
+legSplashRange: 26
 stepShake: 10.5
 fogRadius: 128
 

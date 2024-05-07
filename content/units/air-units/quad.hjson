@@ -1,3 +1,5 @@
+research: exponential-reconstructor
+
 fallSpeed: 0.0025
 faceTarget: true
 fogRadius: 64

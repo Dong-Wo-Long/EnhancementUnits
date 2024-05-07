@@ -1,3 +1,5 @@
+research: multiplicativeReconstructor
+
 forceMultiTarget: true
 targetAir: true
 stepShake: 3.25

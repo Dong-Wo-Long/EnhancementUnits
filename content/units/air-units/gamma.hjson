@@ -1,3 +1,5 @@
+researchCostMultiplier: 0
+
 buildSpeed: 1.25
 mineSpeed: 9
 mineTier: 2

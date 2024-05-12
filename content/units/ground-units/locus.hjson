@@ -32,8 +32,6 @@ weapons: [
 
     shootSound: bolt
 
-    shootStatusDuration: 180
-    shootStatus: slow
 shoot: {
     type: ShootAlternate
 }

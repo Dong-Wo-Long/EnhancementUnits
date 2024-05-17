@@ -1,0 +1,91 @@
+type: tank
+description: "The wreckage of a small tank"
+name: Stell wreck
+rotateMoveFirst: true
+outlineColor: 3c4448
+omniMovement: false
+targetable: false
+targetAir: false
+isEnemy: false
+flying: false
+
+treadPullOffset: 3
+fogRadius: 6
+hitSize: 12
+
+crushDamage: 1.5
+itemCapacity: 0
+rotateSpeed: 0
+health: 710
+speed: 0
+armor: 6
+
+lightColor: feb380
+lightOpacity: 0
+lightRadius: 0
+
+immunities: [ burning ]
+
+treadRects: [
+{
+    x: -20
+    y: -25
+    width: 14
+    height: 51
+    }
+]
+
+weapons: [
+{
+name: 01w-01-stell-wreck-weapon
+
+    aiControllable: false
+    controllable: false
+    baseRotation: 21
+    rotateSpeed: 0
+    layerOffset: 1
+    display: false
+    mirror: false
+    shootY: 4.5
+    recoil: 0
+    top: true
+    shake: 0
+    x: 0
+    y: -2.5
+
+    reload: 125
+
+    shootSound: none
+
+bullet: {
+    type: BasicBulletType
+    despawnShake: 0
+    shrinkX: 0
+    shrinkY: 0
+    height: 0
+    width: 0
+
+    splashDamageRadius: 0
+    splashDamage: 0
+    lifetime: 0
+    speed: 0
+
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: none
+    hitSound: none
+
+    trailColor: feb380
+    frontColor: ffffff
+    backColor: feb380
+
+    trailEffect: none
+    trailLength: 0
+    trailWidth: 0
+
+    lightColor: feb380
+    lightOpacity: 0
+    lightRadius: 0
+}
+    }
+]

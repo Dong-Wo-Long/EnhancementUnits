@@ -27,7 +27,7 @@ weapons: [
         collidesAir: false
         liquid: slag
 
-        knockback: 2.4
+        knockback: 3.2
         lifetime: 57
         drag: 0.009
         damage: 24

@@ -30,7 +30,7 @@ abilities: [
 
     reload: 750
     amount: 230
-    max: 1300
+    max: 7500
     }
 {
     type: ShieldRegenFieldAbility
@@ -38,7 +38,7 @@ abilities: [
 
     reload: 750
     amount: 105
-    max: 350
+    max: 750
     }
 ]
 
@@ -60,7 +60,7 @@ name: air-def-mount
 bullet: {
     maxRange: 120
 
-    damage: 19
+    damage: 24
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -83,7 +83,7 @@ name: air-def-mount
 bullet: {
     maxRange: 150
 
-    damage: 21
+    damage: 32
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -122,7 +122,7 @@ bullet: {
     buildingDamageMultiplier: 0.75
 
     lifetime: 50
-    damage: 24.5
+    damage: 41.5
     speed: 4.5
 
     lightColor: fff8e8
@@ -162,7 +162,7 @@ bullet: {
     buildingDamageMultiplier: 0.85
 
     lifetime: 50
-    damage: 16.5
+    damage: 32.5
     speed: 4.5
 
     lightColor: fff8e8
@@ -208,14 +208,14 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 90
-    splashDamage: 64
+    splashDamage: 121
     status: burning
     homingPower: 0
     homingRange: 0
     weaveScale: 6
     lifetime: 75
+    damage: 74.5
     weaveMag: 1
-    damage: 32.5
     speed: 2.8
 
     despawnEffect: blastExplosion
@@ -275,17 +275,17 @@ bullet: {
     height: 22
     width: 18
 
-    buildingDamageMultiplier: 1.32
+    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 46.5
     fragRandomSpread: 360
-    splashDamage: 78.5
+    splashDamage: 144
     fragBullets: 3
     fragLifeMin: 0
     knockback: 0.8
     lifetime: 120
     speed: 2.25
-    damage: 52
+    damage: 75
 
     hitEffect: blastExplosion
 
@@ -313,11 +313,12 @@ fragBullet: {
     height: 3
     width: 3
 
+    buildingDamageMultiplier: 1.25
+
     splashDamageRadius: 13
-    splashDamage: 11.5
+    splashDamage: 64
     pierceCap: 2
     lifetime: 60
-    damage: 9.5
     speed: 1.45
 
     hitEffect: flakExplosion
@@ -359,17 +360,18 @@ bullet: {
     type: BasicBulletType
     keepVelocity: false
     collidesAir: false
+    pierceArmor: true
     despawnShake: 7
-    pierceCap: 5
     pierce: true
     hitShake: 7
     height: 15
     width: 9
     
     splashDamageRadius: 32.5
-    splashDamage: 27.5
+    splashDamage: 64
+    pierceCap: 5
     lifetime: 45
-    damage: 32.5
+    damage: 47.5
     speed: 6
 
     hitEffect: flakExplosion

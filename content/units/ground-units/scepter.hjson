@@ -27,7 +27,7 @@ name: scepter-weapon
     y: 1
     x: 16
 
-    reload: 90
+    reload: 75
 
     ejectEffect: casing3
 

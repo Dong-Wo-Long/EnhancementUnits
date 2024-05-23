@@ -4,8 +4,8 @@ fogRadius: 84.5
 stepShake: 2.35
 
 itemCapacity: 320
-health: 7500
-armor: 25
+health: 24000
+armor: 32
 
 lightColor: 665c9f
 lightOpacity: 0.7

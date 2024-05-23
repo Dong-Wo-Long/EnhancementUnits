@@ -29,7 +29,7 @@ abilities: [
     statusDuration: 540
     healPercent: 25
     maxTargets: 32
-    damage: 180
+    damage: 181
     reload: 90
     range: 260
     x: 0
@@ -41,13 +41,13 @@ abilities: [
     radius: 125
     regen: 7.5
     sides: 8
-    max: 18000
+    max: 32000
     }
 
 {
     type: RepairFieldAbility
     reload: 1800
-    amount: 1500
+    amount: 1250
     range: 180
     }
 ]
@@ -92,11 +92,11 @@ bullet: {
 
     splashDamageRadius: 20
     statusDuration: 180
-    splashDamage: 45
+    splashDamage: 75
     homingRange: 180
     status: burning
     homingPower: 1
-    lifetime: 162
+    lifetime: 121
     damage: 90
     speed: 2.5
 
@@ -155,12 +155,12 @@ bullet: {
 
     splashDamageRadius: 24
     statusDuration: 180
-    splashDamage: 90
+    splashDamage: 121
     homingRange: 180
     status: burning
     homingPower: 1
     lifetime: 142
-    damage: 120
+    damage: 181
     speed: 2.5
 
     lightColor: 84f491
@@ -218,12 +218,12 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 180
-    splashDamage: 120
+    splashDamage: 256
     homingRange: 180
     status: burning
     homingPower: 1
     lifetime: 122
-    damage: 180
+    damage: 181
     speed: 2.5
 
     lightColor: 84f491
@@ -281,12 +281,16 @@ bullet: {
     sprite: missile-large
     collideTerrain: true
     collidesAir: false
+    pierceArmor: true
     hitSize: 4
     height: 15
     width: 7
 
+    buildingDamageMultiplier: 1.25
+
     splashDamageRadius: 36
-    splashDamage: 150
+    splashDamage: 320
+    pierceCap: 32
     lifetime: 60
     damage: 250
     speed: 3.2
@@ -367,12 +371,16 @@ bullet: {
     sprite: missile-large
     collideTerrain: true
     collidesAir: false
+    pierceArmor: true
     hitSize: 4
     height: 15
     width: 7
 
+    buildingDamageMultiplier: 1.25
+
     splashDamageRadius: 36
-    splashDamage: 150
+    splashDamage: 320
+    pierceCap: 32
     lifetime: 60
     damage: 250
     speed: 3.2

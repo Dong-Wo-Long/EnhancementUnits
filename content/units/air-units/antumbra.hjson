@@ -9,9 +9,9 @@ crashDamageMultiplier: 5
 
 ammoType: plastanium
 itemCapacity: 2100
-health: 21000
+health: 27500
 speed: 1.3
-armor: 18
+armor: 64
 
 trailLength: 19
 

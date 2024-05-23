@@ -127,7 +127,6 @@ bullet: {
     collideTerrain: true
     keepVelocity: false
     collidesAir: false
-    pierceArmor: true
     despawnShake: 5
     pierceCap: 7
     pierce: true

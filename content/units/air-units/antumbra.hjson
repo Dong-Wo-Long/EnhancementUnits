@@ -360,7 +360,6 @@ bullet: {
     type: BasicBulletType
     keepVelocity: false
     collidesAir: false
-    pierceArmor: true
     despawnShake: 7
     pierce: true
     hitShake: 7

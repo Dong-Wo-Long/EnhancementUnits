@@ -89,7 +89,7 @@ bullet: {
     buildingDamageMultiplier: 0.85
 
     lifetime: 60
-    damage: 27.5
+    damage: 121
     speed: 4.5
 
     lightColor: fff8e8
@@ -127,6 +127,7 @@ bullet: {
     collideTerrain: true
     keepVelocity: false
     collidesAir: false
+    pierceArmor: true
     despawnShake: 5
     pierceCap: 7
     pierce: true
@@ -137,9 +138,9 @@ bullet: {
     buildingDamageMultiplier: 0.75
 
     splashDamageRadius: 26
-    splashDamage: 32.5
+    splashDamage: 121
     lifetime: 45
-    damage: 42.5
+    damage: 175
     speed: 6.75
 
     hitEffect: flakExplosion
@@ -168,7 +169,7 @@ name: air-def-mount
 bullet: {
     maxRange: 130
 
-    damage: 23.5
+    damage: 64
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -191,7 +192,7 @@ name: air-def-mount
 bullet: {
     maxRange: 170
 
-    damage: 31.5
+    damage: 75
 
     shootEffect: sparkShoot
     hitEffect: pointHit
@@ -237,14 +238,14 @@ bullet: {
 
     splashDamageRadius: 24
     statusDuration: 90
+    splashDamage: 256
     homingPower: 0.25
-    splashDamage: 64
     homingRange: 25
     status: burning
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 32.5
+    damage: 181
     speed: 2.8
 
     despawnEffect: blastExplosion
@@ -298,14 +299,14 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 90
-    splashDamage: 90
+    splashDamage: 361
     homingPower: 0.5
     homingRange: 32
     status: burning
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 64
+    damage: 256
     speed: 2.8
 
     despawnEffect: blastExplosion
@@ -360,14 +361,14 @@ bullet: {
     width: 8
 
     splashDamageRadius: 36
-    splashDamage: 121
+    splashDamage: 256
     homingRange: 75
     status: blasted
     homingPower: 1
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 75
+    damage: 181
     speed: 3.2
 
     despawnEffect: blastExplosion
@@ -427,17 +428,17 @@ bullet: {
     height: 23.5
     width: 19.5
 
-    buildingDamageMultiplier: 1.45
+    buildingDamageMultiplier: 1.75
 
     splashDamageRadius: 46.5
     fragRandomSpread: 360
-    splashDamage: 92
+    splashDamage: 361
     fragBullets: 3
     fragLifeMin: 0
     knockback: 0.8
     lifetime: 120
+    damage: 175
     speed: 2.25
-    damage: 72
 
     hitEffect: blastExplosion
 
@@ -465,11 +466,13 @@ fragBullet: {
     height: 5
     width: 5
 
+    buildingDamageMultiplier: 1.5
+
     splashDamageRadius: 13
-    splashDamage: 23
+    splashDamage: 121
     pierceCap: 3
     lifetime: 60
-    damage: 15
+    damage: 75
     speed: 1.5
 
     hitEffect: flakExplosion
@@ -517,9 +520,9 @@ bullet: {
     length: 270
     width: 27.5
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 2.25
 
-    damage: 132
+    damage: 181
     
     shootEffect: shockwave
 

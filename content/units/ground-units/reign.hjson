@@ -41,15 +41,17 @@ bullet: {
     height: 33
     width: 14
 
+    buildingDamageMultiplier: 0.5
+
     splashDamageRadius: 13
     fragRandomSpread: 45
     fragVelocityMin: 0.4
-    splashDamage: 80
+    splashDamage: 324
     fragBullets: 3
     fragLifeMin: 0
     lifetime: 20.5
     pierceCap: 10
-    damage: 140
+    damage: 196
     speed: 19
 
     hitEffect: blastExplosion
@@ -71,11 +73,13 @@ fragBullet: {
     height: 10
     width: 10
 
-    splashDamageRadius: 10
-    splashDamage: 15
+    buildingDamageMultiplier: 0.75
+
+    splashDamageRadius: 26
+    splashDamage: 108
     pierceCap: 3
     lifetime: 20
-    damage: 21
+    damage: 64.5
     speed: 5
 
     hitEffect: flakExplosion
@@ -123,17 +127,19 @@ bullet: {
     height: 9
     width: 9
 
+    buildingDamageMultiplier: 1.75
+
     splashDamageRadius: 19
     fragRandomSpread: 360
-    splashDamage: 120
+    splashDamage: 256
     homingRange: 60
     fragBullets: 3
     fragLifeMin: 0
     weaveScale: 6
     lifetime: 120
     weaveMag: 2
+    damage: 175
     speed: 2.25
-    damage: 64
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
@@ -157,11 +163,11 @@ fragBullet: {
     width: 3
 
     splashDamageRadius: 13
-    splashDamage: 21
+    splashDamage: 75
     pierceCap: 2
     lifetime: 60
+    damage: 47.5
     speed: 1.45
-    damage: 25
 
     hitEffect: flakExplosion
 
@@ -220,7 +226,7 @@ bullet: {
     weaveScale: 3
     lifetime: 180
     weaveMag: 1.5
-    damage: 180
+    damage: 481
     speed: 1.6
 
     trailColor: ff7538

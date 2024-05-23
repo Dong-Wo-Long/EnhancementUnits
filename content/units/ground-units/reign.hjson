@@ -6,7 +6,7 @@ stepShake: 14.5
 
 itemCapacity: 1600
 rotateSpeed: 1
-health: 48000
+health: 75000
 speed: 0.3
 armor: 144
 

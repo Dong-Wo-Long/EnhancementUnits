@@ -46,12 +46,12 @@ bullet: {
     splashDamageRadius: 13
     fragRandomSpread: 45
     fragVelocityMin: 0.4
-    splashDamage: 361
+    splashDamage: 325
     fragBullets: 3
     fragLifeMin: 0
     lifetime: 20.5
     pierceCap: 10
-    damage: 324
+    damage: 425
     speed: 19
 
     hitEffect: blastExplosion
@@ -79,7 +79,7 @@ fragBullet: {
     splashDamage: 181
     pierceCap: 3
     lifetime: 20
-    damage: 74.5
+    damage: 96
     speed: 5
 
     hitEffect: flakExplosion

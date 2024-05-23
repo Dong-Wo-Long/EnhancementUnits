@@ -41,17 +41,17 @@ bullet: {
     height: 33
     width: 14
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.25
 
     splashDamageRadius: 13
     fragRandomSpread: 45
     fragVelocityMin: 0.4
-    splashDamage: 324
+    splashDamage: 361
     fragBullets: 3
     fragLifeMin: 0
     lifetime: 20.5
     pierceCap: 10
-    damage: 196
+    damage: 324
     speed: 19
 
     hitEffect: blastExplosion
@@ -73,13 +73,13 @@ fragBullet: {
     height: 10
     width: 10
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.5
 
     splashDamageRadius: 26
-    splashDamage: 108
+    splashDamage: 181
     pierceCap: 3
     lifetime: 20
-    damage: 64.5
+    damage: 74.5
     speed: 5
 
     hitEffect: flakExplosion

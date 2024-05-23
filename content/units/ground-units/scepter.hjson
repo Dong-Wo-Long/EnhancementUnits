@@ -5,7 +5,7 @@ stepShake: 8.75
 fogRadius: 34.5
 
 itemCapacity: 900
-health: 32000
+health: 48000
 speed: 0.35
 armor: 81
 

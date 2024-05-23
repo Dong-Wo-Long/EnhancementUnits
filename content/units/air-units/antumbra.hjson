@@ -119,7 +119,7 @@ bullet: {
     height: 9
     width: 7
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.5
 
     lifetime: 50
     damage: 41.5
@@ -159,7 +159,7 @@ bullet: {
     height: 9
     width: 7
 
-    buildingDamageMultiplier: 0.85
+    buildingDamageMultiplier: 0.75
 
     lifetime: 50
     damage: 32.5
@@ -365,6 +365,8 @@ bullet: {
     hitShake: 7
     height: 15
     width: 9
+
+    buildingDamageMultiplier: 0.25
     
     splashDamageRadius: 32.5
     splashDamage: 64

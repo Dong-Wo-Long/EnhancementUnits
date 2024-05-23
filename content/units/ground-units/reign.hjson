@@ -21,13 +21,13 @@ weapons: [
     name: reign-weapon
 
     shootCone: 45
+    shootY: 11
     recoil: 5
-    shake: 7
+    shake: 5
     x: 21.5
     y: 1
 
-    shootY: 11
-    reload: 9
+    reload: 7.5
 
     ejectEffect: casing4
     shootSound: bang

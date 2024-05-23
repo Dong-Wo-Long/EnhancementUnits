@@ -9,7 +9,7 @@ crashDamageMultiplier: 5
 itemCapacity: 800
 buildSpeed: 2.4
 fogRadius: 62.5
-health: 12100
+health: 17500
 mineSpeed: 8
 mineTier: 3
 speed: 1.1
@@ -33,12 +33,12 @@ abilities: [
 
     reload: 900
     amount: 320
-    max: 1800
+    max: 12500
     }
 {
     type: RepairFieldAbility
     reload: 150
-    amount: 90
+    amount: 180
     range: 60
     }
 ]
@@ -79,7 +79,7 @@ bullet: {
     width: 30
     spin: 2
 
-    buildingDamageMultiplier: 1.32
+    buildingDamageMultiplier: 1.75
 
     splashDamageRadius: 72
     fragRandomSpread: 360
@@ -89,6 +89,7 @@ bullet: {
     healPercent: 1.8
     fragBullets: 9
     fragLifeMin: 0
+    pierceCap: 32
     lifetime: 70
     speed: 0
 
@@ -114,15 +115,15 @@ fragBullet: {
     width: 12
 
     splashDamageRadius: 28
-    splashDamage: 180
-    pierceCap: 2
+    splashDamage: 256
+    pierceCap: 18
     lifetime: 60
     speed: 1.75
     damage: 90
 
     hitEffect: flakExplosion
 
-    trailInterval: 6.5
+    trailInterval: 7.5
     trailColor: 84f491
 
     lightColor: 84f491
@@ -168,12 +169,12 @@ bullet: {
     splashDamageRadius: 36
     statusDuration: 450
     status: electrified
-    splashDamage: 54.5
+    splashDamage: 47.5
     healPercent: 0.5
     homingRange: 320
     homingPower: 1
     lifetime: 280
-    damage: 36.5
+    damage: 41.5
     speed: 1.75
 
     despawnEffect: blastExplosion
@@ -217,12 +218,12 @@ bullet: {
     splashDamageRadius: 36
     statusDuration: 450
     status: electrified
-    splashDamage: 52.5
+    splashDamage: 47.5
     healPercent: 0.5
     homingRange: 320
     homingPower: 1
     lifetime: 280
-    damage: 32.5
+    damage: 41.5
     speed: 1.75
 
     despawnEffect: blastExplosion
@@ -262,7 +263,7 @@ bullet: {
 
     healPercent: 0.32
     lifetime: 32
-    damage: 24.5
+    damage: 47.5
     speed: 7.25
 
     frontColor: ffffff
@@ -273,13 +274,13 @@ bullet: {
 {
     name: hidden-plasma-missile-mount
 
+    controllable: false
     layerOffset: -0.001
     rotationLimit: 115
-    controllable: false
-    autoTarget: true
     baseRotation: -45
     rotateSpeed: 0.15
     alternate: false
+    autoTarget: true
     shootCone: 30
     rotate: true
     recoil: 1.5
@@ -312,15 +313,15 @@ bullet: {
     height: 26
     width: 22
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 60
     statusDuration: 30
-    splashDamage: 210
+    splashDamage: 475
     status: blasted
     healPercent: 9
     lifetime: 120
-    damage: 180
+    damage: 320
     speed: 2.4
 
     trailEffect: hitSquaresColor

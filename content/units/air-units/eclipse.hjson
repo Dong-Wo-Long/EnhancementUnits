@@ -134,7 +134,7 @@ bullet: {
     height: 15
     width: 9
 
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.01
 
     splashDamageRadius: 26
     splashDamage: 121
@@ -427,8 +427,6 @@ bullet: {
     height: 23.5
     width: 19.5
 
-    buildingDamageMultiplier: 1.75
-
     splashDamageRadius: 46.5
     fragRandomSpread: 360
     splashDamage: 361
@@ -464,8 +462,6 @@ fragBullet: {
     pierce: true
     height: 5
     width: 5
-
-    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 13
     splashDamage: 121
@@ -519,7 +515,7 @@ bullet: {
     length: 270
     width: 27.5
 
-    buildingDamageMultiplier: 2.25
+    buildingDamageMultiplier: 1.75
 
     damage: 181
     

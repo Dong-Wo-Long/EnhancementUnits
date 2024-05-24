@@ -313,8 +313,6 @@ fragBullet: {
     height: 3
     width: 3
 
-    buildingDamageMultiplier: 1.25
-
     splashDamageRadius: 13
     splashDamage: 64
     pierceCap: 2

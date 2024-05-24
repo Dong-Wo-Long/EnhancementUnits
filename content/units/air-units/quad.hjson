@@ -85,7 +85,7 @@ bullet: {
     fragRandomSpread: 360
     statusDuration: 900
     status: electrified
-    splashDamage: 750
+    splashDamage: 320
     healPercent: 1.8
     fragBullets: 9
     fragLifeMin: 0
@@ -313,7 +313,7 @@ bullet: {
     height: 26
     width: 22
 
-    buildingDamageMultiplier: 1.5
+    buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 60
     statusDuration: 30

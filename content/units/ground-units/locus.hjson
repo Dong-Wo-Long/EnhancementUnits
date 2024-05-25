@@ -43,6 +43,8 @@ bullet: {
     length: 12
     width: 5
 
+    buildingDamageMultiplier: 0.75
+
     pierceDamageFactor: 0.8
     lifetime: 52
     damage: 24

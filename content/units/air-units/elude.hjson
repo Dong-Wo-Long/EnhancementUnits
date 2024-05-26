@@ -1,0 +1,51 @@
+rotateSpeed: 5
+health: 750
+speed: 2.1
+armor: 3
+
+weapons: [
+{
+name: elude-weapon
+
+    baseRotation: -35
+    shootCone: 360
+    mirror: true
+    top: true
+    y: -2
+    x: 4
+
+    reload: 24
+
+    shootSound: blaster
+
+shoot: {
+    type: ShootSpread
+    spread: 11
+    shots: 2
+}
+
+bullet: {
+    type: BasicBulletType
+    height: 12
+    width: 7
+
+    homingPower: 0.19
+    homingDelay: 4
+    lifetime: 30
+
+    smokeEffect: shootBigSmoke
+    shootEffect: sparkShoot
+
+    frontColor: ffffff
+    backColor: 665c9f
+    hitColor: 665c9f
+    
+    trailColor: 665c9f
+    trailWidth: 1.5
+    trailLength: 5
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
+}
+    }
+]

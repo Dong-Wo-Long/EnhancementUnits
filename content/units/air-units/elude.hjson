@@ -32,6 +32,7 @@ bullet: {
     homingPower: 0.19
     homingDelay: 4
     lifetime: 30
+    speed: 3
 
     smokeEffect: shootBigSmoke
     shootEffect: sparkShoot

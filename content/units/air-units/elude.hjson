@@ -56,9 +56,10 @@ bullet: {
     height: 12
     width: 7
 
+    pierceDamageFactor: 0.9
     pierceCap: 3
     lifetime: 54
-    damage: 21.5
+    damage: 24.5
     speed: 4.8
 
     despawnEffect: hitBulletColor

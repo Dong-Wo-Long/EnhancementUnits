@@ -50,6 +50,9 @@ bullet: {
     height: 8.5
     width: 6.5
 
+    pierceDamageFactor: 0.75
+
+    pierceCap: 5
     lifetime: 35
     damage: 7.5
     speed: 7.5
@@ -92,8 +95,9 @@ bullet: {
     height: 8
     width: 8
 
-    splashDamageRadius: 25.5
     pierceDamageFactor: 0.75
+
+    splashDamageRadius: 25.5
     splashDamage: 21.5
     homingRange: 60
     weaveScale: 8

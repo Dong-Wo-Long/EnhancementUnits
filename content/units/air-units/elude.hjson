@@ -1,37 +1,58 @@
+rotateMoveFirst: true
+omniMovement: false
 rotateSpeed: 5
 health: 750
-speed: 2.1
+speed: 3.2
 armor: 3
 
 weapons: [
 {
-name: elude-weapon
+name: elude-machine-gun
 
-    baseRotation: -35
-    shootCone: 360
-    mirror: true
-    top: true
+    shootCone: 90
+    mirror: false
+    rotate: true
+    recoil: 0.15
+    top: false
+    x: 0
     y: -2
-    x: 4
 
-    reload: 14.5
+    cooldownTime: 210
+    inaccuracy: 3
+    reload: 150
 
-    shootSound: blaster
-
+    shootSound: machine-gun
+    ejectEffect: casing1
 shoot: {
     type: ShootSpread
-    spread: 11
-    shots: 2
+    shotDelay: 7.5
+    spread: 1
+    shots: 9
 }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl
+    progress: recoil
+    outline: false
+    mirror: false
+    moveY: -0.75
+    under: true
+    x: 0
+    y: 1
+}
+    ]
 
 bullet: {
     type: BasicBulletType
+    collideTerrain: true
     height: 12
     width: 7
 
-    homingPower: 0.19
-    homingDelay: 4
+    pierceCap: 3
     lifetime: 54
+    damage: 21.5
     speed: 4.8
 
     smokeEffect: shootBigSmoke
@@ -42,8 +63,8 @@ bullet: {
     hitColor: 665c9f
     
     trailColor: 665c9f
+    trailLength: 24.5
     trailWidth: 1.5
-    trailLength: 5
 
     despawnEffect: hitBulletColor
     hitEffect: hitBulletColor

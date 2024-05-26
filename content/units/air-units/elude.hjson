@@ -14,6 +14,7 @@ weapons: [
 {
 name: elude-machine-gun
 
+    rotateSpeed: 1.75
     shootCone: 90
     mirror: false
     rotate: true

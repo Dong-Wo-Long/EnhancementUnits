@@ -13,7 +13,7 @@ lightRadius: 62.5
 
 weapons: [
 {
-    name: risso-mount-weapon
+    name: risso-machine-gun
 
     rotationLimit: 275
     mirror: false
@@ -25,7 +25,22 @@ weapons: [
     inaccuracy: 3.2
     reload: 6
 
+    shootSound: machine-gun
     ejectEffect: casing1
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl
+    progress: recoil
+    outline: false
+    mirror: false
+    moveY: -0.75
+    under: true
+    x: 0
+    y: 1
+}
+    ]
 
 bullet: {
     type: BasicBulletType
@@ -57,10 +72,7 @@ bullet: {
     inaccuracy: 5
     reload: 180
 
-    ejectEffect: casing1
-
     shootSound: missile
-
 shoot: {
         shotDelay: 15
         shots: 5

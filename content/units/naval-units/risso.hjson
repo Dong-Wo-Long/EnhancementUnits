@@ -16,6 +16,7 @@ weapons: [
     name: risso-machine-gun
 
     rotationLimit: 275
+    rotateSpeed: 2
     mirror: false
     rotate: true
     shootY: 4

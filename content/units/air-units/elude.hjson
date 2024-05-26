@@ -55,19 +55,22 @@ bullet: {
     damage: 21.5
     speed: 4.8
 
+    despawnEffect: hitBulletColor
     smokeEffect: shootBigSmoke
+    hitEffect: hitBulletColor
     shootEffect: sparkShoot
 
-    frontColor: ffffff
-    backColor: 665c9f
-    hitColor: 665c9f
+    frontColor: bf92f9
+    backColor: 6d56bf
+    hitColor: 6d56bf
     
-    trailColor: 665c9f
+    trailColor: 6d56bf
     trailLength: 24.5
     trailWidth: 1.5
 
-    despawnEffect: hitBulletColor
-    hitEffect: hitBulletColor
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 24.5
 }
     }
 ]

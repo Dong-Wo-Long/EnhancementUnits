@@ -22,7 +22,7 @@ weapons: [
     x: 0
     y: 3
 
-    cooldownTime: 125
+    cooldownTime: 120
     inaccuracy: 3.2
     reload: 6
 

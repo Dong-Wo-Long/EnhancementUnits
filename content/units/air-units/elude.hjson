@@ -4,7 +4,7 @@ omniMovement: false
 rotateSpeed: 5
 health: 750
 speed: 3.2
-armor: 3
+armor: 4
 
 lightColor: bf92f9
 lightOpacity: 0.7

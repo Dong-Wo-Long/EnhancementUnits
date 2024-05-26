@@ -93,11 +93,12 @@ bullet: {
     width: 8
 
     splashDamageRadius: 25.5
-    splashDamage: 12.5
+    pierceDamageFactor: 0.75
+    splashDamage: 21.5
     homingRange: 60
     weaveScale: 8
     lifetime: 96
-    damage: 19.5
+    damage: 24.5
     weaveMag: 2
     speed: 2
 

@@ -14,7 +14,7 @@ name: elude-weapon
     y: -2
     x: 4
 
-    reload: 24
+    reload: 14.5
 
     shootSound: blaster
 
@@ -31,8 +31,8 @@ bullet: {
 
     homingPower: 0.19
     homingDelay: 4
-    lifetime: 30
-    speed: 3
+    lifetime: 54
+    speed: 4.8
 
     smokeEffect: shootBigSmoke
     shootEffect: sparkShoot

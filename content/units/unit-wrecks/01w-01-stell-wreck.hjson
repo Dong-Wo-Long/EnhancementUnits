@@ -6,9 +6,9 @@ outlineColor: 3c4448
 omniMovement: false
 targetable: false
 targetAir: false
-internal: true
 isEnemy: false
 flying: false
+hidden: true
 
 treadPullOffset: 3
 fogRadius: 6

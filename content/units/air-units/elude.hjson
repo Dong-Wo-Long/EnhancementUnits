@@ -1,9 +1,14 @@
 rotateMoveFirst: true
 omniMovement: false
+
 rotateSpeed: 5
 health: 750
 speed: 3.2
 armor: 3
+
+lightColor: bf92f9
+lightOpacity: 0.7
+lightRadius: 75
 
 weapons: [
 {

@@ -60,15 +60,15 @@ bullet: {
     hitEffect: hitBulletColor
     shootEffect: sparkShoot
 
-    frontColor: bf92f9
-    backColor: 6d56bf
-    hitColor: 6d56bf
+    frontColor: ffffff
+    backColor: bf92f9
+    hitColor: bf92f9
     
-    trailColor: 6d56bf
+    trailColor: bf92f9
     trailLength: 24.5
     trailWidth: 1.5
 
-    lightColor: bf92f9
+    lightColor: ffffff
     lightOpacity: 0.7
     lightRadius: 24.5
 }

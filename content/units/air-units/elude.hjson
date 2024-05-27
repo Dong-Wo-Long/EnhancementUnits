@@ -52,11 +52,13 @@ parts: [
 
 bullet: {
     type: BasicBulletType
+    removeAfterPierce: false
     collideTerrain: true
     height: 12
     width: 7
 
     pierceDamageFactor: 0.9
+
     pierceCap: 3
     lifetime: 54
     damage: 24.5

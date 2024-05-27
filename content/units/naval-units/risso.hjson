@@ -46,6 +46,7 @@ parts: [
 
 bullet: {
     type: BasicBulletType
+    removeAfterPierce: false
     collideTerrain: true
     ammoMultiplier: 2
     height: 8.5

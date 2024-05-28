@@ -240,13 +240,14 @@ bullet: {
     hitEffect: blastExplosion
     hitSound: auto-cannon-hit
 
-    lightColor: fff8e8
+    trailColor: feb380
+    lightColor: ffffff
     lightOpacity: 0.7
     lightRadius: 32.5
 
-    frontColor: fff8e8
-    backColor: f9c27a
-    hitColor: fff8e8
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: ffffff
 }
     }
 ]

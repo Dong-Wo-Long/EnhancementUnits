@@ -241,10 +241,15 @@ bullet: {
     hitEffect: blastExplosion
     hitSound: auto-cannon-hit
 
-    trailColor: feb380
     lightColor: ffffff
     lightOpacity: 0.7
     lightRadius: 32.5
+
+    trailInterp: slope
+    trailColor: feb380
+    trailEffect: none
+    trailLength: 42.5
+    trailWidth: 2.1
 
     frontColor: ffffff
     backColor: feb380

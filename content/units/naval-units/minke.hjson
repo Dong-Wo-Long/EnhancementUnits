@@ -143,6 +143,7 @@ bullet: {
 {
     name: double-machine-gun
 
+    rotationLimit: 235
     rotateSpeed: 3.2
     shootCone: 45
     mirror: false

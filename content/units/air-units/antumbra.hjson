@@ -57,6 +57,8 @@ name: air-def-mount
 
     reload: 5
 
+    shootSound: lasershoot
+
 bullet: {
     maxRange: 120
 
@@ -79,6 +81,8 @@ name: air-def-mount
     y: -7
 
     reload: 7
+
+    shootSound: lasershoot
 
 bullet: {
     maxRange: 150

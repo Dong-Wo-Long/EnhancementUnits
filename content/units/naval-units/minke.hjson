@@ -246,9 +246,9 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 32.5
 
-    trailInterp: slope
+    trailEffect: artilleryTrail
+    trailInterval: 12.5
     trailColor: feb380
-    trailEffect: none
     trailLength: 42.5
     trailWidth: 2.1
 

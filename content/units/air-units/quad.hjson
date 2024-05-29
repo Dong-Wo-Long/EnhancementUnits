@@ -79,14 +79,13 @@ bullet: {
     width: 30
     spin: 2
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 60
     statusDuration: 900
     status: electrified
-    splashDamage: 320
+    splashDamage: 500
     healPercent: 1.8
-    fragBullets: 18
     pierceCap: 32
     lifetime: 70
     speed: 0
@@ -100,39 +99,8 @@ bullet: {
     backColor: 84f491
 
     hitSound: plasmaboom
-
-fragBullet: {
-    type: BasicBulletType
-    collideTerrain: true
-    pierceBuilding: true
-    collidesAir: false
-    despawnShake: 1.8
-    hitShake: 1.8
-    pierce: true
-    height: 16
-    width: 12
-
-    splashDamageRadius: 26
-    splashDamage: 25
-    pierceCap: 18
-    lifetime: 60
-    speed: 1.75
-    damage: 32
-
-    hitEffect: flakExplosion
-
-    trailInterval: 7.5
-    trailColor: 84f491
-
-    lightColor: 84f491
-    lightOpacity: 0.7
-    lightRadius: 17
-
-    frontColor: ffffff
-    backColor: 84f491
 }
     }
-}
 
 {
     name: rocket-weapon-mount

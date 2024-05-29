@@ -279,15 +279,13 @@ bullet: {
     height: 26
     width: 22
 
-    buildingDamageMultiplier: 1.25
-
     splashDamageRadius: 60
     statusDuration: 30
-    splashDamage: 475
+    splashDamage: 275
     status: blasted
     healPercent: 9
     lifetime: 120
-    damage: 320
+    damage: 325
     speed: 2.4
 
     trailEffect: hitSquaresColor

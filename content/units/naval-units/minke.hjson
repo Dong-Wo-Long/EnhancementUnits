@@ -158,9 +158,8 @@ bullet: {
     cooldownTime: 180
     reload: 21.5
 
+    ejectEffect: casing2Double
     shootSound: auto-cannon
-    ejectEffect: casing2
-
 shoot: { 
     type: ShootMulti
 source: {

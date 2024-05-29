@@ -219,7 +219,8 @@ heatProgress: {
     ]
 
 bullet: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
+    collidesTiles: false
     despawnShake: 4.5
     hitShake: 4.5
     hitSize: 4
@@ -230,10 +231,9 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 45
-    splashDamage: 27.5
+    splashDamage: 32.5
     status: blasted
     lifetime: 85
-    damage: 24.5
     speed: 4.5
 
     despawnEffect: hitBulletColor

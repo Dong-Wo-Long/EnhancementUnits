@@ -34,6 +34,7 @@ weapons: [
 
 bullet: {
     type: BasicBulletType
+    removeAfterPierce: false
     collideTerrain: true
     despawnShake: 5
     pierce: true
@@ -41,8 +42,8 @@ bullet: {
     height: 33
     width: 14
 
-    buildingDamageMultiplier: 0.25
-    pierceDamageFactor: 0.75
+    buildingDamageMultiplier: 0.15
+    pierceDamageFactor: 1.25
 
     splashDamageRadius: 13
     fragRandomSpread: 45
@@ -64,6 +65,7 @@ bullet: {
 
 fragBullet: {
     type: BasicBulletType
+    removeAfterPierce: false
     collideTerrain: true
     pierceBuilding: true
     collidesAir: false
@@ -74,7 +76,8 @@ fragBullet: {
     height: 10
     width: 10
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.25
+    pierceDamageFactor: 0.75
 
     splashDamageRadius: 26
     splashDamage: 181

@@ -156,7 +156,7 @@ bullet: {
     y: -2
 
     cooldownTime: 180
-    reload: 21.5
+    reload: 32
 
     ejectEffect: casing2Double
     shootSound: auto-cannon
@@ -232,8 +232,8 @@ bullet: {
     statusDuration: 45
     splashDamage: 32.5
     status: blasted
-    lifetime: 85
-    speed: 4.5
+    lifetime: 119
+    speed: 3.2
 
     despawnEffect: hitBulletColor
     shootEffect: shootSmallColor

@@ -217,9 +217,9 @@ bullet: {
     statusDuration: 450
     status: electrified
     splashDamage: 47.5
+    homingPower: 0.05
     healPercent: 0.5
     homingRange: 320
-    homingPower: 1
     lifetime: 280
     damage: 41.5
     speed: 1.75

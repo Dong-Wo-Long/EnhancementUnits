@@ -519,7 +519,7 @@ bullet: {
     length: 270
     width: 27.5
 
-    buildingDamageMultiplier: 1.75
+    buildingDamageMultiplier: 1.25
 
     damage: 181
     

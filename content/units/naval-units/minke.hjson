@@ -248,6 +248,7 @@ bullet: {
 
     trailEffect: artilleryTrail
     trailInterval: 12.5
+    trailInterp: slope
     trailColor: feb380
     trailLength: 12.5
     trailWidth: 1.75

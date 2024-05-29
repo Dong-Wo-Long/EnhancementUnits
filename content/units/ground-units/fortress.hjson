@@ -51,18 +51,19 @@ bullet: {
 
     hitEffect: blastExplosion
 
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 67.5
+
     trailEffect: artilleryTrail
     trailInterval: 9.5
     trailColor: f9c27a
-    frontColor: fff8e8
-    backColor: f9c27a
     trailLength: 3
     trailWidth: 1
     trailSize: 4
 
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 67.5
+    frontColor: fff8e8
+    backColor: f9c27a
 }
     }
 

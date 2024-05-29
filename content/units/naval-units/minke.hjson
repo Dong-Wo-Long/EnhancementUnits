@@ -249,8 +249,9 @@ bullet: {
     trailEffect: artilleryTrail
     trailInterval: 12.5
     trailColor: feb380
-    trailLength: 42.5
-    trailWidth: 2.1
+    trailSize: 3.75
+    trailLength: 3
+    trailWidth: 1
 
     frontColor: ffffff
     backColor: feb380

@@ -71,7 +71,7 @@ bullet: {
     despawnShake: 11
     collides: false
     shootCone: 180
-    maxRange: 30
+    maxRange: 320
     hitShake: 11
     shrinkX: 0.7
     shrinkY: 0.7

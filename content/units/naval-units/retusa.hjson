@@ -37,7 +37,7 @@ bullet: {
     keepVelocity: false
     collideFloor: true
     collidesAir: false
-    maxRange: 360
+    maxRange: 210
     hitSize: 22
     shrinkX: 0
     shrinkY: 0
@@ -45,12 +45,16 @@ bullet: {
     height: 8
     width: 8
 
-    splashDamageRadius: 40
+    buildingDamageMultiplier: 0.75
+    pierceDamageFactor: 7.5
+
+    splashDamageRadius: 26
     homingPower: 0.06
-    splashDamage: 32
+    splashDamage: 45
     healPercent: 4
     lifetime: 147
-    damage: 25
+    pierceCap: 3
+    damage: 32
     speed: 1.5
 
     hitSound: plasmaboom

@@ -47,10 +47,9 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 2700
+    cooldownTime: 1650
+    reload: 1650
     recoil: 0
-
-    cooldownTime: 2700
 
     shootStatusDuration: 900
     shootStatus: unmoving

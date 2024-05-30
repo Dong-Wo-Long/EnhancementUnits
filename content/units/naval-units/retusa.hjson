@@ -17,7 +17,7 @@ weapons: [
     targetAir: false
     mirror: false
     rotate: true
-    reload: 90
+    reload: 180
     shootX: 0
     shootY: 0
     x: 0

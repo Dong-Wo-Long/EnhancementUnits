@@ -32,7 +32,7 @@ weapons: [
     x: 7
     y: 0
 
-    velocityRnd: 0.18
+    velocityRnd: 0.15
     inaccuracy: 5
     reload: 500
 

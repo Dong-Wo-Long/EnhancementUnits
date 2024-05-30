@@ -1,1 +1,140 @@
 research: naval-factory
+faceTarget: false
+targetAir: false
+
+rotateSpeed: 4.5
+buildSpeed: 1.25
+health: 725
+speed: 1.45
+range: 180
+armor: 3
+
+weapons: [
+{
+    rotateSpeed: 180
+    targetAir: false
+    mirror: false
+    rotate: true
+    reload: 90
+    shootX: 0
+    shootY: 0
+    x: 0
+    y: 0
+
+    shootSound: mineDeploy
+
+shoot: {
+    shotDelay: 15
+    shots: 3
+}
+
+bullet: {
+    type: BasicBulletType
+    sprite: mine-bullet
+    ignoreRotation: true
+    keepVelocity: false
+    collideFloor: true
+    collidesAir: false
+    maxRange: 360
+    hitSize: 22
+    shrinkX: 0
+    shrinkY: 0
+    layer: 10
+    height: 8
+    width: 8
+
+    splashDamageRadius: 40
+    homingPower: 0.05
+    splashDamage: 32
+    healPercent: 4
+    lifetime: 300
+    speed: 0
+
+    hitSound: plasmaboom
+    shootEffect: none
+    smokeEffect: none
+    ejectEffect: none
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 41.5
+
+    trailColor: 98ffa9
+    trailLength: 21.5
+    trailWidth: 3
+
+    frontColor: ffffff
+    mixColorTo: ffffff
+    backColor: 98ffa9
+
+hitEffect: {
+    type: MultiEffect
+    effects: [ blastExplosion, greenCloud ]
+    }
+}
+    }
+
+{
+    name: retusa-mount-weapon
+    y: 5.5
+    x: 0
+
+    reload: 32
+
+bullet: {
+    type: BulletType
+    collidesAir: false
+    hittable: false
+    pierce: true
+    hitSize: 7
+
+    statusDuration: 300
+    status: burning
+    lifetime: 36
+    damage: 41.5
+    speed: 3
+
+    despawnEffect: none
+
+shootEffect: {
+    particles: 15
+    lifetime: 81
+    sizeFrom: 3
+    sizeTo: 0.5
+    length: 110
+    cone: 6
+
+    lightColor: ffb855
+    lightOpacity: 0.7
+    lightRadius: 17.5
+
+    colorFrom: ffb855
+    colorTo: db661c
+
+    sizeInterp: pow3In
+    interp: pow5Out
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 15
+
+    waveColor: ffffff
+    waveStroke: 1.5
+    waveRad: 4.5
+
+    smokeColor: 454545
+    smokeSizeBase: 0
+    smokeSize: 2.5
+    smokes: 5
+
+    sparkColor: ffffff
+    sparkStroke: 1.32
+    sparkRad: 5
+    sparkLen: 1.25
+    sparks: 12
+}
+    }
+}
+    ]

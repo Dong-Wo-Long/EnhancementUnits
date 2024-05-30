@@ -11,7 +11,9 @@ armor: 3
 
 weapons: [
 {
+    controllable: false
     rotateSpeed: 180
+    autoTarget: true
     targetAir: false
     mirror: false
     rotate: true
@@ -76,10 +78,10 @@ hitEffect: {
 
 {
     name: retusa-mount-weapon
-    y: -5.5
-    x: 2.25
+    y: -4
+    x: 4.5
 
-    reload: 24
+    reload: 17.5
 
     shootSound: flame
 

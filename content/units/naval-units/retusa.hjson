@@ -78,6 +78,7 @@ hitEffect: {
 
 {
     name: retusa-mount-weapon
+    parentizeEffect: true
     rotate: true
     y: -4
     x: 4.5
@@ -96,10 +97,12 @@ bullet: {
     statusDuration: 300
     status: burning
     lifetime: 36
-    damage: 41.5
+    damage: 17.5
     speed: 3
 
+    hitEffect: hitFlamePlasma
     despawnEffect: none
+    ejectEffect: none
 
 shootEffect: {
     particles: 15
@@ -118,27 +121,6 @@ shootEffect: {
 
     sizeInterp: pow3In
     interp: pow5Out
-    }
-
-hitEffect: {
-    type: ExplosionEffect
-
-    lifetime: 15
-
-    waveColor: 98ffa9
-    waveStroke: 1.5
-    waveRad: 4.5
-
-    smokeColor: 454545
-    smokeSizeBase: 0
-    smokeSize: 2.5
-    smokes: 5
-
-    sparkColor: 98ffa9
-    sparkStroke: 1.32
-    sparkRad: 5
-    sparkLen: 1.25
-    sparks: 12
 }
     }
 }

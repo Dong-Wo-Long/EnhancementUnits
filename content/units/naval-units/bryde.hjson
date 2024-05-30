@@ -227,9 +227,9 @@ bullet: {
 
     buildingDamageMultiplier: 1.25
 
-    splashDamageRadius: 40
+    splashDamageRadius: 36
     statusDuration: 45
-    splashDamage: 75
+    splashDamage: 45
     status: blasted
     lifetime: 140
     speed: 3
@@ -346,7 +346,7 @@ bullet: {
 
     buildingDamageMultiplier: 1.25
 
-    splashDamageRadius: 40
+    splashDamageRadius: 36
     statusDuration: 45
     splashDamage: 75
     status: blasted

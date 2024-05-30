@@ -10,21 +10,6 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 90
 
-parts: [
-{
-    type: RegionPart
-    suffix: -brl
-    progress: recoil
-    outline: false
-    mirror: false
-    moveY: -0.75
-    mirror: true
-    under: true
-    x: 0
-    y: 1
-}
-    ]
-
 abilities: [
 {
     type: ShieldRegenFieldAbility

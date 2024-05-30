@@ -81,6 +81,8 @@ hitEffect: {
 
     reload: 32
 
+    shootSound: flame
+
 bullet: {
     type: BulletType
     collidesAir: false
@@ -95,7 +97,6 @@ bullet: {
     speed: 3
 
     despawnEffect: none
-    shootSound: flame
 
 shootEffect: {
     particles: 15

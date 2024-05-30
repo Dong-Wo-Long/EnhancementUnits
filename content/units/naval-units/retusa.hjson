@@ -78,10 +78,11 @@ hitEffect: {
 
 {
     name: retusa-mount-weapon
+    rotate: true
     y: -4
     x: 4.5
 
-    reload: 17.5
+    reload: 12.5
 
     shootSound: flame
 

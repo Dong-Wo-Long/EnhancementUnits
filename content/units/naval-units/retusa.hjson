@@ -50,6 +50,7 @@ bullet: {
     splashDamage: 32
     healPercent: 4
     lifetime: 300
+    damage: 0
     speed: 0
 
     hitSound: plasmaboom

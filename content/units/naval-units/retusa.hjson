@@ -106,7 +106,7 @@ bullet: {
 
 shootEffect: {
     particles: 15
-    lifetime: 81
+    lifetime: 32
     sizeFrom: 3
     sizeTo: 0.5
     length: 110

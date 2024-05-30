@@ -77,7 +77,7 @@ hitEffect: {
 {
     name: retusa-mount-weapon
     y: -5.5
-    x: 1
+    x: 2.25
 
     reload: 32
 
@@ -105,11 +105,11 @@ shootEffect: {
     length: 110
     cone: 6
 
-    lightColor: ffb855
+    lightColor: 98ffa9
     lightOpacity: 0.7
     lightRadius: 17.5
 
-    colorFrom: ffb855
+    colorFrom: 98ffa9
     colorTo: ffffff
 
     sizeInterp: pow3In
@@ -121,7 +121,7 @@ hitEffect: {
 
     lifetime: 15
 
-    waveColor: ffb855
+    waveColor: 98ffa9
     waveStroke: 1.5
     waveRad: 4.5
 
@@ -130,7 +130,7 @@ hitEffect: {
     smokeSize: 2.5
     smokes: 5
 
-    sparkColor: ffb855
+    sparkColor: 98ffa9
     sparkStroke: 1.32
     sparkRad: 5
     sparkLen: 1.25

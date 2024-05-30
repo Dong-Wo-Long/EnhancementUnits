@@ -47,11 +47,11 @@ weapons: [
     x: 0
     y: 0
 
-    cooldownTime: 1650
-    reload: 1650
+    cooldownTime: 2000
+    reload: 2160
     recoil: 0
 
-    shootStatusDuration: 900
+    shootStatusDuration: 1500
     shootStatus: unmoving
     shoot: {
         firstShotDelay: 300

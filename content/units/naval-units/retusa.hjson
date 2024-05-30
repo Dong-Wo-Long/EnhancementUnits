@@ -46,12 +46,12 @@ bullet: {
     width: 8
 
     splashDamageRadius: 40
-    homingPower: 0.05
+    homingPower: 0.06
     splashDamage: 32
     healPercent: 4
-    lifetime: 300
-    damage: 0
-    speed: 0
+    lifetime: 147
+    damage: 25
+    speed: 1.5
 
     hitSound: plasmaboom
     shootEffect: none

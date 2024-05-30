@@ -113,8 +113,8 @@ shootEffect: {
     lightOpacity: 0.7
     lightRadius: 17.5
 
-    colorFrom: 98ffa9
-    colorTo: ffffff
+    colorFrom: ffffff
+    colorTo: 98ffa9
 
     sizeInterp: pow3In
     interp: pow5Out

@@ -76,8 +76,8 @@ hitEffect: {
 
 {
     name: retusa-mount-weapon
-    y: 5.5
-    x: 0
+    y: -5.5
+    x: 1
 
     reload: 32
 
@@ -95,6 +95,7 @@ bullet: {
     speed: 3
 
     despawnEffect: none
+    shootSound: flame
 
 shootEffect: {
     particles: 15
@@ -109,7 +110,7 @@ shootEffect: {
     lightRadius: 17.5
 
     colorFrom: ffb855
-    colorTo: db661c
+    colorTo: ffffff
 
     sizeInterp: pow3In
     interp: pow5Out
@@ -120,7 +121,7 @@ hitEffect: {
 
     lifetime: 15
 
-    waveColor: ffffff
+    waveColor: ffb855
     waveStroke: 1.5
     waveRad: 4.5
 
@@ -129,7 +130,7 @@ hitEffect: {
     smokeSize: 2.5
     smokes: 5
 
-    sparkColor: ffffff
+    sparkColor: ffb855
     sparkStroke: 1.32
     sparkRad: 5
     sparkLen: 1.25

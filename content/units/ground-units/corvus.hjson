@@ -94,7 +94,7 @@ weapons: [
         healPercent: 75
         status: melting
         lifetime: 90
-        damage: 4800
+        damage: 5000
 
         lightningLengthRand: 25
         lightningAngleRand: 50

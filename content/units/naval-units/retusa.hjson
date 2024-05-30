@@ -94,11 +94,13 @@ bullet: {
     pierce: true
     hitSize: 7
 
+    buildingDamageMultiplier: 1.32
+
     statusDuration: 300
     status: burning
-    lifetime: 36
+    lifetime: 21
     damage: 17.5
-    speed: 3
+    speed: 2
 
     hitEffect: hitFlamePlasma
     despawnEffect: none
@@ -107,10 +109,10 @@ bullet: {
 shootEffect: {
     particles: 15
     lifetime: 32
-    sizeFrom: 3
-    sizeTo: 0.5
-    length: 110
-    cone: 6
+    sizeFrom: 2.5
+    sizeTo: 0.25
+    length: 50
+    cone: 5
 
     lightColor: 98ffa9
     lightOpacity: 0.7

@@ -15,7 +15,7 @@ lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 150
 
-immunities: [ shocked, wet ]
+immunities: [ shocked, wet, burning, overclock ]
 
 abilities: [
 {
@@ -30,6 +30,14 @@ abilities: [
     x: 0
     y: -7.5
     }
+{
+    type: StatusFieldAbility
+    effect: overclock
+    duration: 540
+    reload: 1080
+    range: 360
+    }
+
 {
     type: ShieldArcAbility
     region: enhancement-units-corvus-shield

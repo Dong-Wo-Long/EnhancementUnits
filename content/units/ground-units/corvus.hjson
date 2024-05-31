@@ -26,7 +26,7 @@ abilities: [
     maxTargets: 32
     damage: 320
     reload: 90
-    range: 256
+    range: 260
     x: 0
     y: -7.5
     }

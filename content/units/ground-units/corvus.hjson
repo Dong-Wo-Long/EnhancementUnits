@@ -6,7 +6,7 @@ stepShake: 10.5
 fogRadius: 128
 
 itemCapacity: 940
-rotateSpeed: 0.7
+rotateSpeed: 0.65
 health: 32000
 speed: 0.23
 armor: 121
@@ -585,7 +585,7 @@ bullet: {
     y: -4
 
     cooldownTime: 180
-    reload: 21.5
+    reload: 17.5
 
     ejectEffect: casing2Double
     shootSound: auto-cannon

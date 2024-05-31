@@ -44,8 +44,9 @@ bullet: {
     height: 14
     width: 8
 
+    pierceCap: 5
     lifetime: 45
-    damage: 18
+    damage: 32
     speed: 6
 
     shootEffect: shootSmall
@@ -84,7 +85,7 @@ bullet: {
     height: 10
     width: 6
 
-    homingPower: 0.45
+    homingPower: 0.09
     lifetime: 60
     damage: 24
     speed: 6
@@ -165,7 +166,7 @@ bullet: {
     length: 120
     width: 0.55
 
-    buildingDamageMultiplier: 0.88
+    buildingDamageMultiplier: 0.85
 
     sapStrength: 1
     lifetime: 30
@@ -203,7 +204,7 @@ bullet: {
     length: 100
     width: 0.55
 
-    buildingDamageMultiplier: 0.71
+    buildingDamageMultiplier: 0.75
 
     sapStrength: 0.85
     lifetime: 30
@@ -241,7 +242,7 @@ bullet: {
     length: 80
     width: 0.55
 
-    buildingDamageMultiplier: 0.39
+    buildingDamageMultiplier: 0.45
 
     sapStrength: 0.65
     lifetime: 30

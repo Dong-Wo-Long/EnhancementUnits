@@ -35,7 +35,7 @@ weapons: [
         length: 90
         width: 0.55
 
-        buildingDamageMultiplier: 0.63
+        buildingDamageMultiplier: 0.45
 
         sapStrength: 1.7
         lifetime: 35
@@ -72,7 +72,7 @@ weapons: [
         length: 110
         width: 0.35
 
-        buildingDamageMultiplier: 0.78
+        buildingDamageMultiplier: 0.75
 
         sapStrength: 1.1
         lifetime: 25
@@ -126,17 +126,19 @@ weapons: [
         height: 11
         width: 11
 
-        splashDamageRadius: 25
-        lightningDamage: 13
+        buildingDamageMultiplier: 1.32
+
+        splashDamageRadius: 26
+        lightningDamage: 12.5
         lightningLength: 7
         collidesTeam: true
         homingPower: 0.35
-        splashDamage: 50
+        splashDamage: 75
         homingRange: 25
         lightning: 3
         lifetime: 90
-        damage: 25
         speed: 2.75
+        damage: 45
 
         despawnEffect: blastExplosion
         hitEffect: blastExplosion

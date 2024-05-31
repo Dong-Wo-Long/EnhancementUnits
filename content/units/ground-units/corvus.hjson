@@ -306,7 +306,7 @@ effects: [
     mirror: true
     rotate: true
     recoil: 2
-    shake: 7
+    shake: 5
     x: 20
     y: 3.5
 
@@ -322,23 +322,25 @@ shoot: {
 
 bullet: {
     type: LaserBoltType
+    pierceBuilding: true
     collideTerrain: true
     collidesAir: false
-    despawnShake: 5
-    hitShake: 5
+    despawnShake: 3.2
+    hitShake: 3.2
     height: 30
-    width: 5
+    width: 9
 
     splashDamageRadius: 10
-    splashDamage: 32
-    healPercent: 12
+    splashDamage: 45
+    healPercent: 15
     lifetime: 112
-    damage: 64
+    pierceCap: 2
+    damage: 125
     speed: 3
 
     trailColor: 84f491
-    trailLength: 5.25
-    trailWidth: 0.5
+    trailLength: 17.5
+    trailWidth: 1.25
 
     lightColor: 84f491
     lightOpacity: 0.7
@@ -407,7 +409,7 @@ effects: [
     mirror: true
     rotate: true
     recoil: 2
-    shake: 7
+    shake: 5
     x: 9.75
     y: 12.5
 
@@ -423,23 +425,25 @@ shoot: {
 
 bullet: {
     type: LaserBoltType
+    pierceBuilding: true
     collideTerrain: true
     collidesAir: false
-    despawnShake: 5
-    hitShake: 5
+    despawnShake: 3.2
+    hitShake: 3.2
     height: 30
-    width: 5
+    width: 9
 
     splashDamageRadius: 10
-    splashDamage: 45
-    healPercent: 12
+    splashDamage: 75
+    healPercent: 18
     lifetime: 112
-    damage: 75
+    pierceCap: 3
+    damage: 135
     speed: 3
 
     trailColor: 84f491
-    trailLength: 5.25
-    trailWidth: 0.5
+    trailLength: 17.5
+    trailWidth: 1.25
 
     lightColor: 84f491
     lightOpacity: 0.7

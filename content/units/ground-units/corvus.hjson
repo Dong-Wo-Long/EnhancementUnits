@@ -139,14 +139,13 @@ bullet: {
     statusDuration: 1920
     healPercent: 100
     status: melting
-    pierceCap: 250
     lifetime: 90
     damage: 7500
 
     lightningLengthRand: 25
     lightningAngleRand: 50
     lightningSpacing: 35
-    lightningDamage: 320
+    lightningDamage: 750
     lightningDelay: 1.1
     lightningLength: 5
 

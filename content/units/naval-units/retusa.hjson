@@ -88,7 +88,7 @@ hitEffect: {
     y: -4
     x: 4.5
 
-    reload: 12.5
+    reload: 7.5
 
     shootSound: flame
 

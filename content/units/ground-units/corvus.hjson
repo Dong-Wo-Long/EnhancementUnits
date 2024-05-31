@@ -59,8 +59,8 @@ abilities: [
     }
 {
     type: RegenAbility
-    percentAmount: 0.01
-    amount: 0.01
+    percentAmount: 0.005
+    amount: 0.005
     }
 ]
 

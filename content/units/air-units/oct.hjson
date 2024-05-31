@@ -30,7 +30,7 @@ abilities: [
     healPercent: 32
     maxTargets: 25
     damage: 181
-    reload: 90
+    reload: 75
     range: 256
     x: 0
     y: -5

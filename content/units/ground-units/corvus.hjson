@@ -53,198 +53,200 @@ weapons: [
 
     shootStatusDuration: 1500
     shootStatus: unmoving
-    shoot: {
-        firstShotDelay: 300
-        lifetime: 1
-    }
+shoot: {
+    firstShotDelay: 300
+    lifetime: 1
+}
 
     parentizeEffects: true
-    effects: [
+effects: [
     {
-        type: ParticleEffect
-        region: corvus-weapon-heat
-        sizeFrom: 50
-        length: 0
+    type: ParticleEffect
+    region: corvus-weapon-heat
+    sizeFrom: 50
+    length: 0
 
-        lifetime: 45
-        particles: 1
+    lifetime: 45
+    particles: 1
 
-        colorFrom: ffb380
-        colorTo: ffb380
-        }
+    colorFrom: ffb380
+    colorTo: ffb380
+}
     ]
 
     chargeSound: lasercharge
     shootSound: laserblast
     soundPitchMin: 1
 
-    bullet: {
-        type: LaserBulletType
-        collidesTeam: true
-        despawnShake: 21
-        largeHit: true
-        sideLength: 0
-        sideAngle: 15
-        sideWidth: 0
-        hitShake: 21
-        length: 970
-        width: 90
+bullet: {
+    type: LaserBulletType
+    collidesTeam: true
+    despawnShake: 21
+    largeHit: true
+    sideLength: 0
+    sideAngle: 15
+    sideWidth: 0
+    hitShake: 21
+    length: 970
+    width: 90
 
-        statusDuration: 900
-        healPercent: 75
-        status: melting
-        lifetime: 90
-        damage: 5000
+    statusDuration: 900
+    healPercent: 75
+    status: melting
+    lifetime: 90
+    damage: 5000
 
-        lightningLengthRand: 25
-        lightningAngleRand: 50
-        lightningSpacing: 35
-        lightningDamage: 320
-        lightningDelay: 1.1
-        lightningLength: 5
+    lightningLengthRand: 25
+    lightningAngleRand: 50
+    lightningSpacing: 35
+    lightningDamage: 320
+    lightningDelay: 1.1
+    lightningLength: 5
 
-        colors: [ 98ffa9, ffffff ]
-        lightningColor: 98ffa9
-        lightColor: 98ffa9
+    colors: [ 98ffa9, ffffff ]
+    lightningColor: 98ffa9
+    lightColor: 98ffa9
 
-        parentizeEffects: true
-        chargeEffect: {
-            type: MultiEffect
-            effects: [
-            {
-                type: WaveEffect
-                lifetime: 300
-                sizeFrom: 70
-                sizeTo: 7
-                strokeFrom: 0
-                strokeTo: 7
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                followParent: true
-                rotWithParent: true
-                }
-            {
-                type: WaveEffect
-                startDelay: 120
-                lifetime: 240
-                sizeFrom: 0
-                sizeTo: 15
-                strokeFrom: 0
-                strokeTo: 7
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                followParent: true
-                rotWithParent: true
-                }
-            {
-                type: WaveEffect
-                startDelay: 290
-                lifetime: 15
-                sizeFrom: 150
-                sizeTo: 15
-                strokeFrom: 0
-                strokeTo: 5
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                followParent: true
-                rotWithParent: true
-                }
-            {
-                type: WaveEffect
-                startDelay: 300
-                lifetime: 30
-                sizeFrom: 0
-                sizeTo: 120
-                strokeFrom: 0
-                strokeTo: 9
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                followParent: true
-                rotWithParent: true
-                }
-            {
-                type: WaveEffect
-                startDelay: 310
-                lifetime: 30
-                sizeFrom: 0
-                sizeTo: 230
-                strokeFrom: 0
-                strokeTo: 6
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                followParent: true
-                rotWithParent: true
-                }
+    parentizeEffects: true
 
-            {
-                type: ParticleEffect
-                baseLength: 60
-                length: -60
-                cone: 360
-                particles: 15
-                lifetime: 300
-                sizeFrom: 2.5
-                sizeTo: 0
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                strokeFrom: 0.8
-                strokeTo: 0.6 
-                followParent: true
-                rotWithParent: true
-                }
-            {
-                type: ParticleEffect
-                baseLength: 50
-                length: -50
-                cone: 360
-                particles: 5
-                lifetime: 300
-                sizeFrom: 5
-                sizeTo: 0
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                strokeFrom: 0.8
-                strokeTo: 0.6 
-                followParent: true
-                rotWithParent: true
-                }
-            {
-                type: ParticleEffect
-                baseLength: 40
-                length: -40
-                cone: 360
-                particles: 3
-                lifetime: 300
-                sizeFrom: 9
-                sizeTo: 0
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                strokeFrom: 0.8
-                strokeTo: 0.6 
-                followParent: true
-                rotWithParent: true
-                }
-            {
-                type: ParticleEffect
-                startDelay: 290
-                baseLength: 120
-                line: true
-                length: -100
-                cone: 360
-                particles: 30
-                lifetime: 15
-                sizeFrom: 3
-                sizeTo: 0
-                colorFrom: 98ffa9
-                colorTo: ffffff
-                strokeFrom: 2
-                strokeTo: 0.4 
-                followParent: true
-                rotWithParent: true
-                    }
-                ]
-            }
-        }
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+    {
+    type: WaveEffect
+    lifetime: 300
+    sizeFrom: 70
+    sizeTo: 7
+    strokeFrom: 0
+    strokeTo: 7
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: WaveEffect
+    startDelay: 120
+    lifetime: 240
+    sizeFrom: 0
+    sizeTo: 15
+    strokeFrom: 0
+    strokeTo: 7
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: WaveEffect
+    startDelay: 290
+    lifetime: 15
+    sizeFrom: 150
+    sizeTo: 15
+    strokeFrom: 0
+    strokeTo: 5
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: WaveEffect
+    startDelay: 300
+    lifetime: 30
+    sizeFrom: 0
+    sizeTo: 120
+    strokeFrom: 0
+    strokeTo: 9
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: WaveEffect
+    startDelay: 310
+    lifetime: 30
+    sizeFrom: 0
+    sizeTo: 230
+    strokeFrom: 0
+    strokeTo: 6
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    followParent: true
+    rotWithParent: true
+}
+
+    {
+    type: ParticleEffect
+    baseLength: 60
+    length: -60
+    cone: 360
+    particles: 15
+    lifetime: 300
+    sizeFrom: 2.5
+    sizeTo: 0
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    strokeFrom: 0.8
+    strokeTo: 0.6 
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: ParticleEffect
+    baseLength: 50
+    length: -50
+    cone: 360
+    particles: 5
+    lifetime: 300
+    sizeFrom: 5
+    sizeTo: 0
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    strokeFrom: 0.8
+    strokeTo: 0.6 
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: ParticleEffect
+    baseLength: 40
+    length: -40
+    cone: 360
+    particles: 3
+    lifetime: 300
+    sizeFrom: 9
+    sizeTo: 0
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    strokeFrom: 0.8
+    strokeTo: 0.6 
+    followParent: true
+    rotWithParent: true
+    }
+{
+    type: ParticleEffect
+    startDelay: 290
+    baseLength: 120
+    line: true
+    length: -100
+    cone: 360
+    particles: 30
+    lifetime: 15
+    sizeFrom: 3
+    sizeTo: 0
+    colorFrom: 98ffa9
+    colorTo: ffffff
+    strokeFrom: 2
+    strokeTo: 0.4 
+    followParent: true
+    rotWithParent: true
+    }
+]
+    }
+}
     }
 
 {
@@ -264,87 +266,89 @@ weapons: [
 
     reload: 240
 
-    shoot: {
-        firstShotDelay: 30
-        shotDelay: 5
-        shots: 5
-    }
-
     ejectEffect: casing1
     shootSound: laser
+shoot: {
+    firstShotDelay: 30
+    shotDelay: 5
+    shots: 5
+}
 
-    bullet: {
-        type: LaserBoltType
-        collideTerrain: true
-        collidesAir: false
-        despawnShake: 5
-        hitShake: 5
-        height: 30
-        width: 5
+bullet: {
+    type: LaserBoltType
+    collideTerrain: true
+    collidesAir: false
+    despawnShake: 5
+    hitShake: 5
+    height: 30
+    width: 5
 
-        splashDamageRadius: 10
-        splashDamage: 32
-        healPercent: 12
-        lifetime: 112
-        damage: 64
-        speed: 3
+    splashDamageRadius: 10
+    splashDamage: 32
+    healPercent: 12
+    lifetime: 112
+    damage: 64
+    speed: 3
 
-        trailColor: 84f491
-        frontColor: 84f491
-        trailLength: 5.25
-        backColor: ffffff
-        trailWidth: 0.5
+    trailColor: 84f491
+    frontColor: 84f491
+    trailLength: 5.25
+    backColor: ffffff
+    trailWidth: 0.5
 
-        lightColor: 84f491
-        lightOpacity: 0.7
-        lightRadius: 32
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 32
 
-        parentizeEffects: true
-        chargeEffect: {
-            type: WaveEffect
-            rotWithParent: true
-            followParent: true
-            sizeFrom: 7.5
-            sizeTo: 0
+    parentizeEffects: true
 
-            lifetime: 45
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    sizeFrom: 7.5
+    sizeTo: 0
 
-            colorFrom: 84f491
-            colorTo: ffffff
-        }
-        hitEffect: {
-            type: MultiEffect
-            effects: [
-            {
-                type: WaveEffect
-                rotWithParent: false
-                followParent: false
-                sizeFrom: 0
-                sizeTo: 12
+    lifetime: 45
 
-                lifetime: 15
+    colorFrom: 84f491
+    colorTo: ffffff
+    }
 
-                colorFrom: 84f491
-                colorTo: ffffff
-                }
+hitEffect: {
+    type: MultiEffect
 
-            {
-                type: ParticleEffect
-                line: true
-                length: 13.5
-                cone: 360
-                particles: 7
-                lifetime: 15
-                sizeFrom: 1.5
-                sizeTo: 0
-                colorFrom: 84f491
-                colorTo: ffffff
-                strokeFrom: 1.25
-                strokeTo: 0.25            
-                }
-            ]
-        }
-        }
+effects: [
+{
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 0
+    sizeTo: 12
+
+    lifetime: 15
+
+    colorFrom: 84f491
+    colorTo: ffffff
+    }
+
+{
+    type: ParticleEffect
+    line: true
+    length: 13.5
+    cone: 360
+    particles: 7
+    lifetime: 15
+    sizeFrom: 1.5
+    sizeTo: 0
+    colorFrom: 84f491
+    colorTo: ffffff
+    strokeFrom: 1.25
+    strokeTo: 0.25    
+    }
+]
+    }
+}
     }
 {
     name: plasma-anti-air
@@ -362,87 +366,89 @@ weapons: [
 
     reload: 120
 
-    shoot: {
-        firstShotDelay: 30
-        shotDelay: 5
-        shots: 5
-    }
-
     ejectEffect: casing1
     shootSound: laser
+shoot: {
+    firstShotDelay: 30
+    shotDelay: 5
+    shots: 5
+}
 
-    bullet: {
-        type: LaserBoltType
-        collideTerrain: true
-        collidesAir: false
-        despawnShake: 5
-        hitShake: 5
-        height: 30
-        width: 5
+bullet: {
+    type: LaserBoltType
+    collideTerrain: true
+    collidesAir: false
+    despawnShake: 5
+    hitShake: 5
+    height: 30
+    width: 5
 
-        splashDamageRadius: 10
-        splashDamage: 45
-        healPercent: 12
-        lifetime: 112
-        damage: 75
-        speed: 3
+    splashDamageRadius: 10
+    splashDamage: 45
+    healPercent: 12
+    lifetime: 112
+    damage: 75
+    speed: 3
 
-        trailColor: 84f491
-        frontColor: 84f491
-        trailLength: 5.25
-        backColor: ffffff
-        trailWidth: 0.5
+    trailColor: 84f491
+    frontColor: 84f491
+    trailLength: 5.25
+    backColor: ffffff
+    trailWidth: 0.5
 
-        lightColor: 84f491
-        lightOpacity: 0.7
-        lightRadius: 32
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 32
 
-        parentizeEffects: true
-        chargeEffect: {
-            type: WaveEffect
-            rotWithParent: true
-            followParent: true
-            sizeFrom: 7.5
-            sizeTo: 0
+    parentizeEffects: true
 
-            lifetime: 45
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    sizeFrom: 7.5
+    sizeTo: 0
 
-            colorFrom: 84f491
-            colorTo: ffffff
-        }
-        hitEffect: {
-            type: MultiEffect
-            effects: [
-            {
-                type: WaveEffect
-                rotWithParent: false
-                followParent: false
-                sizeFrom: 0
-                sizeTo: 12
+    lifetime: 45
 
-                lifetime: 15
+    colorFrom: 84f491
+    colorTo: ffffff
+    }
 
-                colorFrom: 84f491
-                colorTo: ffffff
-                }
+hitEffect: {
+    type: MultiEffect
 
-            {
-                type: ParticleEffect
-                line: true
-                length: 13.5
-                cone: 360
-                particles: 7
-                lifetime: 15
-                sizeFrom: 1.5
-                sizeTo: 0
-                colorFrom: 84f491
-                colorTo: ffffff
-                strokeFrom: 1.25
-                strokeTo: 0.25            
-                }
-            ]
-        }
-        }
+effects: [
+{
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 0
+    sizeTo: 12
+
+    lifetime: 15
+
+    colorFrom: 84f491
+    colorTo: ffffff
+    }
+
+{
+    type: ParticleEffect
+    line: true
+    length: 13.5
+    cone: 360
+    particles: 7
+    lifetime: 15
+    sizeFrom: 1.5
+    sizeTo: 0
+    colorFrom: 84f491
+    colorTo: ffffff
+    strokeFrom: 1.25
+    strokeTo: 0.25
+    }
+]
+    }
+}
     }
 
 {
@@ -464,110 +470,170 @@ weapons: [
     recoil: -4.65
     reload: 360
 
-    shoot: { 
-        type: ShootAlternate
-        shotDelay: 8
-        barrels: 3
-        spread: 4
-        shots: 12
-    }
-
     shootSound: missile
+shoot: { 
+    type: ShootAlternate
+    shotDelay: 8
+    barrels: 3
+    spread: 4
+    shots: 12
+}
 
-    bullet: {
-        type: MissileBulletType
-        keepVelocity: false
-        despawnShake: 11
-        hitShake: 11
-        shrinkX: 0.3
-        shrinkY: 0.6
-        drag: -0.003
-        height: 12
-        width: 12
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    despawnShake: 11
+    hitShake: 11
+    shrinkX: 0.3
+    shrinkY: 0.6
+    drag: -0.003
+    height: 12
+    width: 12
 
-        buildingDamageMultiplier: 1.29
+    buildingDamageMultiplier: 1.29
 
-        splashDamageRadius: 26
-        statusDuration: 180
-        status: electrified
-        collidesTeam: true
-        splashDamage: 132
-        homingPower: 0.7
-        homingRange: 50
-        healPercent: 25
-        weaveScale: 5
-        lifetime: 120
-        weaveMag: 2
-        speed: 2.25
-        damage: 96
+    splashDamageRadius: 26
+    statusDuration: 180
+    status: electrified
+    collidesTeam: true
+    splashDamage: 132
+    homingPower: 0.7
+    homingRange: 50
+    healPercent: 25
+    weaveScale: 5
+    lifetime: 120
+    weaveMag: 2
+    speed: 2.25
+    damage: 96
 
-        despawnEffect: blastExplosion
-        hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
 
-        frontColor: ffffff
-        trailColor: 62ae7f
-        trailInterval: 15
-        backColor: 62ae7f
+    frontColor: ffffff
+    trailColor: 62ae7f
+    trailInterval: 15
+    backColor: 62ae7f
 
-        lightColor: 62ae7f
-        lightOpacity: 0.7
-        lightRadius: 41
-        }
+    lightColor: 62ae7f
+    lightOpacity: 0.7
+    lightRadius: 41
+}
     }
 
 {
-    name: plasma-laser-mount
-    targetSwitchInterval: 35
+    name: double-machine-gun
+
     controllable: false
-    targetInterval: 20
     rotationLimit: 180
     baseRotation: -45
+    rotateSpeed: 3.2
     autoTarget: true
-    continuous: true
     alternate: false
-    mirror: true
+    shootCone: 45
     rotate: true
-    shadow: 20
+    shootY: 4.5
+    recoils: 2
     recoil: 1
-    shootY: 7
-    shake: 3
+    shake: 5
     x: 18.5
-    y: -7
+    y: -4
 
-    cooldownTime: 320
-    rotateSpeed: 3.5
-    reload: 320
+    cooldownTime: 180
+    reload: 32
 
-    shootSound: beam
-
-    bullet: {
-        type: ContinuousLaserBulletType
-        collidesTeam: true
-        collidesAir: false
-        drawSize: 120
-        maxRange: 90
-        length: 95
-        width: 4
-        shake: 3
-
-        statusDuration: 90
-        healPercent: 0.5
-        status: burning
-        lifetime: 300
-        damage: 15
-
-        incendChance: 0.03
-        incendSpread: 5
-        incendAmount: 1
-
-        shootEffect: shootHeal
-        hitEffect: hitMeltHeal
-        smokeEffect: none
-        largeHit: false
-
-        lightColor: 62ae7f
-
-        colors: [ 62ae7f, ffffff ]
-        }
+    ejectEffect: casing2Double
+    shootSound: auto-cannon
+shoot: { 
+    type: ShootMulti
+source: {
+    type: ShootAlternate
+    barrels: 2
+    spread: 4
+    shots: 1
+}
+dest: [ 
+{
+    type: ShootSpread
+    spread: 4
+    shots: 1
     }
 ]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-2
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-1
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+    ]
+
+bullet: {
+    type: FlakBulletType
+    collidesGround: false
+    despawnShake: 3.2
+    hitShake: 3.2
+    hitSize: 3
+    height: 15
+    width: 9
+
+    splashDamageRadius: 26
+    statusDuration: 45
+    splashDamage: 75
+    status: blasted
+    lifetime: 80
+    speed: 3.2
+
+    despawnEffect: hitBulletColor
+    shootEffect: shootSmallColor
+    smokeEffect: shootBigSmoke
+    hitEffect: blastExplosion
+    hitSound: auto-cannon-hit
+
+    lightColor: 62ae7f
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailInterp: slope
+    trailColor: 62ae7f
+    trailLength: 17.5
+    trailWidth: 1.75
+
+    frontColor: ffffff
+    backColor: 62ae7f
+    hitColor: ffffff
+    }
+}
+    ]

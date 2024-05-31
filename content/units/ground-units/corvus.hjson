@@ -19,6 +19,18 @@ immunities: [ shocked, wet ]
 
 abilities: [
 {
+    type: EnergyFieldAbility
+    sameTypeHealMult: 1.5
+    statusDuration: 750
+    healPercent: 50
+    maxTargets: 32
+    damage: 320
+    reload: 90
+    range: 256
+    x: 0
+    y: -7.5
+    }
+{
     type: ShieldArcAbility
     region: enhancement-units-corvus-shield
     radius: 25

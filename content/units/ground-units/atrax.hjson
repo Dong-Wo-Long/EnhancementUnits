@@ -31,8 +31,8 @@ weapons: [
 
         knockback: 3.2
         lifetime: 57
-        drag: 0.009
-        damage: 24
+        damage: 27.5
+	drag: 0.009
         speed: 2.5
 
         shootEffect: shootSmall
@@ -83,7 +83,7 @@ weapons: [
         splashDamageRadius: 26
         lightningLength: 5
         lightningDamage: 9
-        homingPower: 0.35
+        homingPower: 0.11
         splashDamage: 45
         homingRange: 32
         lightning: 3

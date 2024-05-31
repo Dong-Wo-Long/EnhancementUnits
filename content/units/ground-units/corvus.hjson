@@ -57,6 +57,13 @@ abilities: [
     reload: 900
     max: 32000
     }
+{
+    type: RepairFieldAbility
+
+    reload: 300
+    amount: 500
+    range: 0
+    }
 ]
 
 weapons: [

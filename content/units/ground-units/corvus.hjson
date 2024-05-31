@@ -54,22 +54,22 @@ weapons: [
 name: laser-mount
     
     type: PointDefenseWeapon
-    targetSwitchInterval: 15
-    targetInterval: 10
-    rotationLimit: 210
+    targetSwitchInterval: 18
+    targetInterval: 15
+    rotationLimit: 135
     mirror: false
     shadow: 9
     x: 10
     y: 1
 
-    reload: 7
+    reload: 9
 
     shootSound: lasershoot
 
 bullet: {
-    maxRange: 150
+    maxRange: 180
 
-    damage: 32
+    damage: 45
 
     shootEffect: sparkShoot
     hitEffect: pointHit

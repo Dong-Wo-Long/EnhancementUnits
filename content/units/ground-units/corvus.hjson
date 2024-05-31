@@ -337,14 +337,15 @@ bullet: {
     speed: 3
 
     trailColor: 84f491
-    frontColor: 84f491
     trailLength: 5.25
-    backColor: ffffff
     trailWidth: 0.5
 
     lightColor: 84f491
     lightOpacity: 0.7
     lightRadius: 32
+
+    frontColor: ffffff
+    backColor: 84f491
 
     parentizeEffects: true
 
@@ -437,14 +438,15 @@ bullet: {
     speed: 3
 
     trailColor: 84f491
-    frontColor: 84f491
     trailLength: 5.25
-    backColor: ffffff
     trailWidth: 0.5
 
     lightColor: 84f491
     lightOpacity: 0.7
     lightRadius: 32
+
+    frontColor: ffffff
+    backColor: 84f491
 
     parentizeEffects: true
 

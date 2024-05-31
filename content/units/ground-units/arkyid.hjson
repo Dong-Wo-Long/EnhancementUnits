@@ -16,11 +16,11 @@ immunities: [ sapped, spore-slowed ]
 abilities: [
 {
     type: ForceFieldAbility 
-    cooldown: 1200
+    cooldown: 1500
     radius: 25
-    regen: 1.3
+    regen: 2.5
     sides: 6
-    max: 2500
+    max: 7500
     }
 ]
 

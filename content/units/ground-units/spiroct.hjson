@@ -126,7 +126,7 @@ weapons: [
         height: 11
         width: 11
 
-        buildingDamageMultiplier: 1.32
+        buildingDamageMultiplier: 1.75
 
         splashDamageRadius: 26
         lightningDamage: 12.5

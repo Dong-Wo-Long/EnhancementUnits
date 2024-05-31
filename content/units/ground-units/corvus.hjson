@@ -577,7 +577,7 @@ bullet: {
     y: -4
 
     cooldownTime: 180
-    reload: 32
+    reload: 21.5
 
     ejectEffect: casing2Double
     shootSound: auto-cannon

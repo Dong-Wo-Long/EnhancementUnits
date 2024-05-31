@@ -51,7 +51,7 @@ abilities: [
 
 weapons: [
 {
-name: laser-mount
+name: quad-weapon
     
     type: PointDefenseWeapon
     targetSwitchInterval: 18

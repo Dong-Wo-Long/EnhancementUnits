@@ -330,7 +330,9 @@ bullet: {
     height: 30
     width: 9
 
-    splashDamageRadius: 10
+    buildingDamageMultiplier: 0.75
+
+    splashDamageRadius: 26
     splashDamage: 45
     healPercent: 15
     lifetime: 112
@@ -433,7 +435,9 @@ bullet: {
     height: 30
     width: 9
 
-    splashDamageRadius: 10
+    buildingDamageMultiplier: 0.5
+
+    splashDamageRadius: 26
     splashDamage: 75
     healPercent: 18
     lifetime: 112
@@ -542,7 +546,7 @@ bullet: {
     height: 12
     width: 12
 
-    buildingDamageMultiplier: 1.29
+    buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 26
     statusDuration: 180

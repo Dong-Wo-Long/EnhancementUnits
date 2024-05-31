@@ -348,8 +348,8 @@ bullet: {
     speed: 3
 
     trailColor: 84f491
-    trailLength: 17.5
-    trailWidth: 1.25
+    trailLength: 24.5
+    trailWidth: 2.1
 
     lightColor: 84f491
     lightOpacity: 0.7
@@ -453,8 +453,8 @@ bullet: {
     speed: 3
 
     trailColor: 84f491
-    trailLength: 17.5
-    trailWidth: 1.25
+    trailLength: 24.5
+    trailWidth: 2.1
 
     lightColor: 84f491
     lightOpacity: 0.7

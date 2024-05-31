@@ -37,7 +37,6 @@ abilities: [
     reload: 1080
     range: 360
     }
-
 {
     type: ShieldArcAbility
     region: enhancement-units-corvus-shield
@@ -46,9 +45,17 @@ abilities: [
     width: 8
     y: -9
 
-    cooldown: 900
-    regen: 1.8
-    max: 12000
+    cooldown: 1290
+    regen: 3.2
+    max: 32000
+    }
+{
+    type: ShieldRegenFieldAbility
+    range: 0
+
+    amount: 2500
+    reload: 900
+    max: 25000
     }
 {
     type: RegenAbility

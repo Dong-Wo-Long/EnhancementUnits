@@ -674,7 +674,7 @@ bullet: {
 
     trailInterp: slope
     trailColor: 62ae7f
-    trailLength: 17.5
+    trailLength: 41.5
     trailWidth: 1.75
 
     frontColor: ffffff

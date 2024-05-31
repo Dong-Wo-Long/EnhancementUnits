@@ -136,9 +136,10 @@ bullet: {
     length: 970
     width: 90
 
-    statusDuration: 900
-    healPercent: 75
+    statusDuration: 1920
+    healPercent: 100
     status: melting
+    pierceCap: 250
     lifetime: 90
     damage: 7500
 

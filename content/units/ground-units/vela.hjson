@@ -290,7 +290,7 @@ hitEffect: {
     recoils: 2
     recoil: 1
     shake: 5
-    x: -13.5
+    x: -12
     y: -9
 
     cooldownTime: 180

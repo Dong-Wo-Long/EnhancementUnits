@@ -27,7 +27,7 @@ abilities: [
     type: EnergyFieldAbility
     sameTypeHealMult: 1.25
     statusDuration: 500
-    targetGround: false
+    targetAir: false
     healPercent: 32
     maxTargets: 25
     damage: 181

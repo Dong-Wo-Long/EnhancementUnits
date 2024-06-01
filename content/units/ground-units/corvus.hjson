@@ -678,6 +678,7 @@ bullet: {
     statusDuration: 45
     splashDamage: 75
     status: blasted
+    pierceCap: 32
     lifetime: 80
     speed: 3.2
 

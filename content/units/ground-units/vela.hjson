@@ -216,7 +216,7 @@ shoot: {
 
 bullet: {
     type: EmpBulletType
-    sprite: enhancement-units-circle-bullet
+    sprite: mine-bullet
     collidesAir: false
     despawnShake: 12.5
     hitShake: 12.5
@@ -290,8 +290,8 @@ hitEffect: {
     recoils: 2
     recoil: 1
     shake: 5
-    x: -12
-    y: -7.5
+    x: -13
+    y: -6
 
     cooldownTime: 180
     reload: 14.5

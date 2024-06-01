@@ -22,7 +22,7 @@ abilities: [
     type: EnergyFieldAbility
     sameTypeHealMult: 0.75
     statusDuration: 750
-    healPercent: 50
+    healPercent: 3.2
     maxTargets: 32
     damage: 320
     reload: 720

@@ -290,8 +290,8 @@ hitEffect: {
     recoils: 2
     recoil: 1
     shake: 5
-    x: -13
-    y: -6
+    x: -12
+    y: -7.5
 
     cooldownTime: 180
     reload: 14.5

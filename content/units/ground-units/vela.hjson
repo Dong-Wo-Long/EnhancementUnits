@@ -189,9 +189,11 @@ chargeEffect: {
 {
 name: plasma-missile-mount
 
-    rotationLimit: 75
+    rotationLimit: 135
+    baseRotation: -45
     rotateSpeed: 1.5
     shootCone: 60
+    mirror: false
     rotate: true
     recoil: 3
     shake: 21
@@ -208,15 +210,16 @@ name: plasma-missile-mount
     shootStatusDuration: 180
     shootStatus: slow
 shoot: {
-        shotDelay: 32
-        shots: 3
+    shotDelay: 32
+    shots: 3
 }
 
 bullet: {
     type: EmpBulletType
     sprite: enhancement-units-circle-bullet
-    despawnShake: 25
-    hitShake: 25
+    collidesAir: false
+    despawnShake: 12.5
+    hitShake: 12.5
     shrinkX: 0.5
     shrinkY: 0.25
     height: 18
@@ -271,4 +274,122 @@ hitEffect: {
     }
 }
     }
+
+{
+    name: double-machine-gun
+
+    controllable: false
+    rotationLimit: 180
+    baseRotation: 45
+    rotateSpeed: 3.2
+    autoTarget: true
+    shootCone: 45
+    mirror: false
+    rotate: true
+    shootY: 4.5
+    recoils: 2
+    recoil: 1
+    shake: 5
+    x: -13.5
+    y: -9
+
+    cooldownTime: 180
+    reload: 14.5
+
+    ejectEffect: casing2Double
+    shootSound: auto-cannon
+shoot: { 
+    type: ShootMulti
+source: {
+    type: ShootAlternate
+    barrels: 2
+    spread: 4
+    shots: 1
+}
+dest: [ 
+{
+    type: ShootSpread
+    spread: 4
+    shots: 1
+    }
 ]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-2
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-1
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+    ]
+
+bullet: {
+    type: FlakBulletType
+    collidesGround: false
+    despawnShake: 3.2
+    hitShake: 3.2
+    hitSize: 3
+    height: 15
+    width: 9
+
+    splashDamageRadius: 26
+    statusDuration: 45
+    splashDamage: 47.5
+    status: blasted
+    pierceCap: 32
+    lifetime: 80
+    speed: 3.2
+
+    despawnEffect: hitBulletColor
+    shootEffect: shootSmallColor
+    smokeEffect: shootBigSmoke
+    hitEffect: blastExplosion
+    hitSound: auto-cannon-hit
+
+    lightColor: 62ae7f
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailInterp: slope
+    trailColor: 62ae7f
+    trailLength: 41.5
+    trailWidth: 2.1
+
+    frontColor: ffffff
+    backColor: 62ae7f
+    hitColor: ffffff
+    }
+}
+    ]

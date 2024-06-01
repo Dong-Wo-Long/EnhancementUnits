@@ -27,6 +27,7 @@ abilities: [
     type: EnergyFieldAbility
     sameTypeHealMult: 1.25
     statusDuration: 500
+    targetGround: false
     healPercent: 32
     maxTargets: 25
     damage: 181
@@ -47,7 +48,7 @@ abilities: [
 {
     type: RepairFieldAbility
     reload: 1800
-    amount: 320
+    amount: 750
     range: 180
     }
 ]

@@ -20,7 +20,7 @@ immunities: [ shocked, wet, burning, overclock ]
 abilities: [
 {
     type: EnergyFieldAbility
-    sameTypeHealMult: 1.5
+    sameTypeHealMult: 0.75
     statusDuration: 750
     healPercent: 50
     maxTargets: 32
